@@ -72,6 +72,6 @@ A browser processes a webpage by handling three core technologies:
 
 ## 📌 HTML -HyperText Markup Language
 
-**🔹 What is HTML?**
+### 🔹 What is HTML?
 
 HTML is the foundation of every website. It structures the webpage using elements like headings, paragraphs, links, images &forms.
