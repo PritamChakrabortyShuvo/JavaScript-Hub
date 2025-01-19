@@ -72,6 +72,14 @@ A browser processes a webpage by handling three core technologies:
 
 ## 📌 HTML -HyperText Markup Language
 
-### 🔹 What is HTML?
+### 🔹What is HTML?
 
 HTML is the foundation of every website. It structures the webpage using elements like headings, paragraphs, links, images &forms.
+
+### 🔹Key Features of HTML
+
+- **Markup Language** → Uses tags to define elements.
+- **Static Content** → Only provides structure no interactivity.
+- **Hierarchy-Based** → Uses a tree-like structure (DOM).
+- **Semantic Elements** → Tags describe meaning (e.g., <header>, <article>).
+- **Compatible with CSS & JavaScript** → Works together to style & add functionality.
