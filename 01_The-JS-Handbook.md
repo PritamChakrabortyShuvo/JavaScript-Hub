@@ -54,3 +54,16 @@ Here's a simplified workflow of how a website works:
 - **Server Response** → Sends back HTML, CSS & JavaScript files.
 - **Rendering** → The browser processes and displays the webpage.
 - **User Interaction** → JavaScript updates the page dynamically.
+
+## 🖥 How a Browser Works with HTML, CSS & JavaScript?
+
+A browser processes a webpage by handling three core technologies:
+
+- **HTML** (**Structure**) → The browser parses HTML &and builds the DOM (Document Object Model) defining the webpage structure.
+- **CSS** (**Style**) → The browser processes CSS to create the CSSOM (CSS Object Model) applying styles to elements.
+- **JavaScript** (**Behavior**) → JavaScript manipulates the DOM & CSSOM making the webpage interactive and dynamic.
+- **Rendering Process** →
+  - The browser combines the DOM & CSSOM into a Render Tree.
+  - It calculates layout, determining element positions.
+  - The painting process renders the final visual output on the screen.
+  - This ensures that webpages load, display & function properly.
