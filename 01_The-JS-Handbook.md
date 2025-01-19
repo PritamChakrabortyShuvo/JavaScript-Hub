@@ -31,3 +31,11 @@
 ## 🌐 How a Website Works?
 
 A website is a collection of web pages stored on a server. When a user enters a URL the browser requests files from the server, processes them & displays the webpage.
+
+Here's a simplified workflow of how a website works:
+
+1. User enters a URL in the browser.
+2. Browser sends a request to the web server.
+3. Server processes the request and sends back the necessary files (HTML, CSS, JavaScript).
+4. Browser renders the website using these files.
+5. User interacts with the website & JavaScript updates content dynamically.
