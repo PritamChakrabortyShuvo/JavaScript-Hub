@@ -126,3 +126,9 @@ HTML is the foundation of every website. It structures the webpage using element
 | `<header>`, `<footer>`, `<section>` | Semantic elements for better readability |
 
 </div>
+
+## 🎨 CSS (Cascading Style Sheets) - Detailed Explanation
+
+### 🔹What is CSS?
+
+CSS styles HTML elements, making the webpage visually appealing. It controls layout, colors, fonts, spacing, animations & responsiveness.
