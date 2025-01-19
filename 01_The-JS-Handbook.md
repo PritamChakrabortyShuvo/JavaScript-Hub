@@ -83,3 +83,20 @@ HTML is the foundation of every website. It structures the webpage using element
 - **Hierarchy-Based** → Uses a tree-like structure (DOM).
 - **Semantic Elements** → Tags describe meaning (e.g., <header>, <article>).
 - **Compatible with CSS & JavaScript** → Works together to style & add functionality.
+
+### Basic Structure of an HTML Document
+
+```html
+    <!DOCTYPE html> <!-- Defines document type -->
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Webpage</title> <!-- Page title in the browser tab -->
+    </head>
+    <body>
+        <h1>Hello, World!</h1> <!-- Main heading -->
+        <p>This is a paragraph.</p> <!-- Paragraph text -->
+    </body>
+    </html>
+```
