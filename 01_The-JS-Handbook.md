@@ -27,3 +27,7 @@
 - **Better Performance** : It runs directly in the browser making the website faster & more responsive.
 - **Richer Interface** : JavaScript helps create engaging & interactive web pages with animations & real-time updates.
 - **Increased Interactivity** : JavaScript makes websites more interactive by responding to user actions like clicks & keystrokes creating a better user experience.
+
+## 🌐 How a Website Works?
+
+A website is a collection of web pages stored on a server. When a user enters a URL the browser requests files from the server, processes them & displays the webpage.
