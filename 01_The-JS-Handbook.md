@@ -106,3 +106,23 @@ HTML is the foundation of every website. It structures the webpage using element
 - **`<html>`** → Root element of the webpage.
 - **`<head>`** → Contains metadata like title, character set, and CSS links.
 - **`<body>`** → Contains visible content (text, images, buttons).
+
+### Common HTML Elements
+
+<div align="center">
+
+| Element                             | Description                              |
+| ----------------------------------- | ---------------------------------------- |
+| `<h1> - <h6>`                       | Headings (h1 = largest, h6 = smallest)   |
+| `<p>`                               | Paragraphs                               |
+| `<a href="">`                       | Hyperlinks                               |
+| `<img src="">`                      | Images                                   |
+| `<ul>`, `<ol>`                      | Unordered & Ordered lists                |
+| `<table>`                           | Tables                                   |
+| `<form>`                            | Forms (used for user input)              |
+| `<input>`                           | Input fields                             |
+| `<button>`                          | Buttons                                  |
+| `<div>`, `<span>`                   | Grouping & inline elements               |
+| `<header>`, `<footer>`, `<section>` | Semantic elements for better readability |
+
+</div>
