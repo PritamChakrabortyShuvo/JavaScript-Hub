@@ -39,3 +39,9 @@ Here's a simplified workflow of how a website works:
 3. Server processes the request and sends back the necessary files (HTML, CSS, JavaScript).
 4. Browser renders the website using these files.
 5. User interacts with the website & JavaScript updates content dynamically.
+
+> **Diagram of How a Website Works**
+
+<div align="center">
+    <img src="Images/Website-Workflow.png" width=80%>
+</div>
