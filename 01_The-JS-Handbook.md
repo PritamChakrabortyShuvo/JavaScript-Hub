@@ -45,3 +45,12 @@ Here's a simplified workflow of how a website works:
 <div align="center">
     <img src="Images/Website-Workflow.png" width=80%>
 </div>
+
+### Explanation of the Workflow
+
+- **User Request** → Enters a URL in the browser.
+- **DNS Lookup** → Converts the domain name to an IP address.
+- **Server Request** → Sends an HTTP request to the web server.
+- **Server Response** → Sends back HTML, CSS & JavaScript files.
+- **Rendering** → The browser processes and displays the webpage.
+- **User Interaction** → JavaScript updates the page dynamically.
