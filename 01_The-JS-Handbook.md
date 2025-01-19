@@ -67,3 +67,5 @@ A browser processes a webpage by handling three core technologies:
   - It calculates layout, determining element positions.
   - The painting process renders the final visual output on the screen.
   - This ensures that webpages load, display & function properly.
+
+**_Example_**: When you click a button JavaScript modifies the HTML (DOM) & updates styles (CSSOM) dynamically.
