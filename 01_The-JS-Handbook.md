@@ -163,3 +163,11 @@ HTML is the foundation of every website. It structures the webpage using element
 ### 🔹What is CSS?
 
 CSS styles HTML elements, making the webpage visually appealing. It controls layout, colors, fonts, spacing, animations & responsiveness.
+
+### 🔹Key Features of CSS
+
+- **Separation of Concerns** → HTML for structure CSS for style.
+- **Selectors & Rules** → Defines styles using selectors & rules.
+- **Box Model** → Controls spacing (margin, padding, border).
+- **Responsive Design** → Adjusts layout for different screen sizes.
+- **Animations & Effects** → Enhances user experience.
