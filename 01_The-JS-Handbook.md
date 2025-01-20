@@ -171,3 +171,15 @@ CSS styles HTML elements, making the webpage visually appealing. It controls lay
 - **Box Model** → Controls spacing (margin, padding, border).
 - **Responsive Design** → Adjusts layout for different screen sizes.
 - **Animations & Effects** → Enhances user experience.
+
+### 🔹 Ways to Add CSS
+
+<div align="center">
+
+| Method       | Description                                       |
+| ------------ | ------------------------------------------------- |
+| Inline CSS   | Inside an HTML tag using the `style` attribute.   |
+| Internal CSS | Inside a `<style>` tag within `<head>`.           |
+| External CSS | In a separate `.css` file, linked using `<link>`. |
+
+</div>
