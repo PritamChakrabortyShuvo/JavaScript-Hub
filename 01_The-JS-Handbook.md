@@ -107,13 +107,13 @@ HTML is the foundation of every website. It structures the webpage using element
 - **`<head>`** → Contains metadata like title, character set, and CSS links.
 - **`<body>`** → Contains visible content (text, images, buttons).
 
-### Common HTML Elements
+### Common HTML Tags
 
 <div align="center">
 
 | Element                             | Description                              |
 | ----------------------------------- | ---------------------------------------- |
-| `<h1> - <h6>`                       | Headings (h1 = largest, h6 = smallest)   |
+| `<h1>` - `<h6>`                     | Headings (h1 = largest, h6 = smallest)   |
 | `<p>`                               | Paragraphs                               |
 | `<a href="">`                       | Hyperlinks                               |
 | `<img src="">`                      | Images                                   |
@@ -124,6 +124,37 @@ HTML is the foundation of every website. It structures the webpage using element
 | `<button>`                          | Buttons                                  |
 | `<div>`, `<span>`                   | Grouping & inline elements               |
 | `<header>`, `<footer>`, `<section>` | Semantic elements for better readability |
+| `<b>`                               | Bold text                                |
+| `<strong>`                          | Important text (strong emphasis)         |
+| `<i>`                               | Italic text                              |
+| `<em>`                              | Emphasized text                          |
+| `<u>`                               | Underlined text                          |
+| `<mark>`                            | Marked text                              |
+| `<small>`                           | Smaller text                             |
+| `<del>`                             | Deleted text                             |
+| `<ins>`                             | Inserted text                            |
+| `<sub>`                             | Subscript text                           |
+| `<sup>`                             | Superscript text                         |
+| `<br>`                              | Line break                               |
+| `<hr>`                              | Horizontal rule                          |
+| `<tr>`                              | Table row                                |
+| `<th>`                              | Table header cell                        |
+| `<td>`                              | Table data cell                          |
+| `<textarea>`                        | Multiline text input                     |
+| `<select>`                          | Dropdown list                            |
+| `<option>`                          | Option within a dropdown list            |
+| `<tr>`                              | Table row                                |
+| `<th>`                              | Table header cell                        |
+| `<td>`                              | Table data cell                          |
+| `<ul>`                              | Unordered list                           |
+| `<ol>`                              | Ordered list                             |
+| `<li>`                              | List item                                |
+| `<header>`                          | Page header                              |
+| `<footer>`                          | Page footer                              |
+| `<nav>`                             | Navigation links                         |
+| `<article>`                         | Self-contained content                   |
+| `<aside>`                           | Sidebar content                          |
+| `<main>`                            | Main content of a document               |
 
 </div>
 
