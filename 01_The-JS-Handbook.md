@@ -111,7 +111,7 @@ HTML is the foundation of every website. It structures the webpage using element
 
 <div align="center">
 
-| Element                             | Description                              |
+| **Element**                         | **Description**                          |
 | ----------------------------------- | ---------------------------------------- |
 | `<h1>` - `<h6>`                     | Headings (h1 = largest, h6 = smallest)   |
 | `<p>`                               | Paragraphs                               |
@@ -176,7 +176,7 @@ CSS styles HTML elements, making the webpage visually appealing. It controls lay
 
 <div align="center">
 
-| Method       | Description                                       |
+| **Method**   | **Description**                                   |
 | ------------ | ------------------------------------------------- |
 | Inline CSS   | Inside an HTML tag using the `style` attribute.   |
 | Internal CSS | Inside a `<style>` tag within `<head>`.           |
