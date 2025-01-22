@@ -104,7 +104,7 @@ HTML is the foundation of every website. It structures the webpage using element
 > **Breakdown**
 
 - **`<html>`** → Root element of the webpage.
-- **`<head>`** → Contains metadata like title, character set, and CSS links.
+- **`<head>`** → Contains metadata like title, character set & CSS links.
 - **`<body>`** → Contains visible content (text, images, buttons).
 
 ### Common HTML Tags
