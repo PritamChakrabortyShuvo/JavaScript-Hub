@@ -74,7 +74,7 @@ A browser processes a webpage by handling three core technologies:
 
 ### 🔹What is HTML?
 
-HTML is the foundation of every website. It structures the webpage using elements like headings, paragraphs, links, images &forms.
+HTML is the foundation of every website. It structures the webpage using elements like headings, paragraphs, links, images & forms.
 
 ### 🔹Key Features of HTML
 
