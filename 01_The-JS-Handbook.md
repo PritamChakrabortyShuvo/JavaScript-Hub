@@ -172,7 +172,7 @@ CSS styles HTML elements, making the webpage visually appealing. It controls lay
 - **Responsive Design** → Adjusts layout for different screen sizes.
 - **Animations & Effects** → Enhances user experience.
 
-### 🔹 Ways to Add CSS
+### 🔹Ways to Add CSS
 
 <div align="center">
 
@@ -181,5 +181,23 @@ CSS styles HTML elements, making the webpage visually appealing. It controls lay
 | Inline CSS   | Inside an HTML tag using the `style` attribute.   |
 | Internal CSS | Inside a `<style>` tag within `<head>`.           |
 | External CSS | In a separate `.css` file, linked using `<link>`. |
+
+</div>
+
+### 🔹CSS Selectors
+
+CSS **Targets Elements** using **Selectors**.
+
+<div align="center">
+
+| Selector              | Example                         | Description                            |
+| --------------------- | ------------------------------- | -------------------------------------- |
+| Element               | `p { color: red; }`             | Styles all `<p>` elements              |
+| Class (.)             | `.button { background: blue; }` | Targets elements with class="button"   |
+| ID (#)                | `#header { font-size: 20px; }`  | Targets element with id="header"       |
+| Group (A, B)          | `h1, p { color: black; }`       | Styles multiple elements at once       |
+| Child (>)             | `div > p { color: green; }`     | Targets `<p>` inside a `<div>`         |
+| Descendant ()         | `div p { color: red; }`         | Styles `<p>` inside `div` at any level |
+| Pseudo-class (:hover) | `a:hover { color: red; }`       | Styles element on a specific state     |
 
 </div>
