@@ -190,7 +190,7 @@ CSS **Targets Elements** using **Selectors**.
 
 <div align="center">
 
-| Selector              | Example                         | Description                            |
+| **Selector**          | **Example**                     | **Description**                        |
 | --------------------- | ------------------------------- | -------------------------------------- |
 | Element               | `p { color: red; }`             | Styles all `<p>` elements              |
 | Class (.)             | `.button { background: blue; }` | Targets elements with class="button"   |
