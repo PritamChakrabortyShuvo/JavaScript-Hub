@@ -201,3 +201,19 @@ CSS **Targets Elements** using **Selectors**.
 | Pseudo-class (:hover) | `a:hover { color: red; }`       | Styles element on a specific state     |
 
 </div>
+
+## ✅ Summary
+
+### 📌HTML
+
+- Defines structure using elements like headings, paragraphs, lists, images.
+- Forms allow user input (e.g., login, contact forms).
+- Semantic HTML improves SEO & accessibility.
+
+### 📌CSS
+
+- Styles HTML by adding colors, spacing & layouts.
+- Selectors help target elements precisely.
+- Box Model controls spacing (margin, padding, border).
+- Flexbox & Grid help create modern layouts.
+- Media Queries make the website mobile-friendly.
