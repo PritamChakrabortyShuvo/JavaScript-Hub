@@ -24,7 +24,7 @@
 ## JavaScript Advantages
 
 - **Less Server Interactions** : **JavaScript** allows tasks to be done in the browser reducing the need to communicate with the server which speeds up web pages.
-- **Better Performance** : It runs directly in the browser making the website faster & more responsive.
+- **Better Performance** : It runs directly in the browser making the **website faster** & **more responsive**.
 - **Richer Interface** : JavaScript helps create engaging & interactive web pages with animations & real-time updates.
 - **Increased Interactivity** : JavaScript makes websites more interactive by responding to user actions like clicks & keystrokes creating a better user experience.
 
