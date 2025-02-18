@@ -217,3 +217,20 @@ CSS **Targets Elements** using **Selectors**.
 - Box Model controls spacing (margin, padding, border).
 - Flexbox & Grid help create modern layouts.
 - Media Queries make the website mobile-friendly.
+
+## 🛠 Installation Process of VS Code
+
+### Step 1: Download VS Code
+
+- Visit [VS Code Official Website](https://code.visualstudio.com/)
+- Download the version for your OS (Windows, macOS, or Linux).
+
+### Step 2: Install VS Code
+
+- Open the downloaded file and follow the installation steps.
+- Select Add to PATH (Recommended).
+- Click Finish to complete the setup.
+
+### step 3: Open VS Code
+
+- Launch VS Code and set up extensions if needed.
