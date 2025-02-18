@@ -234,3 +234,26 @@ CSS **Targets Elements** using **Selectors**.
 ### step 3: Open VS Code
 
 - Launch VS Code and set up extensions if needed.
+
+## 🛠 Installation Process of JavaScript
+
+### Step 1: Download Node.js
+
+- Visit [Node.js Official Website](https://nodejs.org/en)
+- Download the **LTS Version** (Recommended).
+
+### Step 2: Install Node.js
+
+- Open the installer and follow the setup steps.
+- Check **Add** to **PATH** (so you can use Node.js from the terminal).
+
+### Step 3: Verify Installation
+
+- Open the terminal and run:
+
+```bash
+    node -v  # Check Node.js version
+    npm -v   # Check npm (Node Package Manager) version
+```
+
+Now you can run **JavaScript** in **VS Code** using **Node.js**
