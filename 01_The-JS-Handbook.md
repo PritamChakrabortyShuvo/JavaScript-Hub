@@ -288,3 +288,7 @@ We can write JavaScript directly inside the **`<script>`** tag in an **HTML** fi
     </body>
     </html>
 ```
+
+> **✅ Output**
+
+- **Console Message** : "**`Hello, World! from Internal JavaScript`**" (View in **Console Tab**).
