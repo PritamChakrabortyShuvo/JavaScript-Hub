@@ -323,3 +323,9 @@ We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
     </body>
     </html>
 ```
+
+- **📄 script.js** (External JavaScript Code)
+
+```bash
+    console.log("Hello, World! from script.js");
+```
