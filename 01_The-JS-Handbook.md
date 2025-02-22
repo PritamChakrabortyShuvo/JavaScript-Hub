@@ -292,3 +292,7 @@ We can write JavaScript directly inside the **`<script>`** tag in an **HTML** fi
 > **✅ Output**
 
 - **Console Message** : "**`Hello, World! from Internal JavaScript`**" (View in **Console Tab**).
+
+### 🔹 Method 2: External JavaScript (Separate File)
+
+We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
