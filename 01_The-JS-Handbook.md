@@ -265,3 +265,9 @@ In JavaScript, we can write and execute code inside an HTML file or in a separat
 ### 🔹 Method 1: Internal JavaScript (Inside HTML)
 
 We can write JavaScript directly inside the **`<script>`** tag in an **HTML** file.
+
+> **✅ Steps**
+
+- Create an **`index.html`** file.
+- Add JavaScript inside the **`<script>`** tag.
+- Open the HTML file in a browser.
