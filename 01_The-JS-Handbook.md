@@ -296,3 +296,10 @@ We can write JavaScript directly inside the **`<script>`** tag in an **HTML** fi
 ### 🔹 Method 2: External JavaScript (Separate File)
 
 We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
+
+> **✅ Steps**
+
+- Create an **`index.html`** file.
+- Create a **`script.js`** file in the same folder.
+- Link the **`script.js`** file inside **`<script src="script.js"></script>`**
+- Open **`index.html`** in a **browser**.
