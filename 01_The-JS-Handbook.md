@@ -329,3 +329,7 @@ We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
 ```bash
     console.log("Hello, World! from script.js");
 ```
+
+> **✅ Output**
+
+- Console Message: "**`Hello, World! from script.js`**"
