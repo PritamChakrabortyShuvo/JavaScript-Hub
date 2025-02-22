@@ -271,3 +271,20 @@ We can write JavaScript directly inside the **`<script>`** tag in an **HTML** fi
 - Create an **`index.html`** file.
 - Add JavaScript inside the **`<script>`** tag.
 - Open the HTML file in a browser.
+
+> **Example**
+
+```bash
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Internal JavaScript</title>
+    </head>
+    <body>
+        <h1>Hello, World!</h1>
+        <script>
+            console.log("Hello, World! from Internal JavaScript");
+        </script>
+    </body>
+    </html>
+```
