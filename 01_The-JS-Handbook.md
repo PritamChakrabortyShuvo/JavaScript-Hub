@@ -10,7 +10,7 @@
 
 - **JavaScript** is a **Client Side Scripting Language** used to create **Dynamic** & **Interactive** content on websites.
 - It works alongside **HTML** & **CSS** to build modern web applications.
-- **JavaScript** is **Untested**, **Multi-Paradigm** & **Event-Driven** allowing developers to build interactive user interfaces.
+- **JavaScript** is **Untested**, **Multi-Paradigm** & **Event-Driven** allowing developers to **build interactive user interfaces**.
 - It is **Interpreted** by the browser’s **JavaScript Engine**, meaning it runs directly in the **browser** without **compilation**.
 
 ## JavaScript Features
