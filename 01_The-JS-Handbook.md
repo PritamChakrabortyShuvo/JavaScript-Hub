@@ -257,3 +257,7 @@ CSS **Targets Elements** using **Selectors**.
 ```
 
 Now you can run **JavaScript** in **VS Code** using **Node.js**
+
+## 🖥️ Running JavaScript in a Browser
+
+In JavaScript, we can write and execute code inside an HTML file or in a separate JavaScript file.
