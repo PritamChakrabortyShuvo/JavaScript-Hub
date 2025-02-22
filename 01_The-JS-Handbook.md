@@ -303,3 +303,23 @@ We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
 - Create a **`script.js`** file in the same folder.
 - Link the **`script.js`** file inside **`<script src="script.js"></script>`**
 - Open **`index.html`** in a **browser**.
+
+> **✅ Example**
+
+- **📄 index.html** (Linking External JS File)
+
+```bash
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>External JavaScript</title>
+    </head>
+    <body>
+        <h1>Hello, World!</h1>
+
+        <!-- Link External JavaScript File -->
+        <script src="script.js"></script>
+    </body>
+    </html>
+```
