@@ -336,5 +336,5 @@ Console Message: "**`Hello, World! from script.js`**"
 
 ### 🎯Conclusion
 
-- Use Internal JavaScript for small scripts.
+- Use **Internal JavaScript** for *small scripts**.
 - Use External JavaScript for clean, maintainable code.
