@@ -336,5 +336,18 @@ Console Message: "**`Hello, World! from script.js`**"
 
 ### 🎯Conclusion
 
-- Use **Internal JavaScript** for *small scripts**.
+- Use **Internal JavaScript** for \*small scripts\*\*.
 - Use External JavaScript for clean, maintainable code.
+
+## 📌Variables in JavaScript
+
+A variable is a container used to store data that can be referenced and manipulated in a program.
+
+### 🔹Key Concepts
+
+1. Variables store values like numbers, text, or objects.
+2. They allow dynamic data manipulation in a program.
+3. JavaScript provides three ways to declare variables:
+   - **`var`** (old, function-scoped, avoid using)
+   - **`let`** (modern, block-scoped, recommended)
+   - **`const`** (for values that do not change)
