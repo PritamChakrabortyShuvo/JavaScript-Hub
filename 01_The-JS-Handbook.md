@@ -365,3 +365,16 @@ JavaScript provides **Three Ways** to declare variables:
 </div>
 
 **_Hoisting_** : It is JavaScript’s behavior of moving variable & function declarations to the top of their scope before execution.
+
+### 🔹Variable Naming Rules
+
+> **📌 Allowed**
+
+- ✔ Can contain letters, digits, underscores **`_`** & dollar signs **`$`**.
+- ✔ Must start with a letter, **`_`** or **`$`**
+- ✔ Case-sensitive (**`name`** and **`Name`** are different).
+
+> **📌 Not Allowed**
+
+- ❌ Cannot start with a number.
+- ❌ Cannot use reserved JavaScript keywords (like **`var`**, **`let`**, **_`function`_**).
