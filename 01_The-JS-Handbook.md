@@ -349,3 +349,17 @@ A variable is a container used to store data that can be referenced and manipula
 - **✅ Reusability** : Once stored the data can be used multiple times.
 - **✅ Dynamic Typing** : JavaScript variables do not require a fixed type they can hold different types of values at different times.
 - **✅ Memory Allocation** : The browser automatically manages memory for variables.
+
+### 🔹Declaring Variables in JavaScript
+
+JavaScript provides **Three Ways** to declare variables:
+
+<div align="center">
+
+| **Keyword** | **Scope**       | **Reassignment** | **Hoisting**               | **Use Case**                   |
+| ----------- | --------------- | ---------------- | -------------------------- | ------------------------------ |
+| `var`       | Function-scoped | ✅ Yes           | ✅ Hoisted (but undefined) | Legacy code (avoid using)      |
+| `let`       | Block-scoped    | ✅ Yes           | ❌ Not hoisted             | Recommended for dynamic values |
+| `const`     | Block-scoped    | ❌ No (constant) | ❌ Not hoisted             | Use for fixed values           |
+
+</div>
