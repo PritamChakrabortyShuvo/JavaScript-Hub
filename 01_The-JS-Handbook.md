@@ -218,7 +218,7 @@ CSS **Targets Elements** using **Selectors**.
 - Flexbox & Grid help create modern layouts.
 - Media Queries make the website mobile-friendly.
 
-## 🛠 Installation Process of VS Code
+## 🛠Installation Process of VS Code
 
 ### Step 1: Download VS Code
 
@@ -231,7 +231,7 @@ CSS **Targets Elements** using **Selectors**.
 - Select Add to PATH (Recommended).
 - Click Finish to complete the setup.
 
-### step 3: Open VS Code
+### Step 3: Open VS Code
 
 - Launch VS Code and set up extensions if needed.
 
@@ -258,7 +258,7 @@ CSS **Targets Elements** using **Selectors**.
 
 Now you can run **JavaScript** in **VS Code** using **Node.js**
 
-## 🖥️ Running JavaScript in a Browser
+## 🖥️Running JavaScript in a Browser
 
 In JavaScript, we can write and execute code inside an HTML file or in a separate JavaScript file.
 
@@ -334,7 +334,7 @@ We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
 
 Console Message: "**`Hello, World! from script.js`**"
 
-### 🎯 Conclusion
+### 🎯Conclusion
 
 - Use Internal JavaScript for small scripts.
 - Use External JavaScript for clean, maintainable code.
