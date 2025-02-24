@@ -345,9 +345,7 @@ A variable is a container used to store data that can be referenced and manipula
 
 ### 🔹Key Concepts
 
-1. Variables store values like numbers, text, or objects.
-2. They allow dynamic data manipulation in a program.
-3. JavaScript provides three ways to declare variables:
-   - **`var`** (old, function-scoped, avoid using)
-   - **`let`** (modern, block-scoped, recommended)
-   - **`const`** (for values that do not change)
+- **✅ Stores Data** : Holds values like numbers, text or objects.
+- **✅ Reusability** : Once stored the data can be used multiple times.
+- **✅ Dynamic Typing** : JavaScript variables do not require a fixed type they can hold different types of values at different times.
+- **✅ Memory Allocation** : The browser automatically manages memory for variables.
