@@ -363,3 +363,5 @@ JavaScript provides **Three Ways** to declare variables:
 | `const`     | Block-scoped    | ❌ No (constant) | ❌ Not hoisted             | Use for fixed values           |
 
 </div>
+
+**_Hoisting_** : It is JavaScript’s behavior of moving variable & function declarations to the top of their scope before execution.
