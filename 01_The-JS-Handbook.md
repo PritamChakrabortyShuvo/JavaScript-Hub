@@ -401,3 +401,5 @@ Dynamic Typing means that variables in JavaScript do not have a fixed data type.
 - ✅ No need to declare a specific type (string, number, etc.).
 - ✅ The type of a variable can change at runtime.
 - ✅ Flexible but can lead to unexpected bugs if not handled properly.
+
+**Note :** Dynamic typing makes JavaScript flexible but requires careful handling to prevent type-related errors!
