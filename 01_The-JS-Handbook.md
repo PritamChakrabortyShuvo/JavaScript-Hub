@@ -382,3 +382,13 @@ JavaScript provides **Three Ways** to declare variables:
 ## 📌 Dynamically Typed Language
 
 Dynamic Typing means that variables in JavaScript do not have a fixed data type. A variable can hold different types of values during execution.
+
+### 🔹Example of Dynamic Typing
+
+```bash
+    value = "Hello";       # String (changed type)
+    console.log(value);    # Output: Hello
+
+    value = true;          # Boolean (changed type again)
+    console.log(value);    # Output: true
+```
