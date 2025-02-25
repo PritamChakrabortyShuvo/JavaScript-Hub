@@ -378,3 +378,7 @@ JavaScript provides **Three Ways** to declare variables:
 
 - ❌ Cannot start with a number.
 - ❌ Cannot use reserved JavaScript keywords (like **`var`**, **`let`**, **_`function`_**).
+
+## 📌 Dynamically Typed Language
+
+Dynamic Typing means that variables in JavaScript do not have a fixed data type. A variable can hold different types of values during execution.
