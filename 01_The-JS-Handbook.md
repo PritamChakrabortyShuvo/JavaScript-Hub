@@ -389,6 +389,8 @@ JavaScript provides **Three Ways** to declare variables:
     // PI = 3.14; ❌ Error: Cannot reassign a 'const' variable
 ```
 
+**_Note_** : **`const`** is used for values that should not change.
+
 > **📌 JavaScript Variable Examples**
 
 <div align="center">
