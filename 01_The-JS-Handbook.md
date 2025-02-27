@@ -356,6 +356,14 @@ JavaScript provides **Three Ways** to declare variables:
 
 1. **`var`** : Variable can be re-declared & updated. A global scope variable.
 
+```javascript
+    var name = "Alice";
+    console.log(name); // Output: Alice
+
+    var name = "Bob"; // ✅ Allowed (var can be redeclared)
+    console.log(name); // Output: Bob
+```
+
 2. **`let`** : Variable cannot be re-declared but can be updated. A block scope variable.
 3. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
 
