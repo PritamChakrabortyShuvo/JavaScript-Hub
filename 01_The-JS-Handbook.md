@@ -384,7 +384,7 @@ JavaScript provides **Three Ways** to declare variables:
 
 **_Note_**: **`let`** prevents redeclaration but allows reassignment.
 
-The **`let`** keyword is **block-scoped**, meaning variables declared with **`let`** exist only **inside the block** **`{}`** where they are defined.
+The **`let`** keyword is **block-scoped**, meaning variables declared with **`let`** exist only **inside the block** **`{}`** where they are defined. **`let`** variables are block-scoped, meaning they exist only inside **`{}`**. Cannot be accessed outside the block where they are declared.
 
 #### Example 02 : `let` Inside a Block `{}`
 
@@ -395,6 +395,9 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
     }
     console.log(message); // ❌ Error: message is not defined
 ```
+
+- ✔ The variable **`message`** exists only inside the block **`{}`**.
+- ✔ Trying to access **`message`** outside the block results in an error.
 
 1. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
 
