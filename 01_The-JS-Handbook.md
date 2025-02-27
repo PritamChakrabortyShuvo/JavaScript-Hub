@@ -382,6 +382,13 @@ JavaScript provides **Three Ways** to declare variables:
 
 1. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
 
+```javascript
+    const PI = 3.1416;
+    console.log(PI); // Output: 3.1416
+
+    // PI = 3.14; ❌ Error: Cannot reassign a 'const' variable
+```
+
 > **📌 JavaScript Variable Examples**
 
 <div align="center">
