@@ -366,8 +366,19 @@ JavaScript provides **Three Ways** to declare variables:
 
 **_Note_** : **`var`** allows redeclaration which can cause unexpected issues.
 
-1. **`let`** : Variable cannot be re-declared but can be updated. A block scope variable.
-2. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
+2. **`let`** : Variable cannot be re-declared but can be updated. A block scope variable.
+
+```javascript
+    let age = 25;
+    console.log(age); // Output: 25
+
+    age = 30; // ✅ Allowed (value can change)
+    console.log(age); // Output: 30
+
+    // let age = 35; ❌ Error: Cannot redeclare 'age' in the same scope
+```
+
+3. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
 
 > **📌 JavaScript Variable Examples**
 
