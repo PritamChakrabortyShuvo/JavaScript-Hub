@@ -391,6 +391,18 @@ JavaScript provides **Three Ways** to declare variables:
 
 **_Note_** : **`const`** is used for values that should not change.
 
+#### 📌 Summary Table
+
+<div align="center">
+
+| Keyword | Scope    | Redeclaration | Reassignment | Hoisting                       |
+| ------- | -------- | ------------- | ------------ | ------------------------------ |
+| `var`   | Function | ✅ Yes        | ✅ Yes       | ✅ Hoisted with `undefined`    |
+| `let`   | Block    | ❌ No         | ✅ Yes       | ✅ Hoisted but not initialized |
+| `const` | Block    | ❌ No         | ❌ No        | ✅ Hoisted but not initialized |
+
+</div>
+
 ### 🔹Variable Naming Rules
 
 > **📌 Allowed**
