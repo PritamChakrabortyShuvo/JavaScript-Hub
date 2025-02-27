@@ -251,7 +251,7 @@ CSS **Targets Elements** using **Selectors**.
 
 - Open the terminal and run:
 
-```bash
+```javascript
     node -v  # Check Node.js version
     npm -v   # Check npm (Node Package Manager) version
 ```
@@ -274,7 +274,7 @@ We can write JavaScript directly inside the **`<script>`** tag in an **HTML** fi
 
 > **Example**
 
-```bash
+```javascript
     <!DOCTYPE html>
     <html>
     <head>
@@ -308,7 +308,7 @@ We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
 
 **📄 index.html** (Linking External JS File)
 
-```bash
+```javascript
 
     <!DOCTYPE html>
     <html>
@@ -326,7 +326,7 @@ We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
 
 **📄 script.js** (External JavaScript Code)
 
-```bash
+```javascript
     console.log("Hello, World! from script.js");
 ```
 
@@ -355,8 +355,11 @@ A variable is a container used to store data that can be referenced and manipula
 JavaScript provides **Three Ways** to declare variables:
 
 1. **`var`** : Variable can be re-declared & updated. A global scope variable.
+
 2. **`let`** : Variable cannot be re-declared but can be updated. A block scope variable.
 3. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
+
+> **📌 JavaScript Variable Examples**
 
 <div align="center">
 
