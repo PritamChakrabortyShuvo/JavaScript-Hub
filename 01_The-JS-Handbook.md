@@ -15,7 +15,7 @@
 
 ## JavaScript Features
 
-- **Untyped** : Variables don't require a specific data type providing flexibility in usage.
+- **Untyped** : Variables don't require a specific data type providing **flexibility** in usage.
 - **Multi-Paradigm** : Supports **object-oriented**, functional & imperative programming styles.
 - **Functional** : Functions are first-class citizens, enabling higher-order functions & functional - programming techniques.
 - **Event-driven** : JavaScript reacts to user interactions like clicks, keypresses & other events in real time.
