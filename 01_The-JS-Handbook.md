@@ -391,20 +391,6 @@ JavaScript provides **Three Ways** to declare variables:
 
 **_Note_** : **`const`** is used for values that should not change.
 
-> **📌 JavaScript Variable Examples**
-
-<div align="center">
-
-| **Keyword** | **Scope**       | **Reassignment** | **Hoisting**               | **Use Case**                   |
-| ----------- | --------------- | ---------------- | -------------------------- | ------------------------------ |
-| `var`       | Function-scoped | ✅ Yes           | ✅ Hoisted (but undefined) | Legacy code (avoid using)      |
-| `let`       | Block-scoped    | ✅ Yes           | ❌ Not hoisted             | Recommended for dynamic values |
-| `const`     | Block-scoped    | ❌ No (constant) | ❌ Not hoisted             | Use for fixed values           |
-
-</div>
-
-**_Hoisting_** : It is JavaScript’s behavior of moving variable & function declarations to the top of their scope before execution.
-
 ### 🔹Variable Naming Rules
 
 > **📌 Allowed**
