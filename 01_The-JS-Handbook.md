@@ -409,7 +409,7 @@ JavaScript provides **Three Ways** to declare variables:
 - ✔ Use **`let`** when reassignment is needed.
 - ✔ Avoid **`var`** to prevent scope-related issues.
 
-🚀 let and const help write cleaner and safer JavaScript code!
+**_Note_** : **`let`** & **`const`** help write **cleaner** and **safer** JavaScript code!
 
 ### 🔹Variable Naming Rules
 
