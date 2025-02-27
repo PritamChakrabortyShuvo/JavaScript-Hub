@@ -403,6 +403,14 @@ JavaScript provides **Three Ways** to declare variables:
 
 </div>
 
+#### 📌 Best Practices
+
+- ✔ Use const by default unless the value needs to change.
+- ✔ Use let when reassignment is needed.
+- ✔ Avoid var to prevent scope-related issues.
+
+🚀 let and const help write cleaner and safer JavaScript code!
+
 ### 🔹Variable Naming Rules
 
 > **📌 Allowed**
