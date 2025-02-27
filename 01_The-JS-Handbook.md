@@ -378,7 +378,9 @@ JavaScript provides **Three Ways** to declare variables:
     // let age = 35; ❌ Error: Cannot redeclare 'age' in the same scope
 ```
 
-3. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
+**_Note_**: **`let`** prevents redeclaration but allows reassignment.
+
+1. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
 
 > **📌 JavaScript Variable Examples**
 
