@@ -469,3 +469,12 @@ These are the basic types that hold simple data and are immutable (cannot be cha
     let name = "Alice";
     let greeting = 'Hello, world!';
 ```
+
+#### 03. Boolean
+
+- Represents a **true** or **false** value.
+
+```javascript
+    let isTrue = true;
+    let isFalse = false;
+```
