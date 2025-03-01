@@ -580,6 +580,32 @@ In JavaScript, we can print an object’s values using different methods dependi
 
 #### 01 Using `console.log()` (Simple Output)
 
+✔ Prints the entire object in the console.
+
+```javascript
+    let person = { name: "Alice", age: 25, city: "New York" };
+    console.log(person);
+```
+
+#### 02. Accessing Individual Properties
+
+✔ Prints specific property values using dot notation (**`.`**).
+
+```javascript
+    console.log(person.name);  // Output: Alice
+    console.log(person.age);   // Output: 25
+    console.log(person.city);  // Output: New York
+```
+
+#### 03. Using Bracket Notation [] (When Property Name is Dynamic or Special)
+
+✔ Useful when the key is stored in a variable or has special characters.
+
+```javascript
+    console.log(person["name"]);  // Output: Alice
+    console.log(person["age"]);   // Output: 25
+```
+
 ### 📌 Key Differences
 
 - Primitive Data Types are immutable and directly store values.
