@@ -516,3 +516,7 @@ These are the basic types that hold simple data and are immutable (cannot be cha
 ### 2. 🔹Non-Primitive (Reference) Data Types
 
 These are **complex types** that hold collections of data. Variables assigned to reference types store a reference (or pointer) to the data rather than the data itself. Changes to the data are reflected across all references.
+
+<div align="center">
+    <img src="Images/Non-Primitive-Data-Types.png" width=90%>
+</div>
