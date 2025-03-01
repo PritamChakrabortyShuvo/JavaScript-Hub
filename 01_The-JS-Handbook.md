@@ -496,10 +496,19 @@ These are the basic types that hold simple data and are immutable (cannot be cha
     let user = null;
 ```
 
-#### 07. BigInt (ES11+)
+#### 06. BigInt (ES11+)
 
 - Used to represent large integers that cannot be handled by the Number type.
 
 ```javascript
     let bigNum = 1234567890123456789012345678901234567890n;
+```
+
+#### 07. Symbol (ES6+)
+
+- A unique, immutable value often used for object property keys.
+- Primarily used for unique identifiers.
+
+```javascript
+    let id = Symbol('id');
 ```
