@@ -580,3 +580,26 @@ These are **complex types** that hold collections of data. Variables assigned to
 - Non-Primitive Data Types are mutable and store a reference to the value.
 
 **_Note_** : Primitive types are simpler and more efficient, while non-primitive types are more flexible for complex data structures.
+
+### Check the Type of a Data Type in JavaScript
+
+In JavaScript, we can use the **`typeof`** operator to check the type of a variable or expression. This helps us determine whether a value is a string, number, object, etc.
+
+#### Example 1: Checking Primitive Data Types
+
+```javascript
+    let age = 25;
+    console.log(typeof age);  // Output: number
+
+    let name = "Alice";
+    console.log(typeof name); // Output: string
+
+    let isActive = true;
+    console.log(typeof isActive); // Output: boolean
+
+    let user = null;
+    console.log(typeof user);  // Output: object (special case in JS)
+
+    let value;
+    console.log(typeof value);  // Output: undefined
+```
