@@ -463,3 +463,9 @@ These are the basic types that hold simple data and are immutable (cannot be cha
 
 - Represents sequences of characters (text).
 - Examples: **`"Hello"`**, **`'World'`**
+  > **Example**
+
+```javascript
+    let name = "Alice";
+    let greeting = 'Hello, world!';
+```
