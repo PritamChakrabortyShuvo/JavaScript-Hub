@@ -618,3 +618,5 @@ In JavaScript, we can use the **`typeof`** operator to check the type of a varia
     }
     console.log(typeof greet);  // Output: function
 ```
+
+**_Note_** : Despite being a primitive value representing "no value," **`typeof null`** returns **`"object"`**. This is a known JavaScript quirk.
