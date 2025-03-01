@@ -435,3 +435,6 @@ JavaScript has Two main categories of data types:
 
 1. **Primitive Data Types**
 2. **Non-Primitive (Reference) Data Types**
+<div align="center">
+    <img src="Images/Data-Types.png" alt="Project Logo" width=90%>
+</div>
