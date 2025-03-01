@@ -543,3 +543,14 @@ These are **complex types** that hold collections of data. Variables assigned to
     let numbers = [1, 2, 3, 4, 5];
     let fruits = ["Apple", "Banana", "Cherry"];
 ```
+
+#### 03. Function
+
+- Functions are also objects in JavaScript.
+- Used to define reusable code.
+
+```javascript
+    function greet() {
+    console.log("Hello!");
+    }
+```
