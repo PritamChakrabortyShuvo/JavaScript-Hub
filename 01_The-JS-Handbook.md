@@ -525,6 +525,9 @@ These are **complex types** that hold collections of data. Variables assigned to
 
 - A collection of key-value pairs (properties).
 - Can store multiple values of different data types.
+<div align="center">
+    <img src="Images/Objects.png" width=70%>
+</div>
 
 ```javascript
     let person = {
@@ -595,7 +598,7 @@ In JavaScript, we can print an object’s values using different methods dependi
     console.log(Object.values(person));
     // Output: [ 'Alice', 25, 'New York' ]
 ```
- 
+
 <div align ="center">
 
 ## Summary Table
