@@ -603,3 +603,18 @@ In JavaScript, we can use the **`typeof`** operator to check the type of a varia
     let value;
     console.log(typeof value);  // Output: undefined
 ```
+
+#### Example 2: Checking Non-Primitive Data Types
+
+```javascript
+    let person = { name: "Alice", age: 25 };
+    console.log(typeof person);  // Output: object
+
+    let numbers = [1, 2, 3];
+    console.log(typeof numbers);  // Output: object (arrays are also objects in JS)
+
+    function greet() {
+    console.log("Hello!");
+    }
+    console.log(typeof greet);  // Output: function
+```
