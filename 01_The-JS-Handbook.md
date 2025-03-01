@@ -191,7 +191,7 @@ CSS **Targets Elements** using **Selectors**.
 - Visit [Node.js Official Website](https://nodejs.org/en)
 - Download the **LTS Version** (Recommended).
 
-### Step 2: Install Node.js
+### Step 2: Install **Node.js**
 
 - Open the installer and follow the setup steps.
 - Check **Add** to **PATH** (so you can use Node.js from the terminal).
