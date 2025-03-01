@@ -478,3 +478,12 @@ These are the basic types that hold simple data and are immutable (cannot be cha
     let isTrue = true;
     let isFalse = false;
 ```
+
+#### 04. Undefined
+
+- A variable that has been declared but not assigned a value.
+- Default value for uninitialized variables.
+
+```javascript
+    let value; // Undefined by default
+```
