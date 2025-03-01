@@ -487,3 +487,11 @@ These are the basic types that hold simple data and are immutable (cannot be cha
 ```javascript
     let value; // Undefined by default
 ```
+
+#### 05. Null
+
+- Represents intentional absence of any value.
+
+```javascript
+    let user = null;
+```
