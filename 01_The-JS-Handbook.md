@@ -441,4 +441,20 @@ JavaScript has Two main categories of data types:
 
 ### 1. 🔹Primitive Data Types
 
-These are the basic types that hold simple data and are immutable (cannot be changed directly). When we assign a primitive value to a variable the value is copied.
+These are the basic types that hold simple data and are immutable (cannot be changed directly). When we assign a primitive value to a variable the value is copied. There are 7 Types of Primitive Data Types.
+
+<div align="center">
+    <img src="Images/Primitive-Data-Types.png" width=90%>
+</div>
+
+#### 01. Number
+
+- Represents both **Integers** & **Floating-Point** numbers.
+- Examples: 10, 3.14
+
+> **Example**
+
+```javascript
+    let age = 25;   // Integer
+    let price = 99.99;  // Float
+```
