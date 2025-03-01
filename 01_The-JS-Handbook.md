@@ -520,3 +520,16 @@ These are **complex types** that hold collections of data. Variables assigned to
 <div align="center">
     <img src="Images/Non-Primitive-Data-Types.png" width=90%>
 </div>
+
+#### 01. Object
+
+- A collection of key-value pairs (properties).
+- Can store multiple values of different data types.
+
+```javascript
+    let person = {
+    name: "Alice",
+    age: 25,
+    isMember: true
+    };
+```
