@@ -495,3 +495,11 @@ These are the basic types that hold simple data and are immutable (cannot be cha
 ```javascript
     let user = null;
 ```
+
+#### 07. BigInt (ES11+)
+
+- Used to represent large integers that cannot be handled by the Number type.
+
+```javascript
+    let bigNum = 1234567890123456789012345678901234567890n;
+```
