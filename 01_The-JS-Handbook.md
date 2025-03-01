@@ -533,3 +533,13 @@ These are **complex types** that hold collections of data. Variables assigned to
     isMember: true
     };
 ```
+
+#### 02. Array
+
+- An ordered list of values.
+- Can store values of any data type.
+
+```javascript
+    let numbers = [1, 2, 3, 4, 5];
+    let fruits = ["Apple", "Banana", "Cherry"];
+```
