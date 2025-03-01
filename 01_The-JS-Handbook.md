@@ -554,3 +554,22 @@ These are **complex types** that hold collections of data. Variables assigned to
     console.log("Hello!");
     }
 ```
+
+<div align ="center">
+
+## Summary Table
+
+| Data Type | Category      | Description                      | Examples                                    |
+| --------- | ------------- | -------------------------------- | ------------------------------------------- |
+| Number    | Primitive     | Numeric values (Integer & Float) | `10`, `3.14`, `-5`                          |
+| String    | Primitive     | Text data                        | `"Hello"`, `'World'`                        |
+| Boolean   | Primitive     | True or false                    | `true`, `false`                             |
+| Undefined | Primitive     | Variable not assigned a value    | `let x;`                                    |
+| Null      | Primitive     | Intentional absence of value     | `null`                                      |
+| Symbol    | Primitive     | Unique identifier                | `Symbol('id')`                              |
+| BigInt    | Primitive     | Large integer                    | `1234567890123456789012345678901234567890n` |
+| Object    | Non-Primitive | Collection of key-value pairs    | `{ name: "Alice", age: 25 }`                |
+| Array     | Non-Primitive | Ordered list of values           | `[1, 2, 3]`, `["Apple", "Banana"]`          |
+| Function  | Non-Primitive | Reusable block of code           | `function() { return "Hi"; }`               |
+
+</div>
