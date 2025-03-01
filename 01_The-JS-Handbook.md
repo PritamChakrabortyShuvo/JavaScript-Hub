@@ -436,5 +436,9 @@ JavaScript has Two main categories of data types:
 1. **Primitive Data Types**
 2. **Non-Primitive (Reference) Data Types**
 <div align="center">
-    <img src="Images/Data-Types.png" alt="Project Logo" width=90%>
+    <img src="Images/Data-Types.png" width=90%>
 </div>
+
+### 1. 🔹Primitive Data Types
+
+These are the basic types that hold simple data and are immutable (cannot be changed directly). When we assign a primitive value to a variable the value is copied.
