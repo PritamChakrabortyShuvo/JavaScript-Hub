@@ -574,6 +574,12 @@ These are **complex types** that hold collections of data. Variables assigned to
 
 </div>
 
+### Print Object Values in JavaScript
+
+In JavaScript, we can print an object’s values using different methods depending on the format we need.
+
+#### 01 Using `console.log()` (Simple Output)
+
 ### 📌 Key Differences
 
 - Primitive Data Types are immutable and directly store values.
