@@ -458,3 +458,8 @@ These are the basic types that hold simple data and are immutable (cannot be cha
     let age = 25;   // Integer
     let price = 99.99;  // Float
 ```
+
+#### 02. String
+
+- Represents sequences of characters (text).
+- Examples: **`"Hello"`**, **`'World'`**
