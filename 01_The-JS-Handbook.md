@@ -107,57 +107,6 @@ HTML is the foundation of every website. It structures the webpage using element
 - **`<head>`** → Contains metadata like title, character set & CSS links.
 - **`<body>`** → Contains visible content (text, images, buttons).
 
-### Common HTML Tags
-
-<div align="center">
-
-| **Element**                         | **Description**                          |
-| ----------------------------------- | ---------------------------------------- |
-| `<h1>` - `<h6>`                     | Headings (h1 = largest, h6 = smallest)   |
-| `<p>`                               | Paragraphs                               |
-| `<a href="">`                       | Hyperlinks                               |
-| `<img src="">`                      | Images                                   |
-| `<ul>`, `<ol>`                      | Unordered & Ordered lists                |
-| `<table>`                           | Tables                                   |
-| `<form>`                            | Forms (used for user input)              |
-| `<input>`                           | Input fields                             |
-| `<button>`                          | Buttons                                  |
-| `<div>`, `<span>`                   | Grouping & inline elements               |
-| `<header>`, `<footer>`, `<section>` | Semantic elements for better readability |
-| `<b>`                               | Bold text                                |
-| `<strong>`                          | Important text (strong emphasis)         |
-| `<i>`                               | Italic text                              |
-| `<em>`                              | Emphasized text                          |
-| `<u>`                               | Underlined text                          |
-| `<mark>`                            | Marked text                              |
-| `<small>`                           | Smaller text                             |
-| `<del>`                             | Deleted text                             |
-| `<ins>`                             | Inserted text                            |
-| `<sub>`                             | Subscript text                           |
-| `<sup>`                             | Superscript text                         |
-| `<br>`                              | Line break                               |
-| `<hr>`                              | Horizontal rule                          |
-| `<tr>`                              | Table row                                |
-| `<th>`                              | Table header cell                        |
-| `<td>`                              | Table data cell                          |
-| `<textarea>`                        | Multiline text input                     |
-| `<select>`                          | Dropdown list                            |
-| `<option>`                          | Option within a dropdown list            |
-| `<tr>`                              | Table row                                |
-| `<th>`                              | Table header cell                        |
-| `<td>`                              | Table data cell                          |
-| `<ul>`                              | Unordered list                           |
-| `<ol>`                              | Ordered list                             |
-| `<li>`                              | List item                                |
-| `<header>`                          | Page header                              |
-| `<footer>`                          | Page footer                              |
-| `<nav>`                             | Navigation links                         |
-| `<article>`                         | Self-contained content                   |
-| `<aside>`                           | Sidebar content                          |
-| `<main>`                            | Main content of a document               |
-
-</div>
-
 ## 🎨 CSS (Cascading Style Sheets) - Detailed Explanation
 
 ### 🔹What is CSS?
@@ -258,7 +207,7 @@ CSS **Targets Elements** using **Selectors**.
 
 Now you can run **JavaScript** in **VS Code** using **Node.js**
 
-## 🖥️Running JavaScript in a Browser
+## 🖥️ Running JavaScript in a Browser
 
 In JavaScript, we can write and execute code inside an HTML file or in a separate JavaScript file.
 
@@ -266,7 +215,7 @@ In JavaScript, we can write and execute code inside an HTML file or in a separat
 
 We can write JavaScript directly inside the **`<script>`** tag in an **HTML** file.
 
-> **✅ Steps**
+> **Steps**
 
 - Create an **`index.html`** file.
 - Add JavaScript inside the **`<script>`** tag.
@@ -289,7 +238,7 @@ We can write JavaScript directly inside the **`<script>`** tag in an **HTML** fi
     </html>
 ```
 
-> **✅ Output**
+> **Output**
 
 **Console Message** : "**`Hello, World! from Internal JavaScript`**" (View in **Console Tab**).
 
@@ -297,14 +246,14 @@ We can write JavaScript directly inside the **`<script>`** tag in an **HTML** fi
 
 We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
 
-> **✅ Steps**
+> **Steps**
 
 - Create an **`index.html`** file.
 - Create a **`script.js`** file in the same folder.
 - Link the **`script.js`** file inside **`<script src="script.js"></script>`**
 - Open **`index.html`** in a **browser**.
 
-> **✅ Example**
+> **Example**
 
 **📄 index.html** (Linking External JS File)
 
@@ -345,10 +294,13 @@ A variable is a container used to store data that can be referenced and manipula
 
 ### 🔹Key Concepts
 
-- **✅ Stores Data** : Holds values like numbers, text or objects.
-- **✅ Reusability** : Once stored the data can be used multiple times.
-- **✅ Dynamic Typing** : JavaScript variables do not require a fixed type they can hold different types of values at different times.
-- **✅ Memory Allocation** : The browser automatically manages memory for variables.
+**✅ Stores Data** : Holds values like numbers, text or objects.
+
+**✅ Reusability** : Once stored the data can be used multiple times.
+
+**✅ Dynamic Typing** : JavaScript variables do not require a fixed type they can hold different types of values at different times.
+
+**✅ Memory Allocation** : The browser automatically manages memory for variables.
 
 ### 🔹Declaring Variables in JavaScript
 
@@ -362,7 +314,7 @@ JavaScript provides **Three Ways** to declare variables:
     var name = "Alice";
     console.log(name); // Output: Alice
 
-    var name = "Bob"; // ✅ Allowed (var can be redeclared)
+    var name = "Bob"; // Allowed (var can be redeclared)
     console.log(name); // Output: Bob
 ```
 
@@ -376,7 +328,7 @@ JavaScript provides **Three Ways** to declare variables:
     let age = 25;
     console.log(age); // Output: 25
 
-    age = 30; // ✅ Allowed (value can change)
+    age = 30; // Allowed (value can change)
     console.log(age); // Output: 30
 
     // let age = 35; ❌ Error: Cannot redeclare 'age' in the same scope
@@ -393,11 +345,12 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
         let message = "Hello, World!";
         console.log(message); // Output: Hello, World!
     }
-    console.log(message); // ❌ Error: message is not defined
+    console.log(message); // Error: message is not defined
 ```
 
-- ✔ The variable **`message`** exists only inside the block **`{}`**.
-- ✔ Trying to access **`message`** outside the block results in an error.
+✔ The variable **`message`** exists only inside the block **`{}`**
+
+✔ Trying to access **`message`** outside the block results in an error.
 
 1. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
 
@@ -405,7 +358,7 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
     const PI = 3.1416;
     console.log(PI); // Output: 3.1416
 
-    // PI = 3.14; ❌ Error: Cannot reassign a 'const' variable
+    // PI = 3.14; Error: Cannot reassign a 'const' variable
 ```
 
 **_Note_** : **`const`** is used for values that should not change.
@@ -414,34 +367,39 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
 
 <div align="center">
 
-| Keyword | Scope    | Redeclaration | Reassignment | Hoisting                       |
-| ------- | -------- | ------------- | ------------ | ------------------------------ |
-| `var`   | Function | ✅ Yes        | ✅ Yes       | ✅ Hoisted with `undefined`    |
-| `let`   | Block    | ❌ No         | ✅ Yes       | ✅ Hoisted but not initialized |
-| `const` | Block    | ❌ No         | ❌ No        | ✅ Hoisted but not initialized |
+| Keyword | Scope    | Redeclaration | Reassignment | Hoisting                    |
+| ------- | -------- | ------------- | ------------ | --------------------------- |
+| `var`   | Function | Yes           | Yes          | Hoisted with `undefined`    |
+| `let`   | Block    | No            | Yes          | Hoisted but not initialized |
+| `const` | Block    | No            | No           | Hoisted but not initialized |
 
 </div>
 
 #### 📌 Best Practices
 
-- ✔ Use **`const`** by default unless the value needs to change.
-- ✔ Use **`let`** when reassignment is needed.
-- ✔ Avoid **`var`** to prevent scope-related issues.
+✔ Use **`const`** by default unless the value needs to change.
+
+✔ Use **`let`** when reassignment is needed.
+
+✔ Avoid **`var`** to prevent scope-related issues.
 
 **_Note_** : **`let`** & **`const`** help write **cleaner** and **safer** JavaScript code!
 
 ### 🔹Variable Naming Rules
 
-> **📌 Allowed**
+> **Allowed**
 
-- ✔ Can contain letters, digits, underscores **`_`** & dollar signs **`$`**.
-- ✔ Must start with a letter, **`_`** or **`$`**
-- ✔ Case-sensitive (**`name`** and **`Name`** are different).
+✔ Can contain letters, digits, underscores **`_`** & dollar signs **`$`**.
 
-> **📌 Not Allowed**
+✔ Must start with a letter, **`_`** or **`$`**
 
-- ❌ Cannot start with a number.
-- ❌ Cannot use reserved JavaScript keywords (like **`var`**, **`let`**, **_`function`_**).
+✔ Case-sensitive (**`name`** and **`Name`** are different).
+
+> **Not Allowed**
+
+❌ Cannot start with a number.
+
+❌ Cannot use reserved JavaScript keywords (like **`var`**, **`let`**, **_`function`_**).
 
 ## 📌 Dynamically Typed Language
 
@@ -457,13 +415,16 @@ Dynamic Typing means that variables in JavaScript do not have a fixed data type.
     console.log(value);    # Output: true
 ```
 
-- ✔ A single variable can change its type at runtime.
-- ✔ No need to specify data types when declaring variables.
+✔ A single variable can change its type at runtime.
+
+✔ No need to specify data types when declaring variables.
 
 ## 🔹 Key Features of Dynamic Typing
 
-- ✅ No need to declare a specific type (string, number, etc.).
-- ✅ The type of a variable can change at runtime.
-- ✅ Flexible but can lead to unexpected bugs if not handled properly.
+✅ No need to declare a specific type (string, number, etc.).
+
+✅ The type of a variable can change at runtime.
+
+✅ Flexible but can lead to unexpected bugs if not handled properly.
 
 **_Note :_** Dynamic typing makes JavaScript flexible but requires careful handling to prevent type-related errors!
