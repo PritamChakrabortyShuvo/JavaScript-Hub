@@ -573,3 +573,10 @@ These are **complex types** that hold collections of data. Variables assigned to
 | Function  | Non-Primitive | Reusable block of code           | `function() { return "Hi"; }`               |
 
 </div>
+
+### 📌 Key Differences
+
+- Primitive Data Types are immutable and directly store values.
+- Non-Primitive Data Types are mutable and store a reference to the value.
+
+**_Note_** : Primitive types are simpler and more efficient, while non-primitive types are more flexible for complex data structures.
