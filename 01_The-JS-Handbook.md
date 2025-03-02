@@ -671,7 +671,7 @@ Comments in JavaScript help us write explanations within the code. They are igno
 
 ### 01. Single-Line Comment (`//`)
 
-Used for short explanations or disabling a single line of code.
+Used for short explanations or disabling a single line of code. Anything after **`//`** is ignored by JavaScript.
 
 ```javascript
     // This is a single-line comment
