@@ -779,3 +779,16 @@ There are two types:
         console.log(d--);  // Output: 5 (returns old value, then decrements)
         console.log(d);    // Output: 4 (final value of d)
    ```
+
+<div align="center">
+
+#### Summary
+
+| Operator | Description    | Example             | Output (Initial `x = 5`)                 |
+| -------- | -------------- | ------------------- | ---------------------------------------- |
+| `++x`    | Pre-increment  | `console.log(++x);` | `6` (increments first)                   |
+| `x++`    | Post-increment | `console.log(x++);` | `5` (returns old value, then increments) |
+| `--x`    | Pre-decrement  | `console.log(--x);` | `4` (decrements first)                   |
+| `x--`    | Post-decrement | `console.log(x--);` | `5` (returns old value, then decrements) |
+
+</div>
