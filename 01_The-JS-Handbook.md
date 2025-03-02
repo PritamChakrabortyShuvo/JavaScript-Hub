@@ -702,3 +702,24 @@ Used for longer explanations or temporarily disabling multiple lines of code. Ev
 ## 📌 Operators in JavaScript
 
 Operators in JavaScript are symbols that perform operations on values and variables. They can be used for mathematical calculations, comparisons, logical operations & more.
+
+<div align="center">
+    <img src="Images/Operators.png" width=50%>
+</div>
+
+### 1. Arithmetic Operators
+
+Used for performing basic mathematical calculations.
+
+<div align="center">
+    
+| Operator | Description | Example | Output |
+|---|---|---|---|
+| `+` | Addition | `5 + 3` | `8` |
+| `-` | Subtraction | `10 - 4` | `6` |
+| `*` | Multiplication | `6 * 2` | `12` |
+| `/` | Division | `9 / 3` | `3` |
+| `%` | Modulus (Remainder) | `10 % 3` | `1` |
+| `**` | Exponentiation | `2 ** 3` | `8` |
+
+</div>
