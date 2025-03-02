@@ -735,3 +735,20 @@ Used for performing basic mathematical calculations.
     console.log(a % b); // Output: 1
     console.log(a ** b); // Output: 1000
 ```
+
+### 2. Increment & Decrement Operators
+
+Increment (**`++`**) & decrement (**`--`**) operators are unary operators that modify a variable's value by 1.
+
+#### Increment (`++`)
+
+It adds 1 to a variable.
+There are two types:
+
+1. **Pre-Increment** (**`++x`**)
+   Increases the value before returning it.
+   ```javascript
+        let a = 5;
+        console.log(++a);  // Output: 6 (a is incremented first)
+        console.log(a);    // Output: 6 (final value of a)
+   ```
