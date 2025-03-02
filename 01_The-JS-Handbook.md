@@ -772,3 +772,10 @@ There are two types:
         console.log(--c);  // Output: 4 (c is decremented first)
         console.log(c);    // Output: 4 (final value of c)
    ```
+2. **Post-Decrement (`x--`)**
+   Returns the current value before decreasing it.
+   ```javascript
+        let d = 5;
+        console.log(d--);  // Output: 5 (returns old value, then decrements)
+        console.log(d);    // Output: 4 (final value of d)
+   ```
