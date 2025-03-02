@@ -677,3 +677,14 @@ Used for short explanations or disabling a single line of code. Anything after *
     // This is a single-line comment
     let message = "Hello, World!"; // Another comment after code
 ```
+
+### 2. Multi-Line Comment (`/* ... */`)
+
+Used for longer explanations or temporarily disabling multiple lines of code. Everything inside **`/* ... */`** is ignored by JavaScript.
+
+```javascript
+    /* This is a multi-line comment.
+   It can span multiple lines.
+   Useful for detailed explanations. */
+    let x = 10;
+```
