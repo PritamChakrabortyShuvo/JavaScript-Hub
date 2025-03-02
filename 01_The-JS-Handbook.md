@@ -742,7 +742,7 @@ Increment (**`++`**) & decrement (**`--`**) operators are unary operators that m
 
 #### Increment (`++`)
 
-It adds 1 to a variable.
+It adds **`1`** to a variable.
 There are two types:
 
 1. **Pre-Increment (`++x`)**
@@ -758,4 +758,17 @@ There are two types:
         let b = 5;
         console.log(b++);  // Output: 5 (returns old value, then increments)
         console.log(b);    // Output: 6 (final value of b)
+   ```
+
+#### Decrement (`--`)
+
+It subtracts **`1`** from a variable.
+There are two types:
+
+1. **Pre-Decrement (`--x`)**
+   Decreases the value before returning it.
+   ```javascript
+        let c = 5;
+        console.log(--c);  // Output: 4 (c is decremented first)
+        console.log(c);    // Output: 4 (final value of c)
    ```
