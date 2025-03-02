@@ -668,3 +668,12 @@ In JavaScript, we can use the **`typeof`** operator to check the type of a varia
 ## 📌 Comments in JavaScript
 
 Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
+
+### 01. Single-Line Comment (`//`)
+
+Used for short explanations or disabling a single line of code.
+
+```javascript
+    // This is a single-line comment
+    let message = "Hello, World!"; // Another comment after code
+```
