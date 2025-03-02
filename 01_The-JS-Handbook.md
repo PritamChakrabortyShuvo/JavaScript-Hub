@@ -688,3 +688,13 @@ Used for longer explanations or temporarily disabling multiple lines of code. Ev
    Useful for detailed explanations. */
     let x = 10;
 ```
+
+### Best Practices for Comments
+
+✔ Keep them short & meaningful
+
+✔ Use comments to explain why, not what (code should be self-explanatory)
+
+✔ Avoid excessive comments that clutter code
+
+✔ Use TODO comments for future improvements
