@@ -664,3 +664,7 @@ In JavaScript, we can use the **`typeof`** operator to check the type of a varia
 ```
 
 **_Note_** : Despite being a primitive value representing "no value," **`typeof null`** returns **`"object"`**. This is a known JavaScript quirk.
+
+## 📌 Comments in JavaScript
+
+Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
