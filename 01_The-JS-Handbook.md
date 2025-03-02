@@ -723,3 +723,15 @@ Used for performing basic mathematical calculations.
 | `**` | Exponentiation | `2 ** 3` | `8` |
 
 </div>
+
+> **Arithmetic Operator Example**
+
+```javascript
+    let a = 10, b = 3;
+    console.log(a + b); // Output: 13
+    console.log(a - b); // Output: 7
+    console.log(a * b); // Output: 30
+    console.log(a / b); // Output: 3.33
+    console.log(a % b); // Output: 1
+    console.log(a ** b); // Output: 1000
+```
