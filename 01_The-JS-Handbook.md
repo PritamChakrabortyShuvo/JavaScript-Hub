@@ -698,3 +698,7 @@ Used for longer explanations or temporarily disabling multiple lines of code. Ev
 ✔ Avoid excessive comments that clutter code
 
 ✔ Use TODO comments for future improvements
+
+## 📌 Operators in JavaScript
+
+Operators in JavaScript are symbols that perform operations on values and variables. They can be used for mathematical calculations, comparisons, logical operations & more.
