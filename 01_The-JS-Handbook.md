@@ -367,7 +367,7 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
 
 <div align="center">
 
-| Keyword | Scope    | Redeclaration | Reassignment | Hoisting                    |
+| **Keyword** | Scope    | Redeclaration | Reassignment | Hoisting                    |
 | ------- | -------- | ------------- | ------------ | --------------------------- |
 | `var`   | Function | Yes           | Yes          | Hoisted with `undefined`    |
 | `let`   | Block    | No            | Yes          | Hoisted but not initialized |
