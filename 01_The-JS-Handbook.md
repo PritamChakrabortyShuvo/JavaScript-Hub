@@ -368,10 +368,10 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
 <div align="center">
 
 | **Keyword** | Scope    | Redeclaration | Reassignment | Hoisting                    |
-| ------- | -------- | ------------- | ------------ | --------------------------- |
-| `var`   | Function | Yes           | Yes          | Hoisted with `undefined`    |
-| `let`   | Block    | No            | Yes          | Hoisted but not initialized |
-| `const` | Block    | No            | No           | Hoisted but not initialized |
+| ----------- | -------- | ------------- | ------------ | --------------------------- |
+| `var`       | Function | Yes           | Yes          | Hoisted with `undefined`    |
+| `let`       | Block    | No            | Yes          | Hoisted but not initialized |
+| `const`     | Block    | No            | No           | Hoisted but not initialized |
 
 </div>
 
@@ -784,11 +784,11 @@ There are two types:
 
 #### Summary
 
-| **Operator** | Description    | Example             | Output (Initial `x = 5`)                 |
-| -------- | -------------- | ------------------- | ---------------------------------------- |
-| `++x`    | Pre-increment  | `console.log(++x);` | `6` (increments first)                   |
-| `x++`    | Post-increment | `console.log(x++);` | `5` (returns old value, then increments) |
-| `--x`    | Pre-decrement  | `console.log(--x);` | `4` (decrements first)                   |
-| `x--`    | Post-decrement | `console.log(x--);` | `5` (returns old value, then decrements) |
+| **Operator** | **Description** | Example             | Output (Initial `x = 5`)                 |
+| ------------ | --------------- | ------------------- | ---------------------------------------- |
+| `++x`        | Pre-increment   | `console.log(++x);` | `6` (increments first)                   |
+| `x++`        | Post-increment  | `console.log(x++);` | `5` (returns old value, then increments) |
+| `--x`        | Pre-decrement   | `console.log(--x);` | `4` (decrements first)                   |
+| `x--`        | Post-decrement  | `console.log(x--);` | `5` (returns old value, then decrements) |
 
 </div>
