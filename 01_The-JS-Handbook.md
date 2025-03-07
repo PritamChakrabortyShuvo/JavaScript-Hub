@@ -784,7 +784,7 @@ There are two types:
 
 #### Summary
 
-| **Operator** | **Description** | **Example**            | Output (Initial `x = 5`)                 |
+| **Operator** | **Description** | **Example**            | **Output (Initial `x = 5`)**                 |
 | ------------ | --------------- | ------------------- | ---------------------------------------- |
 | `++x`        | Pre-increment   | `console.log(++x);` | `6` (increments first)                   |
 | `x++`        | Post-increment  | `console.log(x++);` | `5` (returns old value, then increments) |
