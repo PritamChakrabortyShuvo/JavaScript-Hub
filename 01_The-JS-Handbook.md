@@ -883,3 +883,11 @@ Logical operators are used to combine multiple conditions & return **`true`** or
     console.log(false || false);  // false
     console.log(10 > 5 || 8 > 12); // true
 ```
+
+#### NOT (`!`) – Reverses the boolean value
+
+```javascript
+    console.log(!true);  // false
+    console.log(!false); // true
+    console.log(!(10 > 5)); // false
+```
