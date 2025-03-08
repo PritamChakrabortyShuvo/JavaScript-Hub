@@ -891,3 +891,5 @@ Logical operators are used to combine multiple conditions & return **`true`** or
     console.log(!false); // true
     console.log(!(10 > 5)); // false
 ```
+
+**_Note_:** Use **`&&`** for strict conditions, **`||`** for flexible conditions & **`!`** to negate a condition.
