@@ -867,3 +867,11 @@ Comparison operators are used to compare values. They return **`true`** or **`fa
 ### 5. Logical Operators
 
 Logical operators are used to combine multiple conditions & return **`true`** or **`false`** based on the logic.
+
+#### AND (`&&`) – Returns `true` only if both conditions are `true`
+
+```javascript
+    console.log(true && true);    // true
+    console.log(true && false);   // false
+    console.log(10 > 5 && 8 < 12); // true
+```
