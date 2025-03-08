@@ -861,3 +861,5 @@ Comparison operators are used to compare values. They return **`true`** or **`fa
     console.log(7 >= 7);       // true
     console.log(8 !== 8);      // false
 ```
+
+**_Note_ :** Always use strict equality (**`===`)** for better accuracy!
