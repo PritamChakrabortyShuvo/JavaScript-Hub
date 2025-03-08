@@ -817,3 +817,7 @@ These combine an arithmetic operation with assignment.
 | `**=` | `x **= 2;` | `x = x ** 2;` | Exponentiation and assigns |
 
 </div>
+
+### 4. Comparison Operators
+
+Comparison operators are used to compare values. They return **`true`** or **`false`** based on the condition.
