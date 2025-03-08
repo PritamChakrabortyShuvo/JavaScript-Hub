@@ -863,3 +863,7 @@ Comparison operators are used to compare values. They return **`true`** or **`fa
 ```
 
 **_Note_ :** Always use strict equality (**`===`)** for better accuracy!
+
+### 5. Logical Operators
+
+Logical operators are used to combine multiple conditions & return **`true`** or **`false`** based on the logic.
