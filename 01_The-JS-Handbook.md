@@ -875,3 +875,11 @@ Logical operators are used to combine multiple conditions & return **`true`** or
     console.log(true && false);   // false
     console.log(10 > 5 && 8 < 12); // true
 ```
+
+#### OR (`||`) – Returns `true` if at least one condition is `true`
+
+```javascript
+    console.log(true || false);   // true
+    console.log(false || false);  // false
+    console.log(10 > 5 || 8 > 12); // true
+```
