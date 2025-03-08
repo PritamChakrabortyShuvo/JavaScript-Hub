@@ -800,3 +800,20 @@ Assignment operators are used to assign values to variables. Basic Assignment op
 ```javascript
     let x = 10;  // x is assigned 10
 ```
+
+#### Compound Assignment Operators
+
+These combine an arithmetic operation with assignment.
+
+<div align="center">
+    
+| Operator | Example | Equivalent To | Description |
+|---|---|---|---|
+| `+=` | `x += 5;` | `x = x + 5;` | Adds and assigns |
+| `-=` | `x -= 3;` | `x = x - 3;` | Subtracts and assigns |
+| `*=` | `x *= 2;` | `x = x * 2;` | Multiplies and assigns |
+| `/=` | `x /= 4;` | `x = x / 4;` | Divides and assigns |
+| `%=` | `x %= 3;` | `x = x % 3;` | Modulus and assigns (remainder) |
+| `**=` | `x **= 2;` | `x = x ** 2;` | Exponentiation and assigns |
+
+</div>
