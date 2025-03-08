@@ -795,4 +795,8 @@ There are two types:
 
 ### 3. Assignment Operators
 
-Assignment operators are used to assign values to variables.
+Assignment operators are used to assign values to variables. Basic Assignment operator are **`=`**. **`=`** assigns a value to a variable.
+
+```javascript
+    let x = 10;  // x is assigned 10
+```
