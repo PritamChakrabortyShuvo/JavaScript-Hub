@@ -841,12 +841,12 @@ Comparison operators are used to compare values. They return **`true`** or **`fa
 
 <div align="center">
 
-| Operator | Meaning                  | Example    | Result  |
-| -------- | ------------------------ | ---------- | ------- |
-| `>`      | Greater than             | `10 > 5`   | `true`  |
-| `<`      | Less than                | `10 < 5`   | `false` |
-| `>=`     | Greater than or equal to | `10 >= 10` | `true`  |
-| `<=`     | Less than or equal to    | `5 <= 10`  | `true`  |
+| **Operator** | **Meaning**              | **Example** | **Result** |
+| ------------ | ------------------------ | ----------- | ---------- |
+| `>`          | Greater than             | `10 > 5`    | `true`     |
+| `<`          | Less than                | `10 < 5`    | `false`    |
+| `>=`         | Greater than or equal to | `10 >= 10`  | `true`     |
+| `<=`         | Less than or equal to    | `5 <= 10`   | `true`     |
 
 </div>
 
