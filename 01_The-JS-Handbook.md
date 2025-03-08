@@ -849,3 +849,15 @@ Comparison operators are used to compare values. They return **`true`** or **`fa
 | `<=`     | Less than or equal to    | `5 <= 10`  | `true`  |
 
 </div>
+
+#### Example
+
+```javascript
+    console.log(10 == "10");   // true (loose equality)
+    console.log(10 === "10");  // false (strict equality)
+
+    console.log(5 > 3);        // true
+    console.log(5 < 3);        // false
+    console.log(7 >= 7);       // true
+    console.log(8 !== 8);      // false
+```
