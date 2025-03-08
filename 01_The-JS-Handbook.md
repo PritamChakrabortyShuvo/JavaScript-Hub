@@ -784,7 +784,7 @@ There are two types:
 
 #### Summary
 
-| **Operator** | **Description** | **Example**            | **Output (Initial `x = 5`)**                 |
+| **Operator** | **Description** | **Example**         | **Output (Initial `x = 5`)**             |
 | ------------ | --------------- | ------------------- | ---------------------------------------- |
 | `++x`        | Pre-increment   | `console.log(++x);` | `6` (increments first)                   |
 | `x++`        | Post-increment  | `console.log(x++);` | `5` (returns old value, then increments) |
@@ -792,3 +792,7 @@ There are two types:
 | `x--`        | Post-decrement  | `console.log(x--);` | `5` (returns old value, then decrements) |
 
 </div>
+
+### 3. Assignment Operators
+
+Assignment operators are used to assign values to variables.
