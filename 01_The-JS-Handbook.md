@@ -978,3 +978,5 @@ Shorthand for **`if...else`**.
     let result = (age >= 18) ? "Adult" : "Minor";
     console.log(result); //Output: Adult
 ```
+
+**_Note :_** Use **`if...else `** for simple conditions, **`switch`** for multiple cases & ternary (**`? :`**) for short expressions.
