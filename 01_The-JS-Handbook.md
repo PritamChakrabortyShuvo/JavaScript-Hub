@@ -953,3 +953,18 @@ Checks multiple conditions in order
         console.log("Grade: C");
     }
 ```
+
+### 🔹 4. switch Statement
+
+Efficient when checking multiple values.
+
+```javascript
+    let day = 3;
+
+    switch (day) {
+        case 1: console.log("Monday"); break;
+        case 2: console.log("Tuesday"); break;
+        case 3: console.log("Wednesday"); break; //Output: Wednesday
+        default: console.log("Invalid day");
+}
+```
