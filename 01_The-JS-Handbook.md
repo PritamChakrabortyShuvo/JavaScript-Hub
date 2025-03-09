@@ -894,7 +894,7 @@ Logical operators are used to combine multiple conditions & return **`true`** or
 
 **_Note_:** Use **`&&`** for strict conditions, **`||`** for flexible conditions & **`!`** to negate a condition.
 
-## Conditional Statements in JavaScript
+## 📌 Conditional Statements in JavaScript
 
 Conditional statements are used to make decisions in the code based on conditions.
 
@@ -911,3 +911,15 @@ Conditional statements are used to make decisions in the code based on condition
 | Ternary `? :`         | A shorthand for `if...else`.                                   |
 
 </div>
+
+### 🔹 1. if Statement
+
+Executes only if the condition is **`true`**.
+
+```javascript
+    let age = 20;
+
+    if (age >= 18) {
+        console.log("You are an adult"); // Output: You are an adult
+    }
+```
