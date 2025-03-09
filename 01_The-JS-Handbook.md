@@ -893,3 +893,7 @@ Logical operators are used to combine multiple conditions & return **`true`** or
 ```
 
 **_Note_:** Use **`&&`** for strict conditions, **`||`** for flexible conditions & **`!`** to negate a condition.
+
+## Conditional Statements in JavaScript
+
+Conditional statements are used to make decisions in the code based on conditions.
