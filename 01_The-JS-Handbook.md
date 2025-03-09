@@ -954,7 +954,7 @@ Checks multiple conditions in order
     }
 ```
 
-### 🔹 4. switch Statement
+### 🔹 4. Switch Statement
 
 Efficient when checking multiple values.
 
@@ -967,4 +967,14 @@ Efficient when checking multiple values.
         case 3: console.log("Wednesday"); break; //Output: Wednesday
         default: console.log("Invalid day");
 }
+```
+
+### 🔹 5. Ternary Operator (? :)
+
+Shorthand for **`if...else`**.
+
+```javascript
+    let age = 18;
+    let result = (age >= 18) ? "Adult" : "Minor";
+    console.log(result); //Output: Adult
 ```
