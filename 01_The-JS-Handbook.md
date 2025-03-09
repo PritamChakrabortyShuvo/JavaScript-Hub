@@ -923,3 +923,17 @@ Executes only if the condition is **`true`**.
         console.log("You are an adult"); // Output: You are an adult
     }
 ```
+
+### 🔹 2. if...else Statement
+
+Executes different blocks for **`true`** or **`false`** conditions.
+
+```javascript
+    let age = 16;
+
+    if (age >= 18) {
+        console.log("You can vote");
+    } else {
+        console.log("You are too young to vote"); //Output: You are too young to vote
+    }
+```
