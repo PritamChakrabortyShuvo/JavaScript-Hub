@@ -897,3 +897,17 @@ Logical operators are used to combine multiple conditions & return **`true`** or
 ## Conditional Statements in JavaScript
 
 Conditional statements are used to make decisions in the code based on conditions.
+
+<div align="center">
+
+### Types of Conditional Statements
+
+| Statement             | Description                                                    |
+| --------------------- | -------------------------------------------------------------- |
+| `if`                  | Executes a block of code if a condition is `true`.             |
+| `if...else`           | Executes one block if condition is `true`, another if `false`. |
+| `if...else if...else` | Checks multiple conditions sequentially.                       |
+| `switch`              | Selects a block of code based on multiple cases.               |
+| Ternary `? :`         | A shorthand for `if...else`.                                   |
+
+</div>
