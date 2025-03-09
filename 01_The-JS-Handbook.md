@@ -937,3 +937,19 @@ Executes different blocks for **`true`** or **`false`** conditions.
         console.log("You are too young to vote"); //Output: You are too young to vote
     }
 ```
+
+### 🔹 3. if...else if...else Statement
+
+Checks multiple conditions in order
+
+```javascript
+    let score = 85;
+
+    if (score >= 90) {
+        console.log("Grade: A");
+    } else if (score >= 80) {
+        console.log("Grade: B"); //Output: Grade: B
+    } else {
+        console.log("Grade: C");
+    }
+```
