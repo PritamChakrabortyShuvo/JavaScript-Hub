@@ -987,10 +987,25 @@ Shorthand for **`if...else`**.
 
 **_Note :_** Use **`if...else `** for simple conditions, **`switch`** for multiple cases & ternary (**`? :`**) for short expressions.
 
-## MDN Docs
+## 📌 MDN Docs
 
 We can find the official MDN (Mozilla Developer Network) documentation for JavaScript here:
 
 🔗 [MDN JavaScript Overview](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
 MDN provides detailed explanations, examples & best practices for JavaScript concepts.
+
+## `prompt()` Function for User Input
+
+The `prompt()` function in JavaScript is used to display a dialog box that prompts the user for input. The dialog box contains a message & a text input field where the user can enter their response.
+
+### Example for Printing User Name
+
+```javascript
+    let userName = prompt("What is your name?");
+    if (userName !== null) {
+        console.log("Hello, " + userName);
+    } else {
+        console.log("User cancelled the prompt.");
+    }
+```
