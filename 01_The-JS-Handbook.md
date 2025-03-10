@@ -1009,3 +1009,20 @@ The `prompt()` function in JavaScript is used to display a dialog box that promp
         console.log("User cancelled the prompt.");
     }
 ```
+
+### Example of if a number is a multiple of 5
+
+```javascript
+    // Prompt the user to enter a number
+    let number = prompt("Enter a number to check if it's a multiple of 5:");
+
+    // Check if the user entered a number and if it's a multiple of 5
+
+    if (number % 5 === 0) {
+    alert("The number " + number + " is a multiple of 5.");
+    console.log("The number " + number + " is a multiple of 5.");
+    } else {
+    alert("The number " + number + " is not a multiple of 5.");
+    console.log("The number " + number + " is NOT a multiple of 5.");
+    }
+```
