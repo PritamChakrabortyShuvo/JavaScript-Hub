@@ -986,3 +986,11 @@ Shorthand for **`if...else`**.
 ```
 
 **_Note :_** Use **`if...else `** for simple conditions, **`switch`** for multiple cases & ternary (**`? :`**) for short expressions.
+
+## MDN Docs
+
+We can find the official MDN (Mozilla Developer Network) documentation for JavaScript here:
+
+🔗 [MDN JavaScript Overview](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+
+MDN provides detailed explanations, examples & best practices for JavaScript concepts.
