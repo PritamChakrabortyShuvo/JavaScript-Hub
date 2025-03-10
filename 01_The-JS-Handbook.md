@@ -973,6 +973,12 @@ Efficient when checking multiple values.
 
 Shorthand for **`if...else`**.
 
+#### Syntax
+
+```javascript
+    condition ? "Expression If True" : :"Expression If False"
+```
+
 ```javascript
     let age = 18;
     let result = (age >= 18) ? "Adult" : "Minor";
