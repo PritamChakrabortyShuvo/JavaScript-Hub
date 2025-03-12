@@ -1048,3 +1048,21 @@ The **`for`** loop is used when we know how many times we want to execute a bloc
 - **Initialization**: A variable is initialized.
 - **Condition**: The loop runs as long as this condition is true.
 - **Increment/Decrement**: The variable is updated after each iteration.
+
+> **Example**
+
+```javascript
+    for (let i = 1; i <= 5; i++) {
+    console.log("Iteration: " + i);
+}
+```
+
+> **Output**
+
+```output
+    Iteration: 1
+    Iteration: 2
+    Iteration: 3
+    Iteration: 4
+    Iteration: 5
+```
