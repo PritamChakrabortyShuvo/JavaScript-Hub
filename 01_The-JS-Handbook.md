@@ -1042,3 +1042,9 @@ The **`for`** loop is used when we know how many times we want to execute a bloc
     // Code to execute
 }
 ```
+
+#### Explanation:
+
+- **Initialization**: A variable is initialized.
+- **Condition**: The loop runs as long as this condition is true.
+- **Increment/Decrement**: The variable is updated after each iteration.
