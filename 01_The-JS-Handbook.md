@@ -111,7 +111,7 @@ HTML is the foundation of every website. It structures the webpage using element
 
 ### 🔹What is CSS?
 
-**CSS** styles HTML elements, making the webpage visually appealing. It controls layout, colors, fonts, spacing, animations & responsiveness.
+CSS styles HTML elements, making the webpage visually appealing. It controls layout, colors, fonts, spacing, animations & responsiveness.
 
 ### 🔹Key Features of CSS
 
@@ -1030,3 +1030,15 @@ The `prompt()` function in JavaScript is used to display a dialog box that promp
 ## 📌 Loops in Javascript
 
 Loops in JavaScript allow us to execute a block of code repeatedly based on a condition. They help automate repetitive tasks making our code efficient & reducing redundancy. JavaScript provides several types of loops, each serving different use cases. Let’s explore them in details
+
+### 1. `for` Loop
+
+The **`for`** loop is used when we know how many times we want to execute a block of code.
+
+> **Suntax**
+
+```javascript
+    for (initialization; condition; increment/decrement) {
+    // Code to execute
+}
+```
