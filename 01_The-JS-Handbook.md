@@ -1026,3 +1026,7 @@ The `prompt()` function in JavaScript is used to display a dialog box that promp
     console.log("The number " + number + " is NOT a multiple of 5.");
     }
 ```
+
+## 📌 Loops in Javascript
+
+Loops in JavaScript allow us to execute a block of code repeatedly based on a condition. They help automate repetitive tasks making our code efficient & reducing redundancy. JavaScript provides several types of loops, each serving different use cases. Let’s explore them in details
