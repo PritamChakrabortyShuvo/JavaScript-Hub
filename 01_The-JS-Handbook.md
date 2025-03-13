@@ -1141,6 +1141,14 @@ The **`do...while`** loop is similar to the while loop but guarantees that the b
 - When we need to execute the block at least once before checking the condition.
 - Useful when taking user input in forms.
 
-### 4. for...of Loop (Iterating Over Arrays & Strings)
+### 4. `for...of` Loop (Iterating Over Arrays & Strings)
 
 The **`for...of`** loop is used to iterate over iterable objects like arrays, strings, maps & sets.
+
+> **Syntax**
+
+```javascript
+    for (let value of iterable) {
+    // Code to execute
+    }
+```
