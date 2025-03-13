@@ -1200,3 +1200,12 @@ The **`for...in`** loop is used to iterate over the keys (properties) of an obje
     console.log("key =", key, " value =", student[key]);
     }
 ```
+
+> **Output**
+
+```output
+    key= name  value= Pritam
+    key= age  value= 25
+    key= cgpa  value= 3.5
+    key= isPass  value= true
+```
