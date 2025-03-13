@@ -1125,3 +1125,13 @@ The **`do...while`** loop is similar to the while loop but guarantees that the b
     } while (i <= 5);
 
 ```
+
+> **Output**
+
+```output
+    Iteration: 1
+    Iteration: 2
+    Iteration: 3
+    Iteration: 4
+    Iteration: 5
+```
