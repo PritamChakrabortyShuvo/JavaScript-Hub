@@ -1183,3 +1183,20 @@ The **`for...in`** loop is used to iterate over the keys (properties) of an obje
     // Code to execute
     }
 ```
+
+> **Example**
+
+```javascript
+    // for...in loop example
+
+    let student = {
+    name: "Pritam",
+    age: 25,
+    cgpa: 3.5,
+    isPass: true,
+    };
+
+    for (let key in student) {
+    console.log("key =", key, " value =", student[key]);
+    }
+```
