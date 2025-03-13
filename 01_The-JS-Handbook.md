@@ -1071,7 +1071,7 @@ The **`for`** loop is used when we know how many times we want to execute a bloc
 
 The **`while`** loop is used when we do not know how many times the loop should run beforehand. It executes the block as long as the condition is **`true`**.
 
-> **Suntax**
+> **Syntax**
 
 ```javascript
     while (condition) {
@@ -1107,7 +1107,7 @@ The **`while`** loop is used when we do not know how many times the loop should 
 
 The **`do...while`** loop is similar to the while loop but guarantees that the block of code will execute at least once, even if the condition is **`false`**.
 
-> **Suntax**
+> **Syntax**
 
 ```javascript
     do {
