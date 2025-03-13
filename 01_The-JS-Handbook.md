@@ -1070,3 +1070,23 @@ The **`for`** loop is used when we know how many times we want to execute a bloc
 ### 2.`while` Loop
 
 The **`while`** loop is used when we do not know how many times the loop should run beforehand. It executes the block as long as the condition is **`true`**.
+
+> **Suntax**
+
+```javascript
+    while (condition) {
+    // Code to execute
+
+}
+```
+
+> **Example**
+
+```javascript
+    let i = 1;
+    while (i <= 5) {
+        console.log("Iteration: " + i);
+        i++;  // Incrementing to avoid an infinite loop
+}
+
+```
