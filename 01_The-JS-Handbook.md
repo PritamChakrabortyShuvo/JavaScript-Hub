@@ -1135,3 +1135,8 @@ The **`do...while`** loop is similar to the while loop but guarantees that the b
     Iteration: 4
     Iteration: 5
 ```
+
+#### When to Use?
+
+- When we need to execute the block at least once before checking the condition.
+- Useful when taking user input in forms.
