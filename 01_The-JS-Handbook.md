@@ -1152,3 +1152,22 @@ The **`for...of`** loop is used to iterate over iterable objects like arrays, st
     // Code to execute
     }
 ```
+
+> **Example with a String:**
+
+```javascript
+    let word = "Hello";
+    for (let i of word) {
+        console.log("i",i);
+    }
+```
+
+> **Output**
+
+```output
+    i=H
+    i=e
+    i=l
+    i=l
+    i=o
+```
