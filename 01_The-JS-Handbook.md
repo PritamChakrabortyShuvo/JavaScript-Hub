@@ -1114,3 +1114,14 @@ The **`do...while`** loop is similar to the while loop but guarantees that the b
         // Code to execute
     } while (condition);
 ```
+
+> **Example**
+
+```javascript
+    let i = 1;
+    do {
+        console.log("Iteration: " + i);
+        i++;
+    } while (i <= 5);
+
+```
