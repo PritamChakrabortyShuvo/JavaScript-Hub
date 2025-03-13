@@ -1090,3 +1090,13 @@ The **`while`** loop is used when we do not know how many times the loop should 
 }
 
 ```
+
+> **Output**
+
+```output
+    Iteration: 1
+    Iteration: 2
+    Iteration: 3
+    Iteration: 4
+    Iteration: 5
+```
