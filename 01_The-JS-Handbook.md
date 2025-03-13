@@ -1106,3 +1106,11 @@ The **`while`** loop is used when we do not know how many times the loop should 
 ### 3. `do...while` Loop
 
 The **`do...while`** loop is similar to the while loop but guarantees that the block of code will execute at least once, even if the condition is **`false`**.
+
+> **Suntax**
+
+```javascript
+    do {
+        // Code to execute
+    } while (condition);
+```
