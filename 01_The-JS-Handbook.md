@@ -1175,3 +1175,11 @@ The **`for...of`** loop is used to iterate over iterable objects like arrays, st
 ### 5. `for...in` Loop (Iterating Over Object Properties)
 
 The **`for...in`** loop is used to iterate over the keys (properties) of an object.
+
+> **Syntax**
+
+```javascript
+    for (let key in object) {
+    // Code to execute
+    }
+```
