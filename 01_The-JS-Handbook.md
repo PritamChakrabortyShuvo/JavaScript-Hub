@@ -1100,3 +1100,5 @@ The **`while`** loop is used when we do not know how many times the loop should 
     Iteration: 4
     Iteration: 5
 ```
+
+**_Note :_** Be careful with **`while`** loops—if the condition never becomes **`false`** the loop will run indefinitely causing an infinite loop.
