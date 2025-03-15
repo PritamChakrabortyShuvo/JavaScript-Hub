@@ -57,7 +57,7 @@ Here's a simplified workflow of how a website works:
 
 ## 🖥 How a Browser Works with HTML, CSS & JavaScript?
 
-A browser processes a webpage by handling three core technologies:
+A browser processes a webpage by handling **three** core technologies:
 
 - **HTML** (**Structure**) → The browser parses HTML &and builds the DOM (Document Object Model) defining the webpage structure.
 - **CSS** (**Style**) → The browser processes CSS to create the CSSOM (CSS Object Model) applying styles to elements.
