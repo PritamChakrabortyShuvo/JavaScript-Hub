@@ -1209,3 +1209,11 @@ The **`for...in`** loop is used to iterate over the keys (properties) of an **ob
     key= cgpa  value= 3.5
     key= isPass  value= true
 ```
+
+## 📌 Strings in Javascript
+
+A string is a **sequence of characters** inside quotes:
+
+- Single quotes **`(')`** → **`'Hello'`**
+- Double quotes **`(")`** → **`"JavaScript"`**
+- Backticks **` (``) `** → **`Template String`** (used for dynamic values)
