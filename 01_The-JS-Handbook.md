@@ -1217,3 +1217,19 @@ A string is a **sequence of characters** inside quotes:
 - Single quotes **`(')`** → **`'Hello'`**
 - Double quotes **`(")`** → **`"JavaScript"`**
 - Backticks **` (``) `** → **`Template String`** (used for dynamic values)
+
+### Common String Operations
+
+<div align="center">
+
+| Method              | What It Does            | Example                                 |
+| ------------------- | ----------------------- | --------------------------------------- |
+| `length`            | Counts characters       | `"Hello".length` → `5`                  |
+| `toUpperCase()`     | Converts to uppercase   | `"hello".toUpperCase()` → `"HELLO"`     |
+| `toLowerCase()`     | Converts to lowercase   | `"HELLO".toLowerCase()` → `"hello"`     |
+| `charAt(index)`     | Gets character at index | `"Hello".charAt(1)` → `"e"`             |
+| `slice(start, end)` | Extracts part of string | `"Hello".slice(0, 4)` → `"Hell"`        |
+| `replace(old, new)` | Replaces text           | `"Hello".replace("H", "J")` → `"Jello"` |
+| `trim()`            | Removes spaces          | `" Hello ".trim()` → `"Hello"`          |
+
+</div>
