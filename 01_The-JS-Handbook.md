@@ -16,8 +16,8 @@
 ## JavaScript Features
 
 - **Untyped** : Variables don't require a specific data type providing **flexibility** in usage.
-- **Multi-Paradigm** : Supports **object-oriented**, functional & imperative programming styles.
-- **Functional** : Functions are first-class citizens, enabling higher-order functions & functional - programming techniques.
+- **Multi-Paradigm** : Supports **object-oriented**, **functional** & imperative programming styles.
+- **Functional** : **Functions** are first-class citizens, enabling higher-order functions & functional - programming techniques.
 - **Event-driven** : JavaScript reacts to user interactions like clicks, keypresses & other events in real time.
 - **Interpreted** : **JavaScript** is interpreted by the browser’s engine enabling immediate execution of the code in the client-side environment.
 
@@ -30,7 +30,7 @@
 
 ## 🌐 How a Website Works?
 
-A **website** is a **collection of web pages** stored on a server. When a user enters a **URL** the browser requests files from the server processes them & displays the webpage.
+A **website** is a **collection of web pages** stored on a **server**. When a user enters a **URL** the browser requests files from the server processes them & displays the webpage.
 
 Here's a simplified workflow of how a website works:
 
