@@ -1258,3 +1258,50 @@ We use a **backslash** (**`\`**) as the escape character.
 ### Template Literals in JavaScript
 
 Template literals are strings enclosed in backticks (**` `` `**) instead of single or double quotes. They allow embedded expressions and multi-line strings easily.
+
+> **Example 01 : Basic**
+
+**`${}`** is used to insert variables inside a string.
+
+```javascript
+    let name = "Pritam";
+    console.log(`Hello, ${name}!`); // Output: Hello, Pritam!
+```
+
+> **Example 02 : Multi-line Strings**
+
+Template literals support multi-line text without using **`\n`**
+
+```javascript
+    let message = `This is
+    a multi-line
+    string.`;
+    console.log(message);
+```
+
+> **Output**
+
+```output
+    This is
+    a multi-line
+    string.
+```
+
+> **Example 03 : Expressions Inside `${}`**
+
+We can include calculations, function calls, etc.:
+
+```javascript
+    let a = 10, b = 5;
+    console.log(`Sum: ${a + b}`); // Output: Sum: 15
+```
+
+> **Example 04 : Function Calls Inside `${}`**
+
+```javascript
+    function greet(name) {
+        return `Hello, ${name}!`;
+    }
+    console.log(`${greet("Pritam")}`); // Output: Hello, Pritam!
+
+```
