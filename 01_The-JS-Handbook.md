@@ -1254,3 +1254,7 @@ We use a **backslash** (**`\`**) as the escape character.
 | `\r`   | Carriage return | `"Hello\rWorld"`              | World                   |
 
 </div>
+
+### Template Literals in JavaScript
+
+Template literals are strings enclosed in backticks (**` `` `**) instead of single or double quotes. They allow embedded expressions and multi-line strings easily.
