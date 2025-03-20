@@ -1233,3 +1233,8 @@ A string is a **sequence of characters** inside quotes:
 | `trim()`            | Removes spaces          | `" Hello ".trim()` → `"Hello"`          |
 
 </div>
+
+### Escape Characters in JavaScript
+
+Escape characters allow us to add special characters inside a string that can’t be written directly.
+We use a **backslash** (**`\`**) as the escape character.
