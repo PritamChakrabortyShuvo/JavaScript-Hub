@@ -826,12 +826,12 @@ Comparison operators are used to compare values. They return **`true`** or **`fa
 
 <div align="center">
 
-| Operator | Meaning              | Example     | Result  |
-| -------- | -------------------- | ----------- | ------- |
-| `==`     | Equal to             | `5 == "5"`  | `true`  |
-| `!=`     | Not equal to         | `5 != "5"`  | `false` |
-| `===`    | Equal to & same type | `5 === "5"` | `false` |
-| `!==`    | Not equal to & type  | `5 !== "5"` | `true`  |
+| **Operator** | **Meaning**          | **Example** | **Result** |
+| ------------ | -------------------- | ----------- | ---------- |
+| `==`         | Equal to             | `5 == "5"`  | `true`     |
+| `!=`         | Not equal to         | `5 != "5"`  | `false`    |
+| `===`        | Equal to & same type | `5 === "5"` | `false`    |
+| `!==`        | Not equal to & type  | `5 !== "5"` | `true`     |
 
 </div>
 
