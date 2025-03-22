@@ -1305,3 +1305,11 @@ We can include calculations, function calls, etc.:
     console.log(`${greet("Pritam")}`); // Output: Hello, Pritam!
 
 ```
+
+## 📌 Arrays in Javascript
+
+An array is a special variable that holds multiple values in one single variable. Think of it as a list of items. Each item in the list has a specific position (called an index). We declare arrays using square brackets **`[]`**.
+
+```javascript
+    let fruits = ['Apple', 'Banana', 'Cherry'];
+```
