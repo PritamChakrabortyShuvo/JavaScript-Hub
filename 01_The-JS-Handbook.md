@@ -1369,7 +1369,7 @@ The **`for`** loop is one of the most common ways to loop through arrays in Java
 ```javascript
     for (let i = 0; i < array.length; i++) {
     // Code to execute for each element
-}
+    }
 ```
 
 - **`i`** is the index of the array.
@@ -1383,5 +1383,25 @@ The **`for`** loop is one of the most common ways to loop through arrays in Java
 
     for (let i = 0; i < fruits.length; i++) {
     console.log(fruits[i]); // Outputs each fruit: Apple, Banana, Cherry
+    }
+```
+
+- Starts with **` i = 0`**.
+
+- Checks if **`i < fruits.length`**.
+
+- Executes the code inside the loop using **`fruits[i]`**.
+
+- Increments **`i`** by 1 each time, until the condition is false.
+
+### Looping Through Arrays ~ the `for...of` Loop
+
+The **`for...of`** loop is a newer and simpler way to iterate over arrays in JavaScript. It directly accesses the value of each element instead of using the index.
+
+> **Syntax**
+
+```javascript
+    for (const element of array) {
+  // Code to execute for each element
     }
 ```
