@@ -1243,15 +1243,15 @@ We use a **backslash** (**`\`**) as the escape character.
 
 #### Common Escape Characters
 
-| Escape | Meaning         | Example                       | Output                  |
-| ------ | --------------- | ----------------------------- | ----------------------- |
-| `\'`   | Single quote    | `'It\'s JavaScript'`          | It's JavaScript         |
-| `\"`   | Double quote    | `"He said, \"Hello\""`        | He said, "Hello"        |
-| `\\`   | Backslash       | `"This is a backslash: \\\\"` | This is a backslash: \  |
-| `\n`   | New line        | `"Hello\nWorld"`              | Hello<br>World          |
-| `\t`   | Tab space       | `"Hello\tWorld"`              | Hello World             |
-| `\b`   | Backspace       | `"Hello\bWorld"`              | HellWorld               |
-| `\r`   | Carriage return | `"Hello\rWorld"`              | World                   |
+| **Escape** | **Meaning**     | **Example**                   | **Output**              |
+| ---------- | --------------- | ----------------------------- | ----------------------- |
+| `\'`       | Single quote    | `'It\'s JavaScript'`          | It's JavaScript         |
+| `\"`       | Double quote    | `"He said, \"Hello\""`        | He said, "Hello"        |
+| `\\`       | Backslash       | `"This is a backslash: \\\\"` | This is a backslash: \  |
+| `\n`       | New line        | `"Hello\nWorld"`              | Hello<br>World          |
+| `\t`       | Tab space       | `"Hello\tWorld"`              | Hello World             |
+| `\b`       | Backspace       | `"Hello\bWorld"`              | HellWorld               |
+| `\r`       | Carriage return | `"Hello\rWorld"`              | World                   |
 
 </div>
 
