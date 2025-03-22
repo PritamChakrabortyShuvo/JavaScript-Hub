@@ -1432,7 +1432,7 @@ Suppose we have an array name **`fruits = ['Apple','Banana','Cherry']`**
 
 #### JavaScript Array Methods
 
-| Method      | Description                                                 | Example                                                                       | Result                                             |
+| **Method**  | **Description**                                             | **Example**                                                                   | **Result**                                         |
 | ----------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------- |
 | `push()`    | Adds one or more items to the end of an array.              | `fruits.push('Mango');`                                                       | `['Apple', 'Banana', 'Cherry', 'Mango']`           |
 | `pop()`     | Removes the last item from an array.                        | `fruits.pop();`                                                               | `['Apple', 'Banana', 'Cherry']`                    |
