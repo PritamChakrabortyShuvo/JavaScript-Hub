@@ -1328,3 +1328,16 @@ Every item in an array has a position known as its **index**. Indices are used t
   - The **second element** is at **index 1**
 
   - The **third element** is at **index 2** & so on.
+
+<div align="center">
+    <img src="Images/Array.png" width=90%>
+</div>
+
+> **Example: Array with Indices**
+
+```javascript
+    let fruits = ['Apple', 'Banana', 'Cherry'];
+    console.log(fruits[0]); // Apple
+    console.log(fruits[1]); // Banana
+    console.log(fruits[2]); // Cherry
+```
