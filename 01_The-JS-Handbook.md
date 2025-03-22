@@ -1375,3 +1375,13 @@ The **`for`** loop is one of the most common ways to loop through arrays in Java
 - **`i`** is the index of the array.
 
 - **`array.length`** ensures the loop runs until the last element.
+
+> **Example**
+
+```javascript
+    let fruits = ['Apple', 'Banana', 'Cherry'];
+
+    for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]); // Outputs each fruit: Apple, Banana, Cherry
+    }
+```
