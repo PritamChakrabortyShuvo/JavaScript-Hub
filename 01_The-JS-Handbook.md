@@ -1425,3 +1425,23 @@ The **`for...of`** loop is a newer and simpler way to iterate over arrays in Jav
 ### Array Methods
 
 JavaScript provides several built-in methods for working with arrays. These methods allow us to add, remove, modify & access elements within an array.
+
+<div align="center">
+
+#### JavaScript Array Methods
+
+| Method      | Description                                                 | Example                                                                       | Result                                             |
+| ----------- | ----------------------------------------------------------- | ----------------------------------------------------------------------------- | -------------------------------------------------- |
+| `push()`    | Adds one or more items to the end of an array.              | `fruits.push('Mango');`                                                       | `['Apple', 'Banana', 'Cherry', 'Mango']`           |
+| `pop()`     | Removes the last item from an array.                        | `fruits.pop();`                                                               | `['Apple', 'Banana', 'Cherry']`                    |
+| `shift()`   | Removes the first item from an array.                       | `fruits.shift();`                                                             | `['Banana', 'Cherry']`                             |
+| `unshift()` | Adds one or more items to the beginning of an array.        | `fruits.unshift('Pineapple');`                                                | `['Pineapple', 'Apple', 'Banana', 'Cherry']`       |
+| `splice()`  | Adds or removes items from any position in the array.       | `fruits.splice(1, 1, 'Grapes');`                                              | `['Apple', 'Grapes', 'Cherry']`                    |
+| `concat()`  | Combines two or more arrays into one.                       | `let newFruits = fruits.concat(['Mango', 'Papaya']);`                         | `['Apple', 'Banana', 'Cherry', 'Mango', 'Papaya']` |
+| `slice()`   | Creates a shallow copy of a portion of the array.           | `let someFruits = fruits.slice(1, 3);`                                        | `['Banana', 'Cherry']`                             |
+| `forEach()` | Executes a function for each item in the array.             | `fruits.forEach(fruit => console.log(fruit));`                                | `Apple, Banana, Cherry (printed one by one)`       |
+| `map()`     | Creates a new array by applying a function to each element. | `let uppercaseFruits = fruits.map(fruit => fruit.toUpperCase());`             | `['APPLE', 'BANANA', 'CHERRY']`                    |
+| `filter()`  | Creates a new array with items that pass a condition.       | `let longFruits = fruits.filter(fruit => fruit.length > 5);`                  | `['Banana', 'Cherry']`                             |
+| `reduce()`  | Applies a function to reduce the array to a single value.   | `let totalLength = fruits.reduce((total, fruit) => total + fruit.length, 0);` | `16 (sum of lengths of all fruit names)`           |
+
+</div>
