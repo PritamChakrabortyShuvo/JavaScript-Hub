@@ -1405,3 +1405,19 @@ The **`for...of`** loop is a newer and simpler way to iterate over arrays in Jav
   // Code to execute for each element
     }
 ```
+
+- **`element`** is the actual value from the array not the index.
+
+> **Example**
+
+```javascript
+    let fruits = ['Apple', 'Banana', 'Cherry'];
+
+    for (const fruit of fruits) {
+    console.log(fruit); // Outputs each fruit: Apple, Banana, Cherry
+    }
+```
+
+- Iterates directly over the values in the array.
+
+- No need to manage the index manually.
