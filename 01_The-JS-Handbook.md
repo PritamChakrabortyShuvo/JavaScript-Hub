@@ -1341,3 +1341,21 @@ Every item in an array has a position known as its **index**. Indices are used t
     console.log(fruits[1]); // Banana
     console.log(fruits[2]); // Cherry
 ```
+
+### Accessing Array Elements
+
+We access elements using the index (which starts from 0).
+
+```javascript
+    let firstFruit = fruits[0]; // Apple
+    let secondFruit = fruits[1]; // Banana
+```
+
+### Modifying Array Elements
+
+We can change the value of an element by directly assigning a new value to the index.
+
+```javascript
+    let fruits = ['Apple', 'Banana', 'Cherry'];
+    fruits[1] = 'Orange'; // Now fruits = ['Apple', 'Orange', 'Cherry']
+```
