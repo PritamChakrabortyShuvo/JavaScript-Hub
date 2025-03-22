@@ -1308,8 +1308,23 @@ We can include calculations, function calls, etc.:
 
 ## 📌 Arrays in Javascript
 
-An array is a special variable that holds multiple values in one single variable. Think of it as a list of items. Each item in the list has a specific position (called an index). We declare arrays using square brackets **`[]`**.
+An array is a special variable that holds multiple values in one single variable. Think of it as a list of items. Each item in the list has a specific position called an index. We declare arrays using square brackets **`[]`**.
 
 ```javascript
     let fruits = ['Apple', 'Banana', 'Cherry'];
 ```
+
+Here, **`fruits`** is an array that contains 3 items.
+
+### Array Indices
+
+Every item in an array has a position known as its **index**. Indices are used to access and manipulate specific elements within the array.
+
+- **Indexing Starts at 0**:
+  In JavaScript, the index of an array starts from **0** not **1**. This means:
+
+  - The **first element** is at **index 0**
+
+  - The **second element** is at **index 1**
+
+  - The **third element** is at **index 2** & so on.
