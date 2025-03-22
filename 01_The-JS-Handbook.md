@@ -1359,3 +1359,19 @@ We can change the value of an element by directly assigning a new value to the i
     let fruits = ['Apple', 'Banana', 'Cherry'];
     fruits[1] = 'Orange'; // Now fruits = ['Apple', 'Orange', 'Cherry']
 ```
+
+### Looping Through Arrays ~ the `for` Loop
+
+The **`for`** loop is one of the most common ways to loop through arrays in JavaScript. It allows us to specify the starting point, condition & increment to control the iteration.
+
+> **Syntax**
+
+```javascript
+    for (let i = 0; i < array.length; i++) {
+    // Code to execute for each element
+}
+```
+
+- **`i`** is the index of the array.
+
+- **`array.length`** ensures the loop runs until the last element.
