@@ -1421,3 +1421,7 @@ The **`for...of`** loop is a newer and simpler way to iterate over arrays in Jav
 - Iterates directly over the values in the array.
 
 - No need to manage the index manually.
+
+### Array Methods
+
+JavaScript provides several built-in methods for working with arrays. These methods allow us to add, remove, modify & access elements within an array.
