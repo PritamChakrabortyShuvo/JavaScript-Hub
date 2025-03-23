@@ -1518,3 +1518,15 @@ A function can return a value using the **`return`** keyword.
 
     greet("Pritam"); // "Pritam" is the argument
 ```
+
+### 04. Default Parameters
+
+Functions can have default parameter values if no argument is passed for that parameter.
+
+> **Syntax**
+
+```javascript
+    function functionName(parameter1 = defaultValue) {
+        // Code
+    }
+```
