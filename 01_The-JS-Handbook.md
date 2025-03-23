@@ -1452,7 +1452,7 @@ Suppose we have an array name **`fruits = ['Apple','Banana','Cherry']`**
 
 A function is a block of code designed to perform a particular task. Functions are one of the fundamental building blocks in JavaScript enabling code reusability & modularity.
 
-### Step 01 : Defining a Function
+### 01. Defining a Function
 
 Functions are defined using the **`function`** keyword followed by a name parameters (optional) & a block of code enclosed in curly braces **`{}`**.
 
@@ -1476,4 +1476,16 @@ Functions are defined using the **`function`** keyword followed by a name parame
     }
 
     greet("Alice"); // Outputs: Hello, Alice!
+```
+
+### 02. Function with Return Value
+
+A function can return a value using the **`return`** keyword.
+
+> **Syntax**
+
+```javascript
+    function functionName(parameter1, parameter2) {
+        return value; // Returns a value
+    }
 ```
