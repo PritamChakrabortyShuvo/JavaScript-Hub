@@ -1448,7 +1448,7 @@ Suppose we have an array name **`fruits = ['Apple','Banana','Cherry']`**
 
 </div>
 
-## Function in Javascript
+## 📌 Function in Javascript
 
 A function is a block of code designed to perform a particular task. Functions are one of the fundamental building blocks in JavaScript enabling code reusability & modularity.
 
