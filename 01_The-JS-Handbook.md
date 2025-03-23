@@ -1530,3 +1530,16 @@ Functions can have default parameter values if no argument is passed for that pa
         // Code
     }
 ```
+
+> **Example**
+
+```javascript
+    function greet(name = "Guest") {
+        console.log("Hello, " + name + "!");
+    }
+
+    greet();      // Outputs: Hello, Guest!
+    greet("Pritam");  // Outputs: Hello, Pritam!
+```
+
+- If no value is passed the parameter **`name`** defaults to "**`Guest`**".
