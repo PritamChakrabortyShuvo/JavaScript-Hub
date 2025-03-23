@@ -1447,3 +1447,7 @@ Suppose we have an array name **`fruits = ['Apple','Banana','Cherry']`**
 | `reduce()`  | Applies a function to reduce the array to a single value.   | `let totalLength = fruits.reduce((total, fruit) => total + fruit.length, 0);` | `16 (sum of lengths of all fruit names)`           |
 
 </div>
+
+## Function in Javascript
+
+A function is a block of code designed to perform a particular task. Functions are one of the fundamental building blocks in JavaScript enabling code reusability & modularity.
