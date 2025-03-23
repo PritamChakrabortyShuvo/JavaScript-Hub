@@ -1475,7 +1475,7 @@ Functions are defined using the **`function`** keyword followed by a name parame
     console.log("Hello, " + name + "!");
     }
 
-    greet("Alice"); // Outputs: Hello, Alice!
+    greet("Pritam"); // Outputs: Hello, Pritam!
 ```
 
 ### 02. Function with Return Value
