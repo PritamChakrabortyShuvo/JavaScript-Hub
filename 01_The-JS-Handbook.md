@@ -1451,3 +1451,19 @@ Suppose we have an array name **`fruits = ['Apple','Banana','Cherry']`**
 ## Function in Javascript
 
 A function is a block of code designed to perform a particular task. Functions are one of the fundamental building blocks in JavaScript enabling code reusability & modularity.
+
+### Step 01 : Defining a Function
+
+Functions are defined using the **`function`** keyword followed by a name parameters (optional) & a block of code enclosed in curly braces **`{}`**.
+
+> **Syntax**
+
+```javascript
+    function functionName(parameter1, parameter2) {
+        // Code to be executed
+    }
+```
+
+- **`functionName`** is the name of the function.
+
+- **`parameter1`**, **`parameter2`** are optional parameters (arguments) passed into the function.
