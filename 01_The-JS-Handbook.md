@@ -1467,3 +1467,13 @@ Functions are defined using the **`function`** keyword followed by a name parame
 - **`functionName`** is the name of the function.
 
 - **`parameter1`**, **`parameter2`** are optional parameters (arguments) passed into the function.
+
+> **Example**
+
+```javascript
+    function greet(name) {
+    console.log("Hello, " + name + "!");
+    }
+
+    greet("Alice"); // Outputs: Hello, Alice!
+```
