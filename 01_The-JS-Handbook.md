@@ -1502,3 +1502,9 @@ A function can return a value using the **`return`** keyword.
 ```
 
 - The function **`add`** returns the sum of two numbers.
+
+### 03. Parameters and Arguments
+
+- Parameters are placeholders for the values passed to the function when it is called.
+
+- Arguments are the actual values passed to the function when it is called.
