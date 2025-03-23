@@ -1508,3 +1508,13 @@ A function can return a value using the **`return`** keyword.
 - Parameters are placeholders for the values passed to the function when it is called.
 
 - Arguments are the actual values passed to the function when it is called.
+
+> **Example**
+
+```javascript
+    function greet(name) {
+        console.log("Hello, " + name + "!");
+    }
+
+    greet("Pritam"); // "Pritam" is the argument
+```
