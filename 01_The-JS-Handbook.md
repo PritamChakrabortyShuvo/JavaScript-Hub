@@ -1489,3 +1489,16 @@ A function can return a value using the **`return`** keyword.
         return value; // Returns a value
     }
 ```
+
+> **Example**
+
+```javascript
+    function add(a, b) {
+        return a + b;
+    }
+
+    let result = add(3, 4);
+    console.log(result); // Outputs: 7
+```
+
+- The function **`add`** returns the sum of two numbers.
