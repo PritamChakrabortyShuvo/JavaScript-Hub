@@ -627,7 +627,7 @@ In JavaScript, we can print an object’s values using different methods dependi
 
 ### Check the Type of a Data Type in JavaScript
 
-In JavaScript, we can use the **`typeof`** operator to check the type of a variable or expression. This helps us determine whether a value is a string, number, object, etc.
+In JavaScript, we can use the **`typeof`** operator to **check the type of a variable** or expression. This helps us determine whether a value is a string, number, object, etc.
 
 #### Example 1: Checking Primitive Data Types
 
