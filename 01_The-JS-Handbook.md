@@ -1616,3 +1616,25 @@ Arrow functions are a more concise way to write functions in JavaScript. They ar
     Banana
     Mango
 ```
+
+### Callback Function
+
+A callback function is a function passed as an argument to another function. **`forEach()`** accepts a callback function and executes it for every array element.
+
+> **Example of Callback in `forEach()`**
+
+```javascript
+    function printItem(item) {
+        console.log(item);
+    }
+
+    let colors = ["Red", "Green", "Blue"];
+
+    colors.forEach(printItem);
+```
+
+```output
+    Red
+    Green
+    Blue
+```
