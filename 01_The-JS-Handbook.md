@@ -1560,5 +1560,7 @@ Arrow functions are a more concise way to write functions in JavaScript. They ar
 > **Example**
 
 ```javascript
+    const add = (a, b) => a + b;
 
+    console.log(add(3, 4)); // Outputs: 7
 ```
