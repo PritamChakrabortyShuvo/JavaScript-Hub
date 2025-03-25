@@ -1576,3 +1576,9 @@ Arrow functions are a more concise way to write functions in JavaScript. They ar
         // Code to execute for each element
     });
 ```
+
+- **element** → Current element
+
+- **index** → (Optional) Index of the current element
+
+- **array** → (Optional) The array itself
