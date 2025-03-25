@@ -1600,3 +1600,19 @@ Arrow functions are a more concise way to write functions in JavaScript. They ar
     1: Banana
     2: Mango
 ```
+
+### Arrow Function with `forEach()`
+
+> **Example**
+
+```javascript
+    fruits.forEach((fruit) => console.log(fruit));
+```
+
+> **Output**
+
+```output
+    Apple
+    Banana
+    Mango
+```
