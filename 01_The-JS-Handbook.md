@@ -1638,3 +1638,9 @@ A callback function is a function passed as an argument to another function. **`
     Green
     Blue
 ```
+
+- **`forEach()`** does not return anything (undefined).
+
+- You cannot break or continue inside **`forEach()`** like a normal loop.
+
+- Best used when performing actions like printing or updating data.
