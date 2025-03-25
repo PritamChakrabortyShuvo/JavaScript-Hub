@@ -1582,3 +1582,21 @@ Arrow functions are a more concise way to write functions in JavaScript. They ar
 - **index** → (Optional) Index of the current element
 
 - **array** → (Optional) The array itself
+
+> **Example**
+
+```javascript
+    let fruits = ["Apple", "Banana", "Mango"];
+
+    fruits.forEach(function(fruit, index) {
+    console.log(index + ": " + fruit);
+    });
+```
+
+> **Output**
+
+```output
+    0: Apple
+    1: Banana
+    2: Mango
+```
