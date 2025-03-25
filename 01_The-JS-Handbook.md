@@ -1543,3 +1543,22 @@ Functions can have default parameter values if no argument is passed for that pa
 ```
 
 - If no value is passed the parameter **`name`** defaults to "**`Guest`**".
+
+### 05. Arrow Function
+
+Arrow functions are a more concise way to write functions in JavaScript. They are particularly useful for shorter functions.
+
+> **Syntax**
+
+```javascript
+    const functionName = (parameter1, parameter2) => {
+        // Code to be executed
+    };
+
+```
+
+> **Example**
+
+```javascript
+
+```
