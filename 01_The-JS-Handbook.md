@@ -1564,3 +1564,15 @@ Arrow functions are a more concise way to write functions in JavaScript. They ar
 
     console.log(add(3, 4)); // Outputs: 7
 ```
+
+## 📌 `forEach()` Loop in Arrays
+
+**`forEach()`** is an array method used to loop through each element of an array. It runs a callback function once for every array element in order. **`forEach()`** does not return a new array. It just performs the operation.
+
+> **Syntax**
+
+```javascript
+    array.forEach(function(element, index, array) {
+        // Code to execute for each element
+    });
+```
