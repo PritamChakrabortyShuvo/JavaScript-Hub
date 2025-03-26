@@ -70,69 +70,6 @@ A browser processes a webpage by handling **three** core technologies:
 
 **_Example_**: When you click a button JavaScript modifies the HTML (DOM) & updates styles (CSSOM) dynamically.
 
-## 📌 HTML -HyperText Markup Language
-
-### 🔹What is HTML?
-
-HTML is the foundation of every website. It structures the webpage using elements like headings, paragraphs, links, images & forms.
-
-### 🔹Key Features of HTML
-
-- **Markup Language** → Uses tags to define elements.
-- **Static Content** → Only provides structure no interactivity.
-- **Hierarchy-Based** → Uses a tree-like structure (DOM).
-- **Semantic Elements** → Tags describe meaning.
-- **Compatible with CSS & JavaScript** → Works together to style & add functionality.
-
-### Basic Structure of an HTML Document
-
-```html
-    <!DOCTYPE html> <!-- Defines document type -->
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My First Webpage</title> <!-- Page title in the browser tab -->
-    </head>
-    <body>
-        <h1>Hello, World!</h1> <!-- Main heading -->
-        <p>This is a paragraph.</p> <!-- Paragraph text -->
-    </body>
-    </html>
-```
-
-> **Breakdown**
-
-- **`<html>`** → Root element of the webpage.
-- **`<head>`** → Contains metadata like title, character set & CSS links.
-- **`<body>`** → Contains visible content (text, images, buttons).
-
-## 🎨 CSS (Cascading Style Sheets) - Detailed Explanation
-
-### 🔹What is CSS?
-
-CSS styles HTML elements, making the webpage visually appealing. It controls layout, colors, fonts, spacing, animations & responsiveness.
-
-### 🔹Key Features of CSS
-
-- **Separation of Concerns** → HTML for structure CSS for style.
-- **Selectors & Rules** → Defines styles using selectors & rules.
-- **Box Model** → Controls spacing (margin, padding, border).
-- **Responsive Design** → Adjusts layout for different screen sizes.
-- **Animations & Effects** → Enhances user experience.
-
-### 🔹Ways to Add CSS
-
-<div align="center">
-
-| **Method**   | **Description**                                   |
-| ------------ | ------------------------------------------------- |
-| Inline CSS   | Inside an HTML tag using the `style` attribute.   |
-| Internal CSS | Inside a `<style>` tag within `<head>`.           |
-| External CSS | In a separate `.css` file, linked using `<link>`. |
-
-</div>
-
 ## 🖥️ Running JavaScript in a Browser
 
 In JavaScript, we can write and execute code inside an HTML file or in a separate JavaScript file.
@@ -232,7 +169,9 @@ A variable is a container used to store data that can be referenced and manipula
 
 JavaScript provides **Three Ways** to declare variables:
 
-1. **`var`** : Variable can be re-declared & updated. A global scope variable.
+#### 1. `var`
+
+Variable can be re-declared & updated. A global scope variable.
 
 > **Example 01**
 
@@ -246,7 +185,9 @@ JavaScript provides **Three Ways** to declare variables:
 
 **_Note_** : **`var`** allows redeclaration which can cause unexpected issues.
 
-2. **`let`** : Variable cannot be re-declared but can be updated. A block scope variable.
+#### 2. `let`
+
+Variable cannot be re-declared but can be updated. A block scope variable.
 
 > **Example 01**
 
@@ -277,7 +218,9 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
 - The variable **`message`** exists only inside the block **`{}`**
 - Trying to access **`message`** outside the block results in an error.
 
-1. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
+#### 3. `const`
+
+Variable cannot be re-declared or updated. A block scope variable.
 
 ```javascript
     const PI = 3.1416;
@@ -340,9 +283,9 @@ Dynamic Typing means that variables in JavaScript do not have a fixed data type.
     console.log(value);    # Output: true
 ```
 
-✔ A single variable can change its type at runtime.
+- A single variable can change its type at runtime.
 
-✔ No need to specify data types when declaring variables.
+- No need to specify data types when declaring variables.
 
 ## 🔹 Key Features of Dynamic Typing
 
