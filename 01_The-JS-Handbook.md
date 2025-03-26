@@ -1,4 +1,6 @@
- <!-- @format -->
+<!-- @format -->
+
+d <!-- @format -->
 
 # The JavaScript Handbook: A Beginner's Guide to Understanding JavaScript
 
@@ -418,6 +420,22 @@ These are the basic types that hold simple data and are immutable (cannot be cha
 ```javascript
     let id = Symbol('id');
 ```
+
+<div align="center">
+
+#### Primitive Data Type Summary
+
+| **Data Type** | **Description**                         | **Example**                        |
+| ------------- | --------------------------------------- | ---------------------------------- |
+| Number        | Numeric values                          | `10`, `3.14`                       |
+| String        | Sequence of characters                  | `'Hello'`, `"World"`               |
+| Boolean       | True or false                           | `true`, `false`                    |
+| Undefined     | Variable declared but no value assigned | `let a;` `// undefined`            |
+| Null          | Represents empty or unknown value       | `let a = null;`                    |
+| Symbol (ES6)  | Unique and immutable value              | `const sym = Symbol('id');`        |
+| BigInt (ES11) | Large integers beyond Number limit      | `let big = 12345678901234567890n;` |
+
+</div>
 
 ### 2. 🔹Non-Primitive (Reference) Data Types
 
