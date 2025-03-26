@@ -59,7 +59,7 @@ Here's a simplified workflow of how a website works:
 
 A browser processes a webpage by handling **three** core technologies:
 
-- **HTML** (**Structure**) → The browser parses HTML &and builds the DOM (Document Object Model) defining the webpage structure.
+- **HTML** (**Structure**) → The browser parses HTML & builds the DOM (Document Object Model) defining the webpage structure.
 - **CSS** (**Style**) → The browser processes CSS to create the CSSOM (CSS Object Model) applying styles to elements.
 - **JavaScript** (**Behavior**) → JavaScript manipulates the DOM & CSSOM making the webpage interactive and dynamic.
 - **Rendering Process** →
@@ -81,7 +81,7 @@ HTML is the foundation of every website. It structures the webpage using element
 - **Markup Language** → Uses tags to define elements.
 - **Static Content** → Only provides structure no interactivity.
 - **Hierarchy-Based** → Uses a tree-like structure (DOM).
-- **Semantic Elements** → Tags describe meaning (e.g., <header>, <article>).
+- **Semantic Elements** → Tags describe meaning.
 - **Compatible with CSS & JavaScript** → Works together to style & add functionality.
 
 ### Basic Structure of an HTML Document
@@ -133,80 +133,6 @@ CSS styles HTML elements, making the webpage visually appealing. It controls lay
 
 </div>
 
-### 🔹CSS Selectors
-
-CSS **Targets Elements** using **Selectors**.
-
-<div align="center">
-
-| **Selector**          | **Example**                     | **Description**                        |
-| --------------------- | ------------------------------- | -------------------------------------- |
-| Element               | `p { color: red; }`             | Styles all `<p>` elements              |
-| Class (.)             | `.button { background: blue; }` | Targets elements with class="button"   |
-| ID (#)                | `#header { font-size: 20px; }`  | Targets element with id="header"       |
-| Group (A, B)          | `h1, p { color: black; }`       | Styles multiple elements at once       |
-| Child (>)             | `div > p { color: green; }`     | Targets `<p>` inside a `<div>`         |
-| Descendant ()         | `div p { color: red; }`         | Styles `<p>` inside `div` at any level |
-| Pseudo-class (:hover) | `a:hover { color: red; }`       | Styles element on a specific state     |
-
-</div>
-
-## ✅ Summary
-
-### 📌HTML
-
-- Defines structure using elements like headings, paragraphs, lists, images.
-- Forms allow user input (e.g., login, contact forms).
-- Semantic HTML improves SEO & accessibility.
-
-### 📌CSS
-
-- Styles HTML by adding colors, spacing & layouts.
-- Selectors help target elements precisely.
-- Box Model controls spacing (margin, padding, border).
-- Flexbox & Grid help create modern layouts.
-- Media Queries make the website mobile-friendly.
-
-## 🛠Installation Process of VS Code
-
-### Step 1: Download VS Code
-
-- Visit [VS Code Official Website](https://code.visualstudio.com/)
-- Download the version for your OS (Windows, macOS, or Linux).
-
-### Step 2: Install VS Code
-
-- Open the downloaded file and follow the installation steps.
-- Select Add to PATH (Recommended).
-- Click Finish to complete the setup.
-
-### Step 3: Open VS Code
-
-- Launch VS Code and set up extensions if needed.
-
-## 🛠 Installation Process of JavaScript
-
-### Step 1: Download Node.js
-
-- Visit [Node.js Official Website](https://nodejs.org/en)
-- Download the **LTS Version** (Recommended).
-
-### Step 2: Install **Node.js**
-
-- Open the installer and follow the setup steps.
-- Check **Add** to **PATH** (so you can use Node.js from the terminal).
-
-### Step 3: Verify Installation
-
-- Open the terminal and run:
-
-```javascript
-    node -v  # Check Node.js version
-    npm -v   # Check npm (Node Package Manager) version
-```
-
-Now you can run **JavaScript** in **VS Code** using **Node.js**
-
 ## 🖥️ Running JavaScript in a Browser
 
 In JavaScript, we can write and execute code inside an HTML file or in a separate JavaScript file.
@@ -255,7 +181,7 @@ We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
 
 > **Example**
 
-**📄 index.html** (Linking External JS File)
+**index.html** (Linking External JS File)
 
 ```javascript
 
@@ -279,13 +205,13 @@ We can store JavaScript in a separate **`.js`** file & link it to the HTML file.
     console.log("Hello, World! from script.js");
 ```
 
-> **✅ Output**
+> **Output**
 
 Console Message: "**`Hello, World! from script.js`**"
 
 ### 🎯Conclusion
 
-- Use **Internal JavaScript** for \*small scripts\*\*.
+- Use **Internal JavaScript** for **small scripts**.
 - Use External JavaScript for clean, maintainable code.
 
 ## 📌Variables in JavaScript
@@ -294,13 +220,13 @@ A variable is a container used to store data that can be referenced and manipula
 
 ### 🔹Key Concepts
 
-**✅ Stores Data** : Holds values like numbers, text or objects.
+- **Stores Data** : Holds values like numbers, text or objects.
 
-**✅ Reusability** : Once stored the data can be used multiple times.
+- **Reusability** : Once stored the data can be used multiple times.
 
-**✅ Dynamic Typing** : JavaScript variables do not require a fixed type they can hold different types of values at different times.
+- **Dynamic Typing** : JavaScript variables do not require a fixed type they can hold different types of values at different times.
 
-**✅ Memory Allocation** : The browser automatically manages memory for variables.
+- **Memory Allocation** : The browser automatically manages memory for variables.
 
 ### 🔹Declaring Variables in JavaScript
 
@@ -308,7 +234,7 @@ JavaScript provides **Three Ways** to declare variables:
 
 1. **`var`** : Variable can be re-declared & updated. A global scope variable.
 
-#### Example 01 :
+> **Example 01**
 
 ```javascript
     var name = "Alice";
@@ -322,7 +248,7 @@ JavaScript provides **Three Ways** to declare variables:
 
 2. **`let`** : Variable cannot be re-declared but can be updated. A block scope variable.
 
-#### Example 01 :
+> **Example 01**
 
 ```javascript
     let age = 25;
@@ -338,7 +264,7 @@ JavaScript provides **Three Ways** to declare variables:
 
 The **`let`** keyword is **block-scoped**, meaning variables declared with **`let`** exist only **inside the block** **`{}`** where they are defined. **`let`** variables are block-scoped, meaning they exist only inside **`{}`**. Cannot be accessed outside the block where they are declared.
 
-#### Example 02 : `let` Inside a Block `{}`
+> **Example 02 : `let` Inside a Block `{}`**
 
 ```javascript
     {
@@ -348,9 +274,8 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
     console.log(message); // Error: message is not defined
 ```
 
-✔ The variable **`message`** exists only inside the block **`{}`**
-
-✔ Trying to access **`message`** outside the block results in an error.
+- The variable **`message`** exists only inside the block **`{}`**
+- Trying to access **`message`** outside the block results in an error.
 
 1. **`const`** : Variable cannot be re-declared or updated. A block scope variable.
 
@@ -363,9 +288,9 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
 
 **_Note_** : **`const`** is used for values that should not change.
 
-#### 📌 Summary Table
-
 <div align="center">
+
+### Summary Table
 
 | **Keyword** | Scope    | Redeclaration | Reassignment | Hoisting                    |
 | ----------- | -------- | ------------- | ------------ | --------------------------- |
@@ -375,13 +300,13 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
 
 </div>
 
-#### 📌 Best Practices
+### 📌 Best Practices
 
-✔ Use **`const`** by default unless the value needs to change.
+- Use **`const`** by default unless the value needs to change.
 
-✔ Use **`let`** when reassignment is needed.
+- Use **`let`** when reassignment is needed.
 
-✔ Avoid **`var`** to prevent scope-related issues.
+- Avoid **`var`** to prevent scope-related issues.
 
 **_Note_** : **`let`** & **`const`** help write **cleaner** and **safer** JavaScript code!
 
@@ -389,17 +314,17 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
 
 > **Allowed**
 
-✔ Can contain letters, digits, underscores **`_`** & dollar signs **`$`**.
+- Can contain letters, digits, underscores **`_`** & dollar signs **`$`**.
 
-✔ Must start with a letter, **`_`** or **`$`**
+- Must start with a letter, **`_`** or **`$`**
 
-✔ Case-sensitive (**`name`** and **`Name`** are different).
+- Case-sensitive (**`name`** and **`Name`** are different).
 
 > **Not Allowed**
 
-❌ Cannot start with a number.
+- Cannot start with a number.
 
-❌ Cannot use reserved JavaScript keywords (like **`var`**, **`let`**, **_`function`_**).
+- Cannot use reserved JavaScript keywords (like **`var`**, **`let`**, **_`function`_**).
 
 ## 📌 Dynamically Typed Language
 
