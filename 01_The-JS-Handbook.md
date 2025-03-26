@@ -272,10 +272,12 @@ Variable cannot be re-declared or updated. A block scope variable.
 | **Feature**      | **`var`**         | **`let`**            | **`const`**                 |
 | ---------------- | ----------------- | -------------------- | --------------------------- |
 | Scope            | Function scope    | Block scope          | Block scope                 |
-| Hoisting         | Yes ( undefined ) | Yes ( TDZ \* )       | Yes ( TDZ \* )              |
+| Hoisting         | Yes ( undefined ) | Yes (TDZ)            | Yes (TDZ)                   |
 | Re - declaration | Allowed           | Not allowed          | Not allowed                 |
 | Reassignment     | Allowed           | Allowed              | Not allowed                 |
 | Use              | Avoid using       | Use if value changes | Use if value stays constant |
+
+**TDZ :** Temporal Dead Zone (Accessing before declaration throws error)
 
 </div>
 
