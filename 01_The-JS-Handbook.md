@@ -165,29 +165,55 @@ A variable is a container used to store data that can be referenced and manipula
 
 - **Memory Allocation** : The browser automatically manages memory for variables.
 
-### 🔹Declaring Variables in JavaScript
+In JavaScript, variables are used to store data values. There are **Three Ways** to declare variables:
 
-JavaScript provides **Three Ways** to declare variables:
+- **`var`**
 
-#### 1. `var`
+- **`let`**
+
+- **`const`**
+
+Each has different rules for **scope**, **hoisting** & **reassigning values**.
+
+### 1. `var`
 
 Variable can be re-declared & updated. A global scope variable.
 
-> **Example 01**
+- **Scope :** Function-scoped. Limited to the function where it's declared
+
+- **Hoisting :** **`var`** is **Hoisted** (moved to the top of the function or global scope) but the value is undefined until it's assigned.
+
+- **Re-declaration :** Allowed in the same scope
+
+- **Reassignment :** Allowed
+
+- **Use Case :** Old way of declaring variables. **Not recommended in modern JavaScript**.
+
+> **Example**
 
 ```javascript
-    var name = "Alice";
-    console.log(name); // Output: Alice
+    var name = "Pritam";
+    console.log(name); // Output: Pritam
 
-    var name = "Bob"; // Allowed (var can be redeclared)
-    console.log(name); // Output: Bob
+    var name = "Shuvo"; // Allowed (var can be redeclared)
+    console.log(name); // Output: Shuvo
 ```
 
 **_Note_** : **`var`** allows redeclaration which can cause unexpected issues.
 
-#### 2. `let`
+### 2. `let`
 
-Variable cannot be re-declared but can be updated. A block scope variable.
+Variable cannot be re-declared but can be updated.
+
+- **Scope :** Block-scoped (limited to **`{ }`** block where it's declared)
+
+- **Hoisting :** Hoisted but not initialized (ReferenceError if accessed before declaration)
+
+- **Re-declaration :** Not allowed in the same scope
+
+- **Reassignment :** Allowed
+
+- **Use Case :** Use **`let`** when you expect the variable value to change
 
 > **Example 01**
 
@@ -203,8 +229,6 @@ Variable cannot be re-declared but can be updated. A block scope variable.
 
 **_Note_**: **`let`** prevents redeclaration but allows reassignment.
 
-The **`let`** keyword is **block-scoped**, meaning variables declared with **`let`** exist only **inside the block** **`{}`** where they are defined. **`let`** variables are block-scoped, meaning they exist only inside **`{}`**. Cannot be accessed outside the block where they are declared.
-
 > **Example 02 : `let` Inside a Block `{}`**
 
 ```javascript
@@ -218,7 +242,7 @@ The **`let`** keyword is **block-scoped**, meaning variables declared with **`le
 - The variable **`message`** exists only inside the block **`{}`**
 - Trying to access **`message`** outside the block results in an error.
 
-#### 3. `const`
+### 3. `const`
 
 Variable cannot be re-declared or updated. A block scope variable.
 
