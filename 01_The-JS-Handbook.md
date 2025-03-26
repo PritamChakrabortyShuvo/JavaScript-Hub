@@ -421,6 +421,22 @@ These are the basic types that hold simple data and are immutable (cannot be cha
     let id = Symbol('id');
 ```
 
+#### `null` and `undefined`
+
+Both **`null`** and **`undefined`** represent the absence of a value but they are different in usage and behavior.
+
+1. **`undefined`**
+
+   - **Meaning:** A variable is declared but no value is assigned.
+   - **Type:** **`undefined`**
+   - **Default Value:** Variables declared but not initialized are undefined.
+   - Who sets it? JavaScript automatically assigns **`undefined`**.
+
+2. **`null`**
+   - **Meaning:** Represents "no value" or "empty value". It is intentionally assigned by the programmer.
+   - **Type:** **`object`** (This is a JavaScript bug that exists for historical reasons)
+   - Who sets it? Programmer manually assigns **`null`**.
+
 <div align="center">
 
 #### Primitive Data Type Summary
