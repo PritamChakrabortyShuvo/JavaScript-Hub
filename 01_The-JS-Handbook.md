@@ -246,6 +246,16 @@ Variable cannot be re-declared but can be updated.
 
 Variable cannot be re-declared or updated. A block scope variable.
 
+- **Scope :** Block-scoped (like **`let`**)
+
+- **Hoisting :** Hoisted but not initialized
+
+- **Re-declaration :** Not allowed in the same scope
+
+- **Reassignment :** Not allowed (constant value)
+
+- **Use Case :** Use **`const`** when the value should not change
+
 ```javascript
     const PI = 3.1416;
     console.log(PI); // Output: 3.1416
@@ -253,21 +263,23 @@ Variable cannot be re-declared or updated. A block scope variable.
     // PI = 3.14; Error: Cannot reassign a 'const' variable
 ```
 
-**_Note_** : **`const`** is used for values that should not change.
+**_Note_** : **`const`** prevents reassignment but doesn't make objects or arrays immutable
 
 <div align="center">
 
 ### Summary Table
 
-| **Keyword** | Scope    | Redeclaration | Reassignment | Hoisting                    |
-| ----------- | -------- | ------------- | ------------ | --------------------------- |
-| `var`       | Function | Yes           | Yes          | Hoisted with `undefined`    |
-| `let`       | Block    | No            | Yes          | Hoisted but not initialized |
-| `const`     | Block    | No            | No           | Hoisted but not initialized |
+| **Feature**      | **`var`**         | **`let`**            | **`const`**                 |
+| ---------------- | ----------------- | -------------------- | --------------------------- |
+| Scope            | Function scope    | Block scope          | Block scope                 |
+| Hoisting         | Yes ( undefined ) | Yes ( TDZ \* )       | Yes ( TDZ \* )              |
+| Re - declaration | Allowed           | Not allowed          | Not allowed                 |
+| Reassignment     | Allowed           | Allowed              | Not allowed                 |
+| Use              | Avoid using       | Use if value changes | Use if value stays constant |
 
 </div>
 
-### 📌 Best Practices
+### Best Practice
 
 - Use **`const`** by default unless the value needs to change.
 
