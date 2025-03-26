@@ -617,6 +617,51 @@ In JavaScript, we can use the **`typeof`** operator to **check the type of a var
 
 **_Note_** : Despite being a primitive value representing "no value," **`typeof null`** returns **`"object"`**. This is a known JavaScript quirk.
 
+### Stack and Heap in JavaScript
+
+JavaScript uses **two memory areas** to store data during program execution:
+
+1. Stack
+2. Heap
+
+Both are important for understanding how memory works in JavaScript.
+
+#### Stack (Call Stack / Execution Stack)
+
+- **Definition:** Stack is a simple, fast memory structure used to store primitive data types and function calls.
+
+- **Data Stored:**
+
+  - Primitive data (Number, String, Boolean, Null, Undefined, Symbol, BigInt)
+  - Function calls
+
+- **Structure:** Last In, First Out (LIFO)
+
+- **Speed:** Very fast
+
+- **Data Access :** Copied by value
+
+- **Automatic Memory Management:** Values are removed from the stack once the function execution is done.
+
+#### Heap (Memory Heap)
+
+- **Definition:** Heap is a large, slower memory area used to store non-primitive (reference) data types.
+- **Data Stored:**
+
+  - Objects
+
+  - Arrays
+
+  - Functions
+
+- **Structure:** Random memory allocation
+
+- **Speed:** Slower than Stack
+
+- **Data Access :** Copied by reference
+
+- **Manual / Garbage Collected:** JavaScript’s garbage collector frees up memory when it's no longer used.
+
 ## 📌 Comments in JavaScript
 
 Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
