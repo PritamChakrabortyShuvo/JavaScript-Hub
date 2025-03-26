@@ -482,6 +482,18 @@ These are **complex types** that hold collections of data. Variables assigned to
     }
 ```
 
+<div align="center">
+
+#### Non-Primitive Data Type Summary
+
+| **Data Type** | **Description**                  | **Example**                 |
+| ------------- | -------------------------------- | --------------------------- |
+| Object        | Collection of key-value pairs    | `{ name: "John", age: 30 }` |
+| Array         | Ordered collection of values     | `[ 1, 2, 3, 4 ]`            |
+| Function      | Block of code that can be called | `function greet() { }`      |
+
+</div>
+
 ### Print Object Values in JavaScript
 
 In JavaScript, we can print an object’s values using different methods depending on the format we need.
