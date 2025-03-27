@@ -702,6 +702,8 @@ When using mathematical operations (**`-`**, **`*`**, **`/`**), strings convert 
 - Falsy values (**`""`**, **`0`**, **`null`**, **`undefined`**, **`NaN`**) convert to false.
 - All other values convert to true.
 
+> **Example**
+
 ```javascript
     console.log(Boolean("")); // false
     console.log(Boolean(0)); // false
@@ -712,6 +714,22 @@ When using mathematical operations (**`-`**, **`*`**, **`/`**), strings convert 
 ### 03 Explicit Conversion (Type Casting)
 
 Developers can manually convert data types using JavaScript methods.
+
+#### 01. Convert to Number
+
+Use **`Number()`**, **`parseInt()`** or **`parseFloat()`**.
+
+> **Example**
+
+```javascript
+    console.log(Number("123")); // 123
+    console.log(Number("123abc")); // NaN (Not a valid number)
+    console.log(parseInt("123abc")); // 123 (Extracts only the number part)
+    console.log(parseFloat("3.14")); // 3.14
+    console.log(Number(true)); // 1
+    console.log(Number(false)); // 0
+
+```
 
 ## 📌 Comments in JavaScript
 
