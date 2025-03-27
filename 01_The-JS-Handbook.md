@@ -697,6 +697,18 @@ When using mathematical operations (**`-`**, **`*`**, **`/`**), strings convert 
     console.log("5" - "Hello"); // NaN (Cannot convert "Hello" to Number)
 ```
 
+#### 03 Boolean Conversion
+
+- Falsy values (**`""`**, **`0`**, **`null`**, **`undefined`**, **`NaN`**) convert to false.
+- All other values convert to true.
+
+```javascript
+    console.log(Boolean("")); // false
+    console.log(Boolean(0)); // false
+    console.log(Boolean(1)); // true
+    console.log(Boolean("Hello")); // true
+```
+
 ## 📌 Comments in JavaScript
 
 Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
