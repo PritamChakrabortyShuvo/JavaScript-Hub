@@ -868,6 +868,16 @@ console.log(Number.isNaN("hello" * 2)); // true
 
 ### Number Methods
 
+#### Convert to Number
+
+Use **`Number()`**, **`parseInt()`**, or **`parseFloat()`**.
+
+```javascript
+console.log(Number("123")); // 123
+console.log(parseInt("50px")); // 50
+console.log(parseFloat("3.14abc")); // 3.14
+```
+
 ## 📌 Operators in JavaScript
 
 Operators in JavaScript are symbols that perform operations on values and variables. They can be used for mathematical calculations, comparisons, logical operations & more.
