@@ -684,6 +684,19 @@ When adding a number to a string, JavaScript converts the number into a string.
     console.log("Hello" + true); // "Hellotrue" (Boolean converted to String)
 ```
 
+#### 02 Number Conversion
+
+When using mathematical operations (**`-`**, **`*`**, **`/`**), strings convert to numbers if possible.
+
+> **Example**
+
+```javascript
+    console.log("10" - 2); // 8  (String "10" converted to Number)
+    console.log("5" * "3"); // 15 (Both strings converted to Numbers)
+    console.log("10" / "2"); // 5  (Both converted to Numbers)
+    console.log("5" - "Hello"); // NaN (Cannot convert "Hello" to Number)
+```
+
 ## 📌 Comments in JavaScript
 
 Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
