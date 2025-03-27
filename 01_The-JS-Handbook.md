@@ -675,7 +675,7 @@ JavaScript automatically converts data types in some operations.
 
 #### 01 String Conversion
 
-When adding a number to a string, JavaScript converts the number into a string.
+When adding a **number to a string** JavaScript **converts** the **number into a string**.
 
 > **Example**
 
@@ -686,7 +686,7 @@ When adding a number to a string, JavaScript converts the number into a string.
 
 #### 02 Number Conversion
 
-When using mathematical operations (**`-`**, **`*`**, **`/`**), strings convert to numbers if possible.
+When using mathematical operations (**`-`**, **`*`**, **`/`**) strings convert to numbers if possible.
 
 > **Example**
 
