@@ -743,6 +743,20 @@ Use **`String()`** or **`.toString()`**.
     console.log((100).toString()); // "100"
 ```
 
+#### 03. Convert to Boolean
+
+Use **`Boolean()`**.
+
+> **Example**
+
+```javascript
+    console.log(Boolean(0)); // false
+    console.log(Boolean(1)); // true
+    console.log(Boolean("")); // false
+    console.log(Boolean("Hello")); // true
+
+```
+
 ## 📌 Comments in JavaScript
 
 Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
