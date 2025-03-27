@@ -807,10 +807,41 @@ JavaScript has a single number type for both integers and floating-point numbers
     let floatNum = 3.14;  // Floating-point number
     console.log(typeof intNum); // "number"
     console.log(typeof floatNum); // "number"
-
 ```
 
 - JavaScript does NOT have separate types for integers and floats.
+
+<div align="center">
+
+### Special Numbers
+
+| Data Type | Description                      | Example                     |
+| --------- | -------------------------------- | --------------------------- |
+| Object    | Collection of key-value pairs    | `{ name: "John", age: 30 }` |
+| Array     | Ordered collection of values     | `[ 1, 2, 3, 4 ]`            |
+| Function  | Block of code that can be called | `function greet() { }`      |
+
+</div>
+
+### Important Number Features
+
+### Precision Issues (Floating-Point Arithmetic)
+
+JavaScript uses floating-point arithmetic which may cause precision errors.
+
+> **Example**
+
+```javascript
+console.log(0.1 + 0.2); // 0.30000000000000004 (Not exactly 0.3!)
+console.log(0.3 - 0.1); // 0.19999999999999998
+```
+
+Fix it using **`.toFixed(n)`** or **`Number.EPSILON`**:
+
+```javascript
+console.log((0.1 + 0.2).toFixed(2)); // "0.30"
+console.log(Math.round((0.1 + 0.2) * 100) / 100); // 0.3
+```
 
 ## 📌 Operators in JavaScript
 
