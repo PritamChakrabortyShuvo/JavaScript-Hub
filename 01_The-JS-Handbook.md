@@ -664,6 +664,26 @@ Both are important for understanding how memory works in JavaScript.
 
 ## 📌 Datatype Conversion in JavaScript
 
+Datatype conversion in JavaScript can sometimes be confusing because JavaScript automatically converts values in different situations. JavaScript performs two types of datatype conversions:
+
+1. **Implicit Conversion** (Type Coercion) – Done automatically by JavaScript
+2. **Explicit Conversion** (Type Casting) – Done manually by developers
+
+### Implicit Conversion (Type Coercion)
+
+JavaScript automatically converts data types in some operations.
+
+#### 01 String Conversion
+
+When adding a number to a string, JavaScript converts the number into a string.
+
+> **Example**
+
+```javascript
+    console.log("5" + 2); // "52" (Number converted to String)
+    console.log("Hello" + true); // "Hellotrue" (Boolean converted to String)
+```
+
 ## 📌 Comments in JavaScript
 
 Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
