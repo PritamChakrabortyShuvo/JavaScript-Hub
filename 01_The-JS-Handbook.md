@@ -825,7 +825,7 @@ JavaScript has a single number type for both integers and floating-point numbers
 
 ### Important Number Features
 
-### Precision Issues (Floating-Point Arithmetic)
+#### Precision Issues (Floating-Point Arithmetic)
 
 JavaScript uses floating-point arithmetic which may cause precision errors.
 
@@ -842,6 +842,31 @@ Fix it using **`.toFixed(n)`** or **`Number.EPSILON`**:
 console.log((0.1 + 0.2).toFixed(2)); // "0.30"
 console.log(Math.round((0.1 + 0.2) * 100) / 100); // 0.3
 ```
+
+#### Large Numbers (`BigInt`)
+
+For very large integers, use **`BigInt`**.
+
+```javascript
+let bigNum = 9007199254740991n; // Add "n" at the end
+console.log(bigNum + 1n); // 9007199254740992n
+console.log(typeof bigNum); // "bigint"
+```
+
+- BigInt does not support decimal numbers.
+
+#### Checking if a Value is a Number
+
+Use **`Number.isFinite()`** and **`Number.isNaN()`**.
+
+```javascript
+console.log(Number.isFinite(100)); // true
+console.log(Number.isFinite(Infinity)); // false
+console.log(Number.isNaN(NaN)); // true
+console.log(Number.isNaN("hello" * 2)); // true
+```
+
+### Number Methods
 
 ## 📌 Operators in JavaScript
 
