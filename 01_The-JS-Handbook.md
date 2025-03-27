@@ -880,12 +880,16 @@ console.log(parseFloat("3.14abc")); // 3.14
 
 #### Fix Decimal Places
 
+Use **`.toFixed(n)`**.
+
 ```javascript
 let num = 3.14159;
 console.log(num.toFixed(2)); // "3.14" (String)
 ```
 
 #### Convert to Exponential Form
+
+Use **`.toExponential()`**.
 
 ```javascript
 let bigNum = 123456;
@@ -901,8 +905,6 @@ Use **`.toString()`** or **`String()`**.
 console.log((100).toString()); // "100"
 console.log(String(123)); // "123"
 ```
-
-Use **`.toFixed(n)`**.
 
 ## 📌 Operators in JavaScript
 
