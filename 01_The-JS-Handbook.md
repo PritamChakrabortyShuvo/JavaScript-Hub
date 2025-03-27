@@ -709,6 +709,10 @@ When using mathematical operations (**`-`**, **`*`**, **`/`**), strings convert 
     console.log(Boolean("Hello")); // true
 ```
 
+### 03 Explicit Conversion (Type Casting)
+
+Developers can manually convert data types using JavaScript methods.
+
 ## 📌 Comments in JavaScript
 
 Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
