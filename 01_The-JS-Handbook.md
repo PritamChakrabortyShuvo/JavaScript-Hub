@@ -662,6 +662,8 @@ Both are important for understanding how memory works in JavaScript.
 
 - **Manual / Garbage Collected:** JavaScript’s garbage collector frees up memory when it's no longer used.
 
+## 📌 Datatype Conversion in JavaScript
+
 ## 📌 Comments in JavaScript
 
 Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
