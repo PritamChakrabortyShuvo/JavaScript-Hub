@@ -878,6 +878,32 @@ console.log(parseInt("50px")); // 50
 console.log(parseFloat("3.14abc")); // 3.14
 ```
 
+#### Fix Decimal Places
+
+```javascript
+let num = 3.14159;
+console.log(num.toFixed(2)); // "3.14" (String)
+```
+
+#### Convert to Exponential Form
+
+```javascript
+let bigNum = 123456;
+console.log(bigNum.toExponential(2)); // "1.23e+5"
+
+```
+
+#### Convert to String
+
+Use **`.toString()`** or **`String()`**.
+
+```javascript
+console.log((100).toString()); // "100"
+console.log(String(123)); // "123"
+```
+
+Use **`.toFixed(n)`**.
+
 ## 📌 Operators in JavaScript
 
 Operators in JavaScript are symbols that perform operations on values and variables. They can be used for mathematical calculations, comparisons, logical operations & more.
