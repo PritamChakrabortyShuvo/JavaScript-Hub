@@ -731,6 +731,18 @@ Use **`Number()`**, **`parseInt()`** or **`parseFloat()`**.
 
 ```
 
+#### 02. Convert to String
+
+Use **`String()`** or **`.toString()`**.
+
+> **Example**
+
+```javascript
+    console.log(String(123)); // "123"
+    console.log(String(true)); // "true"
+    console.log((100).toString()); // "100"
+```
+
 ## 📌 Comments in JavaScript
 
 Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
