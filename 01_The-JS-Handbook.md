@@ -791,13 +791,26 @@ Used for longer explanations or temporarily disabling multiple lines of code. Ev
 
 ### Best Practices for Comments
 
-✔ Keep them short & meaningful
+- Keep them short & meaningful
+- Use comments to explain why, not what (code should be self-explanatory)
+- Avoid excessive comments that clutter code
+- Use TODO comments for future improvements
 
-✔ Use comments to explain why, not what (code should be self-explanatory)
+## 📌 Numbers in JavaScript
 
-✔ Avoid excessive comments that clutter code
+JavaScript has a single number type for both integers and floating-point numbers. Stored in 64-bit floating-point format (IEEE 754 standard).
 
-✔ Use TODO comments for future improvements
+### Integer and Floating-Point Numbers
+
+```javascript
+    let intNum = 10;      // Integer
+    let floatNum = 3.14;  // Floating-point number
+    console.log(typeof intNum); // "number"
+    console.log(typeof floatNum); // "number"
+
+```
+
+- JavaScript does NOT have separate types for integers and floats.
 
 ## 📌 Operators in JavaScript
 
