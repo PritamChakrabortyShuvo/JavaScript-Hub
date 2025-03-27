@@ -757,6 +757,14 @@ Use **`Boolean()`**.
 
 ```
 
+### Best Practice
+
+- Avoid relying on implicit conversions in complex operations.
+
+- Always use explicit conversion when dealing with user inputs or mixed data types.
+
+- Use **`Number()`**, **`String()`** & **`Boolean()`** for clarity.
+
 ## 📌 Comments in JavaScript
 
 Comments in JavaScript help us write explanations within the code. They are ignored by the JavaScript engine & do not affect execution.
