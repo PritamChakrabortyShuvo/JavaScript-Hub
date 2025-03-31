@@ -555,7 +555,7 @@ In JavaScript, we can print an object’s values using different methods dependi
 
 ## Summary Table
 
-| Data Type | Category      | Description                      | Examples                                    |
+| **Data Type** | Category      | Description                      | Examples                                    |
 | --------- | ------------- | -------------------------------- | ------------------------------------------- |
 | Number    | Primitive     | Numeric values (Integer & Float) | `10`, `3.14`, `-5`                          |
 | String    | Primitive     | Text data                        | `"Hello"`, `'World'`                        |
