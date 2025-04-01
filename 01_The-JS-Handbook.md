@@ -183,7 +183,7 @@ Variable can be re-declared & updated. A global scope variable.
 
 - **Scope :** Function-scoped. Limited to the function where it's declared
 
-- **Hoisting :** **`var`** is **Hoisted** (moved to the top of the function or global scope) but the value is undefined until it's assigned.
+- **Hoisting :** **`var`** is **Hoisted** (moved to the top of the function or global scope) but the value is **undefined** until it's assigned.
 
 - **Re-declaration :** Allowed in the same scope
 
