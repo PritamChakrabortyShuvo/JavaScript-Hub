@@ -556,17 +556,17 @@ In JavaScript, we can print an object’s values using different methods dependi
 ## Summary Table
 
 | **Data Type** | Category      | Description                      | Examples                                    |
-| --------- | ------------- | -------------------------------- | ------------------------------------------- |
-| Number    | Primitive     | Numeric values (Integer & Float) | `10`, `3.14`, `-5`                          |
-| String    | Primitive     | Text data                        | `"Hello"`, `'World'`                        |
-| Boolean   | Primitive     | True or false                    | `true`, `false`                             |
-| Undefined | Primitive     | Variable not assigned a value    | `let x;`                                    |
-| Null      | Primitive     | Intentional absence of value     | `null`                                      |
-| Symbol    | Primitive     | Unique identifier                | `Symbol('id')`                              |
-| BigInt    | Primitive     | Large integer                    | `1234567890123456789012345678901234567890n` |
-| Object    | Non-Primitive | Collection of key-value pairs    | `{ name: "Alice", age: 25 }`                |
-| Array     | Non-Primitive | Ordered list of values           | `[1, 2, 3]`, `["Apple", "Banana"]`          |
-| Function  | Non-Primitive | Reusable block of code           | `function() { return "Hi"; }`               |
+| ------------- | ------------- | -------------------------------- | ------------------------------------------- |
+| Number        | Primitive     | Numeric values (Integer & Float) | `10`, `3.14`, `-5`                          |
+| String        | Primitive     | Text data                        | `"Hello"`, `'World'`                        |
+| Boolean       | Primitive     | True or false                    | `true`, `false`                             |
+| Undefined     | Primitive     | Variable not assigned a value    | `let x;`                                    |
+| Null          | Primitive     | Intentional absence of value     | `null`                                      |
+| Symbol        | Primitive     | Unique identifier                | `Symbol('id')`                              |
+| BigInt        | Primitive     | Large integer                    | `1234567890123456789012345678901234567890n` |
+| Object        | Non-Primitive | Collection of key-value pairs    | `{ name: "Alice", age: 25 }`                |
+| Array         | Non-Primitive | Ordered list of values           | `[1, 2, 3]`, `["Apple", "Banana"]`          |
+| Function      | Non-Primitive | Reusable block of code           | `function() { return "Hi"; }`               |
 
 </div>
 
@@ -905,6 +905,10 @@ Use **`.toString()`** or **`String()`**.
 console.log((100).toString()); // "100"
 console.log(String(123)); // "123"
 ```
+
+## 📌 Maths in JavaScript
+
+The Math object provides built-in methods for mathematical operations.
 
 ## 📌 Operators in JavaScript
 
