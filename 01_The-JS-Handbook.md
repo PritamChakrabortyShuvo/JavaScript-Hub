@@ -1988,3 +1988,9 @@ An Object is a collection of key-value pairs. Objects help store and organize da
     console.log(car["car model"]); // Output: Toyota
     console.log(car["year-made"]); // Output: 2020
     ```
+
+3.  Using Variables as Keys
+    ```javascript
+        let keyName = "name";
+        console.log(person[keyName]); // Output: Pritam
+    ```
