@@ -1933,8 +1933,32 @@ An Object is a collection of key-value pairs. Objects help store and organize da
 
 ```javascript
     let person = {
-        name: "Alice",   // Key: "name", Value: "Alice"
+        name: "Pritam",   // Key: "name", Value: "Pritam"
         age: 25,         // Key: "age", Value: 25
         isStudent: true  // Key: "isStudent", Value: true
+    };
+```
+
+### Keys and Values in Objects
+
+- Keys are always strings (even if you use numbers, they get converted to strings).
+
+- Values can be any data type (string, number, boolean, array, function, object, etc.).
+
+> **Example with Different Data Types**
+
+```javascript
+    let id = Symbol("id"); // Creating a Symbol
+    let product = {
+        id: 101,                  // Number as value
+        name: "Laptop",           // String as value
+        price: 899.99,            // Decimal number as value
+        inStock: true,            // Boolean as value
+        tags: ["Electronics", "Tech"],  // Array as value
+        [id]: 101 // Symbol as a key
+        details: {                // Object as value (nested object)
+            brand: "XYZ",
+            warranty: "1 year"
+        }
     };
 ```
