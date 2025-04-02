@@ -1918,3 +1918,23 @@ A callback function is a function passed as an argument to another function. **`
 - You cannot break or continue inside **`forEach()`** like a normal loop.
 
 - Best used when performing actions like printing or updating data.
+
+## 📌 Objects in JavaScript
+
+An Object is a collection of key-value pairs. Objects help store and organize data efficiently.
+
+- An object is a complex data type that stores multiple values as properties.
+
+- It consists of keys (property names) and values (property values).
+
+- Objects in JavaScript are stored in the heap and are mutable (modifiable).
+
+> **Example of an Object**
+
+```javascript
+    let person = {
+        name: "Alice",   // Key: "name", Value: "Alice"
+        age: 25,         // Key: "age", Value: 25
+        isStudent: true  // Key: "isStudent", Value: true
+    };
+```
