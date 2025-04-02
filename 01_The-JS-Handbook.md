@@ -908,7 +908,26 @@ console.log(String(123)); // "123"
 
 ## 📌 Maths in JavaScript
 
-The Math object provides built-in methods for mathematical operations.
+The **`Math`** object provides built-in methods for mathematical operations.
+
+<div align="center">
+
+### JavaScript Math Object Methods
+
+| Method                   | Description                                                                                                      |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------- |
+| `Math.abs(x)`            | Returns the absolute value of x.                                                                                 |
+| `Math.round(x)`          | Rounds x to the nearest integer.                                                                                 |
+| `Math.floor(x)`          | Rounds x down to the nearest integer.                                                                            |
+| `Math.ceil(x)`           | Rounds x up to the nearest integer.                                                                              |
+| `Math.trunc(x)`          | Removes the decimal part of x.                                                                                   |
+| `Math.sqrt(x)`           | Returns the square root of x.                                                                                    |
+| `Math.pow(x, y)`         | Returns x raised to the power of y (x<sup>y</sup>).                                                              |
+| `Math.max(x, y, z, ...)` | Returns the largest of zero or more numbers.                                                                     |
+| `Math.min(x, y, z, ...)` | Returns the smallest of zero or more numbers.                                                                    |
+| `Math.random()`          | Returns a floating-point, pseudo-random number in the range 0 (inclusive) up to but not including 1 (exclusive). |
+
+</div>
 
 ## 📌 Operators in JavaScript
 
