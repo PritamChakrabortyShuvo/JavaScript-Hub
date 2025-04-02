@@ -1962,3 +1962,29 @@ An Object is a collection of key-value pairs. Objects help store and organize da
         }
     };
 ```
+
+### Ways to Access Object Properties
+
+1.  **Dot Notation** (**`object.key`**)
+
+    - The simplest way to access a property.
+    - Only works if the key is a valid identifier (no spaces, special characters).
+
+    ```javascript
+          console.log(person.name); // Output: Alice
+          console.log(product.price); // Output: 899.99
+    ```
+
+2.  **Bracket Notation** (**`object["key"]`**)
+
+    - Used when the key has spaces, special characters, or variables as keys.
+
+    ```javascript
+        let car = {
+        "car model": "Toyota",
+        "year-made": 2020
+    };
+
+    console.log(car["car model"]); // Output: Toyota
+    console.log(car["year-made"]); // Output: 2020
+    ```
