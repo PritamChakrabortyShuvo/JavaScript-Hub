@@ -374,7 +374,7 @@ These are the basic types that hold simple data and are immutable (cannot be cha
   > **Example**
 
 ```javascript
-    let name = "Alice";
+    let name = "Pritam";
     let greeting = 'Hello, world!';
 ```
 
