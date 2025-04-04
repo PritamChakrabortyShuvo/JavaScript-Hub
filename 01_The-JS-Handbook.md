@@ -153,7 +153,7 @@ Console Message: "**`Hello, World! from script.js`**"
 - Use **Internal JavaScript** for **small scripts**.
 - Use External JavaScript for clean, maintainable code.
 
-## 📌Variables in JavaScript
+## 📌 Variables in JavaScript
 
 A variable is a container used to store data that can be referenced and manipulated in a program.
 
