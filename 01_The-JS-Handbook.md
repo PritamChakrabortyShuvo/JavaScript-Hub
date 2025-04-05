@@ -265,7 +265,7 @@ Variable cannot be re-declared or updated. A block scope variable.
     // PI = 3.14; Error: Cannot reassign a 'const' variable
 ```
 
-**_Note_** : **`const`** prevents reassignment but doesn't make objects or arrays immutable
+**_Note_** : **`const`** prevents reassignment but **doesn't make objects** or arrays immutable
 
 <div align="center">
 
