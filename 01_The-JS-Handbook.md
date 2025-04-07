@@ -1790,9 +1790,9 @@ Arrow functions are a more concise way to write functions in JavaScript. They ar
 > **Example**
 
 ```javascript
-    const add = (a, b) => a + b;
+const add = (a, b) => a + b;
 
-    console.log(add(3, 4)); // Outputs: 7
+console.log(add(3, 4)); // Outputs: 7
 ```
 
 ### Why Are JavaScript Functions Special?
@@ -1802,11 +1802,10 @@ JavaScript functions are special because they are First-Class Citizens — meani
 1. Functions Can Be Assigned to Variables
 
 ```javascript
-    const greet = function() {
-        console.log("Hello!");
-    };
-    greet();  // Output: Hello!
-
+const greet = function() {
+    console.log("Hello!");
+};
+greet();  // Output: Hello!
 ```
 
 - Functions behave like data, so you can store them in variables.
@@ -1823,7 +1822,6 @@ JavaScript functions are special because they are First-Class Citizens — meani
     }
 
     execute(sayHello);  // Output: Hello!
-
 ```
 
 - Functions can be passed into other functions — this is how callbacks work.
