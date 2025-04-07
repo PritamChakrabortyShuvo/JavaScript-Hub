@@ -179,6 +179,10 @@ In JavaScript, scope determines where a variable can be accessed. There are two 
 - Variables declared with **`let`** and **`const`** inside **`{}`** are only available in that block.ss in JavaScript
 - **`var`** ignores block scope, so it's function-scoped.
 
+### Global vs Local Scope Conflict
+
+If a local variable has the same name as a global variable, the local one takes priority inside the function.
+
 ## 📌 Variables in JavaScript
 
 A variable is a container used to store data that can be referenced and manipulated in a program.
