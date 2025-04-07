@@ -2021,3 +2021,63 @@ delete person.city;
 console.log(person);
 // The "city" property is removed from the object.
 ```
+
+### Checking If a Property Exists
+
+```javascript
+console.log("age" in person); // Output: true
+console.log("city" in person); // Output: false (since we deleted it)
+```
+
+### Object Methods (`Object.keys()`, `Object.values()`, `Object.entries()`)
+
+1. **Getting All Keys**
+   ```javascript
+   console.log(Object.keys(person));
+   // Output: ["name", "age", "isStudent"]
+   ```
+2. **Getting All Values**
+   ```javascript
+   console.log(Object.values(person));
+   // Output: ["Pritam", 26, true]
+   ```
+3. **Getting Both Keys & Values**
+   ```javascript
+   console.log(Object.entries(person));
+   /* Output:
+   [
+   ["name", "Pritam"],
+   ["age", 26],
+   ["isStudent", true]
+   ]
+   /*
+   ```
+
+### Object Destructuring
+
+A short way to extract values from an object.
+
+```javascript
+let { name, age } = person;
+console.log(name); // Output: Pritam
+console.log(age);  // Output: 26
+```
+
+<div align="center">
+
+### Summary Table: Object Operations
+
+| Operation           | Method                    |
+| ------------------- | ------------------------- |
+| Create an object    | `{ key: value }`          |
+| Access property     | `obj.key` OR `obj["key"]` |
+| Modify property     | `obj.key = newValue`      |
+| Add new property    | `obj.newKey = value`      |
+| Delete property     | `delete obj.key`          |
+| Check existence     | `"key" in obj`            |
+| Loop through keys   | `for...in` loop           |
+| Get all keys        | `Object.keys(obj)`        |
+| Get all values      | `Object.values(obj)`      |
+| Get key-value pairs | `Object.entries(obj)`     |
+
+</div>
