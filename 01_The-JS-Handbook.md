@@ -19,7 +19,7 @@ d <!-- @format -->
 
 - **Untyped** : Variables don't require a specific data type providing **flexibility** in usage.
 - **Multi-Paradigm** : Supports **object-oriented**, **functional** & imperative programming styles.
-- **Functional** : **Functions** are **1st Class Citizens**, enabling higher-order functions & functional - programming techniques.
+- **Functional** : **Functions** are first-class citizens, enabling higher-order functions & functional - programming techniques.
 - **Event-driven** : JavaScript reacts to user interactions like clicks, keypresses & other events in real time.
 - **Interpreted** : **JavaScript** is interpreted by the browser’s engine enabling immediate execution of the code in the client-side environment.
 
@@ -153,7 +153,7 @@ Console Message: "**`Hello, World! from script.js`**"
 - Use **Internal JavaScript** for **small scripts**.
 - Use External JavaScript for clean, maintainable code.
 
-## 📌 Variables in JavaScript
+## 📌Variables in JavaScript
 
 A variable is a container used to store data that can be referenced and manipulated in a program.
 
@@ -265,7 +265,7 @@ Variable cannot be re-declared or updated. A block scope variable.
     // PI = 3.14; Error: Cannot reassign a 'const' variable
 ```
 
-**_Note_** : **`const`** prevents reassignment but **doesn't make objects** or arrays immutable
+**_Note_** : **`const`** prevents reassignment but doesn't make objects or arrays immutable
 
 <div align="center">
 
@@ -339,7 +339,7 @@ Dynamic Typing means that variables in JavaScript do not have a fixed data type.
 
 ## 📌 Data Types in JavaScript
 
-JavaScript has **Two main categories** of data types:
+JavaScript has Two main categories of data types:
 
 1. **Primitive Data Types**
 2. **Non-Primitive (Reference) Data Types**
@@ -374,7 +374,7 @@ These are the basic types that hold simple data and are immutable (cannot be cha
   > **Example**
 
 ```javascript
-    let name = "Pritam";
+    let name = "Alice";
     let greeting = 'Hello, world!';
 ```
 
@@ -1994,3 +1994,30 @@ An Object is a collection of key-value pairs. Objects help store and organize da
         let keyName = "name";
         console.log(person[keyName]); // Output: Pritam
     ```
+
+### Modifying Object Properties
+
+We can update existing values or add new properties dynamically.
+
+```javascript
+person.age = 26;   // Updating a value
+person.city = "New York";  // Adding a new key-value pair
+
+console.log(person);
+/*
+{
+  name: "Pritam",
+  age: 26,
+  isStudent: true,
+  city: "New York"
+}
+*/
+```
+
+### Deleting Object Properties
+
+```javascript
+delete person.city;
+console.log(person);
+// The "city" property is removed from the object.
+```
