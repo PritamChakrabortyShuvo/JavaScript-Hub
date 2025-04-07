@@ -153,21 +153,31 @@ Console Message: "**`Hello, World! from script.js`**"
 - Use **Internal JavaScript** for **small scripts**.
 - Use External JavaScript for clean, maintainable code.
 
-## 📌 Global Scope & Local Scope in JavaScript
+## 📌 Global Scope, Local Scope & Block Scope in Javascript
 
 In JavaScript, scope determines where a variable can be accessed. There are two main types
 
 ### 01. Global Scope
 
 - A variable declared outside any function or block.
-
 - It can be accessed anywhere in the script.
-
 - Stays in memory as long as the program runs.
-
 - Too many global variables can lead to conflicts in large programs.
-
 - Always try to limit global variables to avoid accidental overwrites.
+
+### 02. Local Scope
+
+- A variable declared inside a function or block {}.
+- It can only be accessed within that function or block.
+- Types of Local Scope:
+
+  1. Function Scope (applies to var)
+  2. Block Scope (applies to let & const)
+
+### 03 Block Scope
+
+- Variables declared with **`let`** and **`const`** inside **`{}`** are only available in that block.ss in JavaScript
+- **`var`** ignores block scope, so it's function-scoped.
 
 ## 📌 Variables in JavaScript
 
@@ -176,19 +186,14 @@ A variable is a container used to store data that can be referenced and manipula
 ### 🔹Key Concepts
 
 - **Stores Data** : Holds values like numbers, text or objects.
-
 - **Reusability** : Once stored the data can be used multiple times.
-
 - **Dynamic Typing** : JavaScript variables do not require a fixed type they can hold different types of values at different times.
-
 - **Memory Allocation** : The browser automatically manages memory for variables.
 
 In JavaScript, variables are used to store data values. There are **Three Ways** to declare variables:
 
 - **`var`**
-
 - **`let`**
-
 - **`const`**
 
 Each has different rules for **scope**, **hoisting** & **reassigning values**.
