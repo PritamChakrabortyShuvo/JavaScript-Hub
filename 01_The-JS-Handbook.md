@@ -1784,7 +1784,6 @@ Arrow functions are a more concise way to write functions in JavaScript. They ar
     const functionName = (parameter1, parameter2) => {
         // Code to be executed
     };
-
 ```
 
 > **Example**
@@ -1793,6 +1792,20 @@ Arrow functions are a more concise way to write functions in JavaScript. They ar
 const add = (a, b) => a + b;
 
 console.log(add(3, 4)); // Outputs: 7
+```
+
+### 06. Rest Operator (`...`) in Functions
+
+The rest operator (**`...`**) in JavaScript allows a function to accept multiple arguments and group them into an array.
+
+> **Syntax**
+
+```javascript
+function myFunction(...args) {
+console.log(args); // args is an array
+}
+
+myFunction(1, 2, 3, 4, 5); // Output : [1, 2, 3, 4, 5]
 ```
 
 ### Why Are JavaScript Functions Special?
