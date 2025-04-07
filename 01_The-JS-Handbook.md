@@ -1820,9 +1820,9 @@ Arrow functions are a more concise way to write functions in JavaScript. They ar
 > **Syntax**
 
 ```javascript
-    const functionName = (parameter1, parameter2) => {
-        // Code to be executed
-    };
+const functionName = (parameter1, parameter2) => {
+    // Code to be executed
+};
 ```
 
 > **Example**
@@ -1834,6 +1834,19 @@ console.log(add(3, 4)); // Outputs: 7
 ```
 
 **_Note_** : _Arrow functions automatically return the result if there is no `{}` block._
+
+### 07. IIFE (Immediately Invoked Function Expression)
+
+An Immediately Invoked Function Expression (IIFE) is a function that runs immediately after it is defined. It is useful for creating private scopes and avoiding global variables.
+
+> **Syntax**
+
+```javascript
+(function function_name() {
+  console.log("IIFE executed!");
+})();
+
+```
 
 ### Why Are JavaScript Functions Special?
 
