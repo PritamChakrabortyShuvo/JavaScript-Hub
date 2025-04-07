@@ -153,7 +153,23 @@ Console Message: "**`Hello, World! from script.js`**"
 - Use **Internal JavaScript** for **small scripts**.
 - Use External JavaScript for clean, maintainable code.
 
-## 📌Variables in JavaScript
+## 📌 Global Scope & Local Scope in JavaScript
+
+In JavaScript, scope determines where a variable can be accessed. There are two main types
+
+### 01. Global Scope
+
+- A variable declared outside any function or block.
+
+- It can be accessed anywhere in the script.
+
+- Stays in memory as long as the program runs.
+
+- Too many global variables can lead to conflicts in large programs.
+
+- Always try to limit global variables to avoid accidental overwrites.
+
+## 📌 Variables in JavaScript
 
 A variable is a container used to store data that can be referenced and manipulated in a program.
 
