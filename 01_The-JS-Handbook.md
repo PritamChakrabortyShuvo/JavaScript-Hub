@@ -1994,3 +1994,30 @@ An Object is a collection of key-value pairs. Objects help store and organize da
         let keyName = "name";
         console.log(person[keyName]); // Output: Pritam
     ```
+
+### Modifying Object Properties
+
+We can update existing values or add new properties dynamically.
+
+```javascript
+person.age = 26;   // Updating a value
+person.city = "New York";  // Adding a new key-value pair
+
+console.log(person);
+/*
+{
+  name: "Pritam",
+  age: 26,
+  isStudent: true,
+  city: "New York"
+}
+*/
+```
+
+### Deleting Object Properties
+
+```javascript
+delete person.city;
+console.log(person);
+// The "city" property is removed from the object.
+```
