@@ -1980,7 +1980,7 @@ An Object is a collection of key-value pairs. Objects help store and organize da
     - Used when the key has spaces, special characters, or variables as keys.
 
     ```javascript
-        let car = {
+    let car = {
         "car model": "Toyota",
         "year-made": 2020
     };
@@ -1991,8 +1991,8 @@ An Object is a collection of key-value pairs. Objects help store and organize da
 
 3.  Using Variables as Keys
     ```javascript
-        let keyName = "name";
-        console.log(person[keyName]); // Output: Pritam
+    let keyName = "name";
+    console.log(person[keyName]); // Output: Pritam
     ```
 
 ### Modifying Object Properties
