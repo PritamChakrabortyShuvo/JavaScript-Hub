@@ -1799,7 +1799,21 @@ Functions can have default parameter values if no argument is passed for that pa
 
 - If no value is passed the parameter **`name`** defaults to "**`Guest`**".
 
-### 05. Arrow Function
+### 05. Rest Operator (`...`) in Functions
+
+The rest operator (**`...`**) in JavaScript allows a function to accept multiple arguments and group them into an array.
+
+> **Syntax**
+
+```javascript
+function myFunction(...args) {
+console.log(args); // args is an array
+}
+
+myFunction(1, 2, 3, 4, 5); // Output : [1, 2, 3, 4, 5]
+```
+
+### 06. Arrow Function
 
 Arrow functions are a more concise way to write functions in JavaScript. They are particularly useful for shorter functions.
 
@@ -1819,19 +1833,7 @@ const add = (a, b) => a + b;
 console.log(add(3, 4)); // Outputs: 7
 ```
 
-### 06. Rest Operator (`...`) in Functions
-
-The rest operator (**`...`**) in JavaScript allows a function to accept multiple arguments and group them into an array.
-
-> **Syntax**
-
-```javascript
-function myFunction(...args) {
-console.log(args); // args is an array
-}
-
-myFunction(1, 2, 3, 4, 5); // Output : [1, 2, 3, 4, 5]
-```
+**_Note_** : _Arrow functions automatically return the result if there is no `{}` block._
 
 ### Why Are JavaScript Functions Special?
 
