@@ -670,7 +670,7 @@ Both are important for understanding how memory works in JavaScript.
 
 #### Heap (Memory Heap)
 
-- **Definition:** Heap is a large, slower memory area used to store non-primitive (reference) data types.
+- **Definition:** Heap is a large, slower memory area used to store **non-primitive** (reference) data types.
 - **Data Stored:**
 
   - Objects
