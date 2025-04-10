@@ -176,7 +176,7 @@ In JavaScript, scope determines where a variable can be accessed. There are two 
 
 ### 03 Block Scope
 
-- Variables declared with **`let`** and **`const`** inside **`{}`** are only available in that block.ss in JavaScript
+- **Variables** declared with **`let`** and **`const`** inside **`{}`** are only available in that block.ss in JavaScript
 - **`var`** ignores block scope, so it's function-scoped.
 
 ### Global vs Local Scope Conflict
