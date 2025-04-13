@@ -185,7 +185,7 @@ If a local variable has the same name as a global variable, the local one takes 
 
 ## 📌 Variables in JavaScript
 
-A variable is a container used to store data that can be referenced and manipulated in a program.
+A **variable is a container** used to store data that can be referenced and manipulated in a program.
 
 ### 🔹Key Concepts
 
