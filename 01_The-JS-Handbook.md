@@ -1850,7 +1850,7 @@ An Immediately Invoked Function Expression (IIFE) is a function that runs immedi
 
 ### Why Are JavaScript Functions Special?
 
-JavaScript functions are special because they are First-Class Citizens — meaning they are treated like any other value (number, string, object) in the language.
+JavaScript functions are special because they are **First-Class Citizens** — meaning they are treated like any other value (number, string, object) in the language.
 
 1. Functions Can Be Assigned to Variables
 
