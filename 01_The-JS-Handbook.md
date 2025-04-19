@@ -711,7 +711,7 @@ When adding a **number to a string** JavaScript **converts** the **number into a
 
 #### 02 Number Conversion
 
-When using mathematical operations (**`-`**, **`*`**, **`/`**) strings convert to numbers if possible.
+When using **mathematical** operations (**`-`**, **`*`**, **`/`**) strings convert to numbers if possible.
 
 > **Example**
 
