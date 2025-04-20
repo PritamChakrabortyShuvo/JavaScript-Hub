@@ -65,3 +65,15 @@ This div has:
 - 🔠 **`<h1>`** ~ Contains a text node: "**`Hello from HTML`**"
 
 - 📝 **`<p>`** ~ Contains a text node: the paragraph content (like Lorem Ipsum)
+
+<div align="center">
+
+## Key Concepts
+
+| Node Type    | Meaning                                           |
+| ------------ | ------------------------------------------------- |
+| Element Node | Any HTML tag like `<div>`, `<h1>`, etc.           |
+| Text Node    | Actual content inside the elements                |
+| Attribute    | Extra info inside opening tags like `class="..."` |
+
+</div>
