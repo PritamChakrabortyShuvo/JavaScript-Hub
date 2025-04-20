@@ -689,7 +689,7 @@ Both are important for understanding how memory works in JavaScript.
 
 ## 📌 Datatype Conversion in JavaScript
 
-Datatype conversion in JavaScript can sometimes be confusing because **JavaScript automatically converts values** in different situations. JavaScript performs two types of datatype conversions:
+Datatype conversion in JavaScript can sometimes be confusing because **JavaScript automatically converts values** in different situations. JavaScript performs **two types** of datatype conversions:
 
 1. **Implicit Conversion** (Type Coercion) – Done automatically by JavaScript
 2. **Explicit Conversion** (Type Casting) – Done manually by developers
@@ -711,7 +711,7 @@ When adding a **number to a string** JavaScript **converts** the **number into a
 
 #### 02 Number Conversion
 
-When using mathematical operations (**`-`**, **`*`**, **`/`**) strings convert to numbers if possible.
+When using **mathematical** operations (**`-`**, **`*`**, **`/`**) strings convert to numbers if possible.
 
 > **Example**
 
