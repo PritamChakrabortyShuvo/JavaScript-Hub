@@ -25,8 +25,15 @@ It allows dynamic interaction with the webpage. We can:
     <img src="Images/DOM-Tree.png" alt="Project Logo" width=80%>
 </div>
 
-Here’s the DOM tree structure based on the HTML code from above image
+Here’s the **DOM tree structure** based on the HTML code from above image
 
 <div align="center">
     <img src="Images/DOM-Tree01.png" alt="Project Logo" width=60%>
 </div>
+
+## Explanation
+
+### 🌐 Top Level : Window
+
+- Represents the browser window. It's the global object for everything in the browser.
+- Everything—DOM, console, location, etc.—is accessed through the window.
