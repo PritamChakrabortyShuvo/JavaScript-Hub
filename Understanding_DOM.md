@@ -48,15 +48,18 @@ Here’s the **DOM tree structure** based on the HTML code from above image
 ### 🧱 Main Structure:
 
 1. **`<html>`**
+
    - Child of **`document`**
    - The root HTML element of the page
    - Contains everything visible (head, body)
-2. **`<head>`** is implied here but not shown — only children like:
+
+2. **`<head>`**
 
    - **`<title>`** ~ Contains a text node: "**`HTML for DOM`**"
    - **`<meta charset="UTF-8">`** ~ Self-closing tag with an attribute
 
 3. **`<body>`**
+
    - Contains the main visible content of the page.
 
 ### 📦 Inside `<body> → <div class="attribute">`
