@@ -28,7 +28,7 @@ It allows dynamic interaction with the webpage. We can:
 Here’s the **DOM tree structure** based on the HTML code from above image
 
 <div align="center">
-    <img src="Images/DOM-Tree01.png" alt="Project Logo" width=60%>
+    <img src="Images/DOM-Tree02.png" alt="Project Logo" width=60%>
 </div>
 
 ## Explanation
