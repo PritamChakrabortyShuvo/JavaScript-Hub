@@ -35,5 +35,33 @@ Here’s the **DOM tree structure** based on the HTML code from above image
 
 ### 🌐 Top Level : Window
 
-- Represents the browser window. It's the global object for everything in the browser.
-- Everything—DOM, console, location, etc.—is accessed through the window.
+- Represents the browser window. It's the **global object** for everything in the browser.
+- Everything—DOM, console, location etc. is accessed through the window.
+
+### 📄 Document Level:
+
+- Document Represents the HTML document loaded in the window.
+- Acts as the root node of the DOM tree.
+- You interact with the DOM via **`document`** in JavaScript.
+
+### 🧱 Main Structure:
+
+1. **`<html>`**
+   - Child of **`document`**
+   - The root HTML element of the page
+   - Contains everything visible (head, body)
+2. **`<head>`** is implied here but not shown — only children like:
+
+   - **`<title>`** ~ Contains a text node: "**`HTML for DOM`**"
+   - **`<meta charset="UTF-8">`** ~ Self-closing tag with an attribute
+
+3. **`<body>`**
+   - Contains the main visible content of the page.
+
+### 📦 Inside `<body> → <div class="attribute">`
+
+This div has:
+
+- 🔠 **`<h1>`** ~ Contains a text node: "**`Hello from HTML`**"
+
+- 📝 **`<p>`** ~ Contains a text node: the paragraph content (like Lorem Ipsum)
