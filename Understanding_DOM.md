@@ -155,8 +155,6 @@ console.dir(document.body); // Shows: Object with properties like .children, .in
 
 # 🔧 What is DOM Manipulation?
 
-DOM Manipulation means **using JavaScript** to:
-
 DOM manipulation allows JavaScript to **access**, **change**, **add** or **remove elements** & **content** in a webpage **dynamically** without reloading the page.
 
 ## 📋 Accessing the DOM
