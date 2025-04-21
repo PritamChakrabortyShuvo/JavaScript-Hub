@@ -184,3 +184,29 @@ DOM manipulation allows JavaScript to **access**, **change**, **add** or **remov
    ```javascript
    console.dir(window.document)
    ```
+
+## 🔍 Selecting Elements in the DOM
+
+### 1. Selecting with ID
+
+Selects a single element by its unique **`id`**.
+
+```javascript
+document.getElementById("myId");
+```
+
+### 2.Selecting with Class
+
+Returns a collection (HTMLCollection) of all elements with the given class name.
+
+```javascript
+document.getElementsByClassName("myClass");
+```
+
+### 3. Selecting with Tag
+
+Returns a collection of elements with the given tag (like **`p`**, **`div`** etc.).
+
+```javascript
+document.getElementsByTagName("p");
+```
