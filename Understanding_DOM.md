@@ -125,3 +125,30 @@ console.dir(window.document)
 - **`.body`**, **`.head`**, **`.title`**, **`.createElement()`** etc.
 
 - Useful for developers to inspect or manipulate the page content.
+
+<div align="center">
+
+### Comparison of `console.log()` and `console.dir()`
+
+| Feature             | `console.log()`                            | `console.dir()`                               |
+| ------------------- | ------------------------------------------ | --------------------------------------------- |
+| **Purpose**         | Prints messages and values                 | Displays an object as a tree-like structure   |
+| **Output Format**   | String representation (HTML-style for DOM) | JavaScript object (expandable)                |
+| **Used For**        | Logging text, numbers, strings, objects    | Exploring object properties, especially DOM   |
+| **DOM Elements**    | Shows as HTML element                      | Shows all properties/methods (node structure) |
+| **Expandable View** | Limited object structure                   | Fully expandable and developer-friendly       |
+| **Best Use Case**   | Quick message or simple data logging       | Deep object inspection (e.g., DOM nodes)      |
+
+</div>
+
+### Example
+
+```javascript
+console.log(document.body); // Shows: <body>...</body> (HTML format)
+
+console.dir(document.body); // Shows: Object with properties like .children, .innerHTML, etc.
+```
+
+- Use **`console.log()`** to print simple messages or values.
+
+- Use **`console.dir()`** when you want to explore object structure like a pro—especially useful when working with the DOM.
