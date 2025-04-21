@@ -210,3 +210,32 @@ Returns a collection of elements with the given tag (like **`p`**, **`div`** etc
 ```javascript
 document.getElementsByTagName("p");
 ```
+
+### 4. Selecting with Query
+
+Selects the first matching element using CSS selectors (id, class, tag, etc.)
+
+```js
+document.querySelector("selector")
+```
+
+### `console.dir()` After Selecting Elements
+
+These commands return a reference to the DOM element(s) but they don’t show anything by default in the console unless:
+
+- You're in the browser console, which may auto-display the return value.
+
+- Or you explicitly output it using **`console.log()`** or **`console.dir()`**.
+
+So, we usually follow up with
+
+```js
+const element = document.getElementById("myId");
+console.dir(element);
+```
+
+- **`console.dir()`** gives a tree-like structure helping us explore the object's properties like **`innerHTML`**, **`style`**, etc.
+
+- This is more useful for DOM inspection than **`console.log()`**.
+
+_Note :~ After selecting an element using **`getElementById`**,**` getElementsByClassName`** or **`getElementsByTagName`**, use **`console.dir()`** to view & explore the element’s object properties clearly in the console._
