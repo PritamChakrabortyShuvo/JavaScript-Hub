@@ -213,11 +213,32 @@ document.getElementsByTagName("p");
 
 ### 4. Selecting with Query
 
-Selects the first matching element using CSS selectors (id, class, tag, etc.)
+Selects the **first matching element** using **CSS selectors** (id, class, tag, etc.)
 
 ```js
 document.querySelector("selector")
 ```
+
+<div align="center">
+
+#### Example
+
+| Selector Type   | Code Example                         | Notes                                                                       |
+| --------------- | ------------------------------------ | --------------------------------------------------------------------------- |
+| ID selector     | `document.querySelector("#myId")`    | Selects the first element with the ID `myId`                                |
+| Class selector  | `document.querySelector(".myClass")` | Selects the first element with the class `myClass`                          |
+| Tag selector    | `document.querySelector("p")`        | Selects the first `<p>` element                                             |
+| Nested selector | `document.querySelector("div > p")`  | Selects the first `<p>` element that is a direct child of a `<div>` element |
+
+</div>
+
+To select all matching elements, use
+
+```js
+document.querySelectorAll("selector")
+```
+
+It will Returns a NodeList
 
 ### `console.dir()` After Selecting Elements
 
