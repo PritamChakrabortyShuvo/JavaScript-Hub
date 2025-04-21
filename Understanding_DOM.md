@@ -193,7 +193,7 @@ Selects a single element by its unique **`id`**.
 document.getElementById("myId");
 ```
 
-### 2.Selecting with Class
+### 2. Selecting with Class
 
 Returns a collection (HTMLCollection) of all elements with the given class name.
 
