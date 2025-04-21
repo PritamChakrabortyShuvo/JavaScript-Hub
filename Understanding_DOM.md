@@ -152,3 +152,13 @@ console.dir(document.body); // Shows: Object with properties like .children, .in
 - Use **`console.log()`** to print simple messages or values.
 
 - Use **`console.dir()`** when you want to explore object structure like a pro—especially useful when working with the DOM.
+
+# 🔧 What is DOM Manipulation?
+
+DOM Manipulation means **using JavaScript** to:
+
+- Access elements on a page
+
+- Change content or style
+
+- Add or remove elements
