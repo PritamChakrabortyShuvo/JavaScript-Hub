@@ -157,8 +157,30 @@ console.dir(document.body); // Shows: Object with properties like .children, .in
 
 DOM Manipulation means **using JavaScript** to:
 
-- Access elements on a page
+DOM manipulation allows JavaScript to **access**, **change**, **add** or **remove elements** & **content** in a webpage **dynamically** without reloading the page.
 
-- Change content or style
+## 📋 Accessing the DOM
 
-- Add or remove elements
+1. **`window`**
+
+   - Represents the browser window. It’s the global object for everything in the browser.
+
+   ```javascript
+   window
+   ```
+
+2. **`window.document`**
+
+   - Represents the entire HTML document (i.e., the webpage).
+
+   ```javascript
+   window.document
+   ```
+
+3. **`console.dir(window.document)`**
+
+   - Shows the DOM object in a tree format, useful for exploring nodes and properties.
+
+   ```javascript
+   console.dir(window.document)
+   ```
