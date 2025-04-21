@@ -81,3 +81,47 @@ This div has:
 | Attribute    | Extra info inside opening tags like `class="..."` |
 
 </div>
+
+# 📘 Accessing and Exploring the DOM Using the Console
+
+## Step 1: Open the Browser Console
+
+- **Windows**: **`Ctrl + Shift + I`** → Go to Console tab
+
+## Step 2: Type `window` & Press `Enter`
+
+- This prints the global **`window`** object, which is the top-level object in the browser environment.
+
+- It contains all global properties & methods such as:
+
+  - **`window.document`** – the DOM object
+
+  - **`window.location`** – the URL
+
+  - **`window.console`** – for logging/debugging
+
+  - and more...
+
+## Step 3: Access the document Object
+
+```javascript
+   window.document
+```
+
+- This shows the document object, representing the current web page (DOM).
+
+- The DOM (Document Object Model) is a tree structure of the HTML page.
+
+## Step 4: Explore the Document Using `console.dir()`
+
+```javascript
+console.dir(window.document)
+```
+
+- This command prints the document as a full JavaScript object.
+
+- Allows deep inspection of its properties and methods:
+
+- **`.body`**, **`.head`**, **`.title`**, **`.createElement()`** etc.
+
+- Useful for developers to inspect or manipulate the page content.
