@@ -344,7 +344,7 @@ These properties help us inspect and manipulate HTML elements using JavaScript.
 
 <div align="center">
 
-### Important Node Properties in the DOM (Updated)
+### Important Node Properties in the DOM
 
 | Property                 | Description                                                | Example Output                          |
 | ------------------------ | ---------------------------------------------------------- | --------------------------------------- |
