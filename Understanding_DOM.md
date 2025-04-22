@@ -256,3 +256,21 @@ console.dir(element);
 - **`console.dir()`** gives a tree-like structure helping us explore the object's properties like **`innerHTML`**, **`style`**, etc.
 
 - This is more useful for DOM inspection than **`console.log()`**.
+
+## DOM Tree – Parent, Child & Sibling Relationships
+
+In the DOM (Document Object Model), every HTML element is a node arranged in a tree structure.
+
+<div align="center">
+
+### Relationships
+
+| Relationship | Meaning                     | Access Method (JS)                                               |
+| ------------ | --------------------------- | ---------------------------------------------------------------- |
+| Parent       | The element one level above | `element.parentNode`                                             |
+| Child        | The element one level below | `element.children`                                               |
+| First Child  | First element child         | `element.firstElementChild`                                      |
+| Last Child   | Last element child          | `element.lastElementChild`                                       |
+| Sibling      | Elements on the same level  | `element.nextElementSibling`<br>`element.previousElementSibling` |
+
+</div>
