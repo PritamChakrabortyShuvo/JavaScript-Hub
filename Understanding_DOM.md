@@ -302,3 +302,38 @@ console.log(child.parentNode.children); // [<h1 id="child1">, <p id="child2">]
 // Sibling
 console.log(child.nextElementSibling); // <p id="child2">
 ```
+
+## DOM Nodes
+
+In the DOM, everything is a node — elements, text, comments, etc.
+The DOM represents the HTML document as a tree of nodes.
+
+<div align="center">
+
+### Types of Nodes
+
+| Node Type      | Description                                  | Example                |
+| -------------- | -------------------------------------------- | ---------------------- |
+| Element Node   | Represents HTML elements                     | `<div>`, `<p>`, `<ul>` |
+| Text Node      | Represents text inside an element            | `Hello, World`         |
+| Attribute Node | Represents attributes of elements            | `class="myClass"`      |
+| Comment Node   | Represents HTML comments                     | ``                     |
+| Document Node  | The root of the DOM tree (`window.document`) | The whole HTML page    |
+
+</div>
+
+### Example HTML
+
+For this HTML
+
+```html
+<p class="greet">Hello World</p>
+```
+
+DOM Tree:
+
+```vbnet
+Document
+ └── <p class="greet">  ← Element Node
+      └── "Hello World" ← Text Node
+```
