@@ -276,7 +276,7 @@ In the DOM (Document Object Model), every HTML element is a node arranged in a t
 </div>
 
 <div align="center">
-    <img src="Images/Relationship.png" alt="Project Logo" width=80%>
+    <img src="Images/Relationship02.png" alt="Project Logo" width=80%>
 </div>
 
 ### Example HTML
