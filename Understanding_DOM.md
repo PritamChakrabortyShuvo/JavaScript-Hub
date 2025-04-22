@@ -337,3 +337,34 @@ Document
  └── <p class="greet">  ← Element Node
       └── "Hello World" ← Text Node
 ```
+
+## DOM Properties
+
+These properties help us inspect and manipulate HTML elements using JavaScript.
+
+<div align="center">
+
+### Important Node Properties in the DOM (Updated)
+
+| Property                 | Description                                                | Example Output                          |
+| ------------------------ | ---------------------------------------------------------- | --------------------------------------- |
+| `nodeType`               | Returns the node type (1 = Element, 3 = Text, 8 = Comment) | `1`                                     |
+| `nodeName`               | Returns the tag name or `#text`, `#comment`                | `"DIV"`, `"p"`, `"#text"`, `"#comment"` |
+| `nodeValue`              | Returns the value of a text or comment node                | `"Hello world"`                         |
+| `innerHTML`              | Gets or sets HTML inside the element                       | `"<span>Hi</span>"`                     |
+| `outerHTML`              | Gets or sets the element and its HTML content              | `"<div><span>Hi</span></div>"`          |
+| `textContent`            | Returns all text (including hidden and whitespace)         | `"Hi\n  "`                              |
+| `innerText`              | Returns only visible text (respects CSS)                   | `"Hi"`                                  |
+| `children`               | Returns only element children                              | `HTMLCollection`                        |
+| `childNodes`             | Returns all nodes, including text nodes                    | `NodeList`                              |
+| `parentNode`             | Returns the parent node                                    | `<div>`                                 |
+| `firstChild`             | First node (could be text)                                 | `Node`                                  |
+| `firstElementChild`      | First element node only                                    | `<span>`                                |
+| `lastChild`              | Last node (could be text)                                  | `Node`                                  |
+| `lastElementChild`       | Last element node only                                     | `<p>`                                   |
+| `nextSibling`            | Next node (could be whitespace/text)                       | `Node`                                  |
+| `nextElementSibling`     | Next element node only                                     | `<li>`                                  |
+| `previousSibling`        | Previous node (could be text)                              | `Node`                                  |
+| `previousElementSibling` | Previous element node only                                 | `<div>`                                 |
+
+</div>
