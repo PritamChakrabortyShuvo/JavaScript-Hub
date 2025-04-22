@@ -274,3 +274,31 @@ In the DOM (Document Object Model), every HTML element is a node arranged in a t
 | Sibling      | Elements on the same level  | `element.nextElementSibling`<br>`element.previousElementSibling` |
 
 </div>
+
+<div align="center">
+    <img src="Images/Relationship.png" alt="Project Logo" width=80%>
+</div>
+
+### Example HTML
+
+```html
+<div id="parent">
+  <h1 id="child1">Hello</h1>
+  <p id="child2">World</p>
+</div>
+```
+
+### JavaScript Example
+
+```js
+const child = document.getElementById("child1");
+
+// Parent
+console.log(child.parentNode); // <div id="parent">
+
+// Children
+console.log(child.parentNode.children); // [<h1 id="child1">, <p id="child2">]
+
+// Sibling
+console.log(child.nextElementSibling); // <p id="child2">
+```
