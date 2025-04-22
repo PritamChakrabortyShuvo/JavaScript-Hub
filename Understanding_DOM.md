@@ -256,5 +256,3 @@ console.dir(element);
 - **`console.dir()`** gives a tree-like structure helping us explore the object's properties like **`innerHTML`**, **`style`**, etc.
 
 - This is more useful for DOM inspection than **`console.log()`**.
-
-_Note :~ After selecting an element using **`getElementById`**,**` getElementsByClassName`** or **`getElementsByTagName`**, use **`console.dir()`** to view & explore the element’s object properties clearly in the console._
