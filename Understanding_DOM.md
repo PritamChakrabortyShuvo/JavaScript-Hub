@@ -35,7 +35,7 @@ Here’s the **DOM tree structure** based on the HTML code from above image
 
 ### 🌐 Top Level : Window
 
-- Represents the browser window. It's the **global object** with lots of properties and methods for everything in the browser.
+- Represents the **browser window**. It's the **global object** with lots of properties and methods for everything in the browser.
 - Automatically created by Browser
 - Everything—DOM, console, location etc. is accessed through the window.
 
