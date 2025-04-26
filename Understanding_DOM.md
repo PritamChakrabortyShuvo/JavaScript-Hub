@@ -407,3 +407,53 @@ logo.removeAttribute("src");                    // removes the src
 console.log(logo.hasAttribute("alt"));           // true
 
 ```
+
+## Style in the DOM
+
+Every HTML element has a **`.style`** property. We can use it to directly set or change the inline styles.
+
+### Setting Style (Example)
+
+```html
+<div id="box">Hello</div>
+```
+
+```js
+const box = document.getElementById("box");
+
+box.style.color = "red";          // Text color
+box.style.backgroundColor = "yellow"; // Background color
+box.style.fontSize = "24px";       // Font size
+box.style.padding = "10px";        // Padding
+```
+
+**_Note : Use camelCase for multi-word CSS properties (like `background-color` becomes `backgroundColor`)_**
+
+### Getting a Style
+
+**`.style`** only gets inline styles (styles set directly on the element). If you want to get computed styles (from external CSS also), use:
+
+```js
+const styles = getComputedStyle(box);
+console.log(styles.color);             // Final applied color
+console.log(styles.backgroundColor);   // Final background color
+```
+
+### Remove a Style
+
+Set the property to an empty string:
+
+```js
+box.style.backgroundColor = "";
+```
+
+### Quick Example to Change Multiple Styles:
+
+```js
+box.style.cssText = `
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+`;
+```
