@@ -368,3 +368,42 @@ These properties help us inspect and manipulate HTML elements using JavaScript.
 | `previousElementSibling` | Previous element node only                                 | `<div>`                                 |
 
 </div>
+
+## Attributes in DOM
+
+Attributes are HTML properties like **`href`**, **`src`**, **`alt`**, **`id`**, etc.We can get, set, or modify attributes using JavaScript.
+
+```html
+<a href="https://example.com" target="_blank">Visit</a>
+```
+
+**`href`** & **`target`** are attributes of the **`<a>`** tag.
+
+<div align="center">
+
+### Accessing Attributes in JavaScript
+
+| Method              | Purpose                       | Example                                        |
+| ------------------- | ----------------------------- | ---------------------------------------------- |
+| `getAttribute()`    | Get the value of an attribute | `link.getAttribute("href")`                    |
+| `setAttribute()`    | Set or change an attribute    | `link.setAttribute("href", "https://new.com")` |
+| `removeAttribute()` | Remove an attribute           | `link.removeAttribute("target")`               |
+| `hasAttribute()`    | Check if an attribute exists  | `link.hasAttribute("href")`                    |
+
+</div>
+
+### Example
+
+```html
+<img id="logo" src="logo.png" alt="Company-Logo">
+```
+
+```js
+const logo = document.getElementById("logo");
+
+console.log(logo.getAttribute("src"));         // "logo.png"
+logo.setAttribute("alt", "New-Logo");           // changes alt text
+logo.removeAttribute("src");                    // removes the src
+console.log(logo.hasAttribute("alt"));           // true
+
+```
