@@ -447,7 +447,7 @@ Set the property to an empty string:
 box.style.backgroundColor = "";
 ```
 
-### Quick Example to Change Multiple Styles:
+### Quick Example to Change Multiple Styles
 
 ```js
 box.style.cssText = `
@@ -457,3 +457,8 @@ box.style.cssText = `
   border-radius: 10px;
 `;
 ```
+
+## Inserting Elements into the DOM
+
+Inserting elements means creating new HTML elements using JavaScript & adding them into the webpage dynamically without refreshing the page.
+It helps us build, update or modify the webpage structure on the fly.
