@@ -461,4 +461,74 @@ box.style.cssText = `
 ## Inserting Elements into the DOM
 
 Inserting elements means creating new HTML elements using JavaScript & adding them into the webpage dynamically without refreshing the page.
-It helps us build, update or modify the webpage structure on the fly.
+It helps us build, update or modify the webpage structure on the fly.s
+
+We follow **Three** main steps:
+
+1. **Create :** Create a new element using **`document.createElement()`**
+2. **Modify :** Add text, attributes, styles or classes to the new element
+3. **Insert :** Attach the element into the webpage (DOM) at the desired place
+
+### 1. Create a New Element
+
+We use:
+
+```js
+let newElement = document.createElement("tagName");
+```
+
+> **Example**
+
+```js
+let newDiv = document.createElement("div");
+newDiv.textContent = "Hello World!";
+```
+
+### 2. Insert the Element into the Page
+
+There are multiple ways to insert the created element:
+
+<div align="left">
+
+| Method                        | Meaning                             | Example                                      |
+| ----------------------------- | ----------------------------------- | -------------------------------------------- |
+| `appendChild()`               | Add at the **end** of parent        | `parent.appendChild(newDiv)`                 |
+| `prepend()`                   | Add at the **start** of parent      | `parent.prepend(newDiv)`                     |
+| `insertBefore(new, existing)` | Insert **before** an existing child | `parent.insertBefore(newDiv, existingChild)` |
+| `append()`                    | Add multiple nodes or text          | `parent.append(newDiv, "some text")`         |
+| `before()`                    | Insert **before** a given element   | `element.before(newDiv)`                     |
+| `after()`                     | Insert **after** a given element    | `element.after(newDiv)`                      |
+
+</div>
+
+### 3. Example Full Flow
+
+```html
+<div id="container">
+  <p>First Paragraph</p>
+</div>
+```
+
+```js
+// Step 1: Select the parent
+const container = document.getElementById("container");
+
+// Step 2: Create a new paragraph
+const newPara = document.createElement("p");
+newPara.textContent = "Second Paragraph";
+
+// Step 3: Insert it
+container.appendChild(newPara);
+```
+
+Now the container has two paragraphs.
+
+### 4. Modify the New Element
+
+After creating the element, we can modify it:
+
+```js
+newPara.className = "highlight";
+newPara.id = "secondPara";
+newPara.setAttribute("title", "This is the second paragraph");
+```
