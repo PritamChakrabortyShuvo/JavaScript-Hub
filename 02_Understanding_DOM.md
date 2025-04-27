@@ -532,3 +532,53 @@ newPara.className = "highlight";
 newPara.id = "secondPara";
 newPara.setAttribute("title", "This is the second paragraph");
 ```
+
+<div align="center">
+
+### `appendChild()` vs `append()`
+
+| Feature               | `appendChild()` | `append()` |
+| --------------------- | --------------- | ---------- |
+| Insert only elements  | ✅              | ✅         |
+| Insert text           | ❌              | ✅         |
+| Insert multiple items | ❌              | ✅         |
+| Returns inserted node | ✅              | ❌         |
+
+</div>
+
+- If you just want to **insert one element**, use **`appendChild()`**.
+- If you want to **insert elements + text together**, use **`append()`**.
+
+## Deleting Elements from the DOM
+
+Deleting elements means removing existing HTML elements from the webpage structure (DOM) using JavaScript. It helps us dynamically clean up, update or modify the webpage when needed.
+
+There are mainly **two ways** to delete an element:
+
+1. **`.remove()`** : Directly removes the selected element itself.
+2. **`.removeChild()`** : Removes a child element from its parent.
+
+### 1. Remove an Element Directly using `.remove()`
+
+- Simply select the element & call **`.remove()`** on it.
+
+```js
+let heading = document.querySelector("h1");
+heading.remove();
+```
+
+The **`h1`** heading will be deleted from the page.
+
+### 2. Remove a Child using .`removeChild()`
+
+- Select the parent element.
+- Then select the child you want to remove.
+- Call .**`removeChild(child)`** on the parent.
+
+```js
+const container = document.getElementById("container");
+const para = document.querySelector("p");
+container.removeChild(para);
+```
+
+The selected paragraph (**`<p>`**) will be removed from the container.
