@@ -110,7 +110,7 @@ This div has:
 
 - This shows the document object, representing the current web page (DOM).
 
-- The DOM (Document Object Model) is a tree structure of the HTML page.
+- The DOM (Document Object Model) is a **tree structure** of the HTML page.
 
 ## Step 4: Explore the Document Using `console.dir()`
 
