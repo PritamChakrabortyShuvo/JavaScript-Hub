@@ -1,6 +1,6 @@
 <!-- @format -->
 
-d <!-- @format -->
+<!-- @format -->
 
 # The JavaScript Handbook: A Beginner's Guide to Understanding JavaScript
 
